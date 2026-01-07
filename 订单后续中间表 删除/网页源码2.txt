@@ -1,0 +1,1737 @@
+
+<!DOCTYPE html>
+<html data-scroll-behavior="natural" data-scale="md" data-width-breakpoint="md" lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script type="importmap">
+		{"imports": {"@uif-js/builder":"/assets/@uif-js/builder/8.0.1/min/index.js","@nsn-ui/cx-crm-customer360":"/assets/@nsn-ui/cx-crm-customer360/5.1.2/min/index.js","@nsn-ui/template":"/assets/@nsn-ui/template/2025.2.14.30017/min/index.js","@nsn-ui/ui-apps-catalog":"/assets/@nsn-ui/ui-apps-catalog/2025.2.14.30017/min/index.js","@nsn-ui/erp-project-ganttchart":"/assets/@nsn-ui/erp-project-ganttchart/2025.2.14.30017/min/index.js","@uif-js/component":"/assets/@uif-js/component/8.0.32/min/index.js","N":"/assets/@nsn-ui/ui-apps-n/2025.2.14.30017/min/index.js","@uif-js/core/jsx-runtime":"/assets/@uif-js/core/8.0.32/min/index.js","@nsn-ui/financialexception-ui":"/assets/@nsn-ui/financialexception-ui/2025.2.14.30017/min/index.js","@uif-js/core":"/assets/@uif-js/core/8.0.32/min/index.js","@nsn-ui/ui-apps-component":"/assets/@nsn-ui/ui-apps-component/2025.2.14.30017/min/index.js","@nsn-ui/ui-samples-npm-helloworld":"/assets/@nsn-ui/ui-samples-npm-helloworld/2025.2.14.30017/min/index.js","@nsn-ui/business-events-ui":"/assets/@nsn-ui/business-events-ui/2025.2.14.30017/min/index.js","@nsn-ui/continuous-close-manager":"/assets/@nsn-ui/continuous-close-manager/2025.2.14.30017/min/index.js","@nsn-ui/platform-workflow-admindoc":"/assets/@nsn-ui/platform-workflow-admindoc/2025.2.14.30017/min/index.js","@uif-js/catalog":"/assets/@uif-js/catalog/8.0.32/min/index.js","@nsn-ui/ui-apps-netsuite-core":"/assets/@nsn-ui/ui-apps-netsuite-core/2025.2.14.30017/min/index.js","@nsn-ui/ui-samples-npm-basicsrouting":"/assets/@nsn-ui/ui-samples-npm-basicsrouting/2025.2.14.30017/min/index.js","@nsn-ui/cx-support-supportcase-ui":"/assets/@nsn-ui/cx-support-supportcase-ui/2025.2.14.30017/min/index.js","@nsn-ui/hcm-hr-onboarding-impl-frontend":"/assets/@nsn-ui/hcm-hr-onboarding-impl-frontend/2025.2.14.30017/min/index.js","@nsn-ui/ui-samples-npm-app1":"/assets/@nsn-ui/ui-samples-npm-app1/2025.2.14.30017/min/index.js","@nsn-ui/ui-samples-npm-app2":"/assets/@nsn-ui/ui-samples-npm-app2/2025.2.14.30017/min/index.js","@nsn-ui/summary-framework-ui":"/assets/@nsn-ui/summary-framework-ui/2025.2.14.30017/min/index.js","@uif-js/i18n":"/assets/@uif-js/i18n/8.0.32/min/index.js","@nsn-ui/ui-samples-npm-helloworld-ts":"/assets/@nsn-ui/ui-samples-npm-helloworld-ts/2025.2.14.30017/min/index.js","@nsn-ui/platform-help-uif-service":"/assets/@nsn-ui/platform-help-uif-service/2025.2.14.30017/min/index.js","@nsn-ui/analytics-ui-frontend":"/assets/@nsn-ui/analytics-ui-frontend/2025.2.14.30017/min/index.js","@nsn-ui/ui-apps-uif-bootstrap":"/assets/@nsn-ui/ui-apps-uif-bootstrap/2025.2.14.30017/min/index.js","@nsn-ui/ns-ai-ui":"/assets/@nsn-ui/ns-ai-ui/2025.2.14.30017/min/index.js","@uif-js/examples":"/assets/@uif-js/examples/8.0.32/min/index.js","@nsn-ui/ui-apps-n":"/assets/@nsn-ui/ui-apps-n/2025.2.14.30017/min/index.js","@nsn-ui/sessionkiller":"/assets/@nsn-ui/sessionkiller/2025.2.14.30017/min/index.js","@nsn-ui/ui-apps-system-header":"/assets/@nsn-ui/ui-apps-system-header/2025.2.14.30017/min/index.js","@nsn-ui/suiteappsecurity-sasecurity-admindocs":"/assets/@nsn-ui/suiteappsecurity-sasecurity-admindocs/2025.2.14.30017/min/index.js","@uif-js/devtools-extension":"/assets/@uif-js/devtools-extension/8.0.32/min/index.js","@nsn-ui/oax-data-warehouse-portlets-portlets-supplemental-ui":"/assets/@nsn-ui/oax-data-warehouse-portlets-portlets-supplemental-ui/2025.2.14.30017/min/index.js","@nsn-ui/ui-samples-npm-basicsstatemanagement":"/assets/@nsn-ui/ui-samples-npm-basicsstatemanagement/2025.2.14.30017/min/index.js"}}
+	</script>
+    <script type="text/javascript">
+	NS = window.NS || {};
+	NS.getCSRFToken = function getCSRFToken() {
+		return {
+			name: '_csrf',
+			value: '767eJsazU-YGHQ4yW4ch4nqYEd7h5naxJLQTcVi2xtOJuJVVd5Lep56fMP3olS6XwM_T0ZcTCmpuEvZFl08GceQddwAzls_eYEHoFKIzAaSVBwyJwUzRqRxp8TDOgAszJdDFwKXVZisRQtmnupmOQNhdCoaWryZ2zicZT0dI9c4=',
+		};
+	};
+		window.headerstarttime = new Date();
+	</script>
+    <title>订单后续中间表 - NetSuite (MITSUKIN SHOJI Co.LTD/三金商事株式会社)</title>
+
+	<link rel="icon" type="image/png" href="/favicon/default/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/favicon/default/favicon.svg" />
+	<link rel="shortcut icon" href="/favicon/default/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/legacy/apple-touch-icon.png" />
+	<link rel="manifest" href="/favicon/legacy/site.webmanifest" />
+
+<link rel='stylesheet' href='/core/styles/pagestyles.nl?ct=-12&bglt=FFFFFF&bgmd=E2DFEB&bgdk=808080&bgon=2F2461&bgoff=6E609D&bgbar=2F2461&tasktitletext=FFFFFF&crumbtext=7E71A8&headertext=B8B4C9&ontab=FFFFFF&offtab=000000&text=000000&link=000000&bgbody=FFFFFF&bghead=FFFFFF&portlet=6E609D&portletlabel=FFFFFF&bgbutton=3B89D8&bgrequiredfld=FFFFE5&font=Arial%2CHelvetica%2Csans-serif&size_site_content=8pt&size_site_title=8pt&size=1.0&nlinputstyles=T&accessibility=F&appOnly=T&NS_VER=2025.2&minver=14'>    <link rel="stylesheet" type="text/css" href="/assets/@uif-js/fonts/1.0.9/css/fonts.css?NS_VER=2025.2&amp;minver=14" />
+    <link rel="stylesheet" type="text/css" href="/assets/reskin_core/refreshed/579501830.css?NS_VER=2025.2&amp;minver=14" />
+    	<script type="text/javascript" src="/ui/jquery/jquery-3.5.1.min.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-pV9V1WiZq0QO8MrheyjVzI9bl2bR6bwaisa4k3aSS0dsGrDDJUl+tdRK9B9Ov47qI22Ho2kCJEuKPspUmUuHEQ=="></script>
+    	<script type="text/javascript" src="/ui/jquery/jquery_isolation.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-xLtH0vfj3n9VUuVKsvSI6FlrsLybPNar27EIX/wzf8E4MU0S4ZdBCGI/8oxyOqa7tLaOcv6mSrwslCemo2z/VQ=="></script>
+    	<script type="text/javascript" src="/javascript/FieldLevelHelp.jsp?JSP_VER=1&amp;skin=refreshed&amp;NS_VER=2025.2&amp;minver=14&amp;locale=ja_JP&amp;buildver=30017"></script>
+    	<script type="text/javascript" src="/assets/help_service/3663278969.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-HU6HxnHr12ZvRXM+NtwsjQtp64dJSmt0WyieDd1EqYTtSfTIcNtwrb5UkWCuFOOLKXIhjidXQanpetbVNwxA+g=="></script>
+    	<script type="text/javascript" src="/javascript/NLUtil.jsp?JSP_VER=1&amp;skin=refreshed&amp;NS_VER=2025.2&amp;minver=14&amp;locale=ja_JP&amp;buildver=30017"></script>
+    	<script type="text/javascript" src="/util/NLUtil.js?NS_VER=2025.2&amp;minver=14&amp;buildver=30017" integrity="sha512-0WG4uQaE2hZfXvEOdEcGLdHVImenEEqlIS8swU2PqAk8dkE6lhmq0HaOK1dtFiYy6QLpCB+p9rPQez6qs7/zfg=="></script>
+    	<script type="text/javascript" src="/assets/ui_text_enhance/1227974765.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-Gh1u2SwghV+z0OCXNX4EQ0uc74kLc6ao+pqSw8G1ITYmIorbV7hgJGO0RO1479GQF9Ruq0+C+DtUkqDSD8v3XQ=="></script>
+    	<script type="text/javascript" src="/javascript/NLUIWidgets.jsp?JSP_VER=1&amp;skin=refreshed&amp;NS_VER=2025.2&amp;minver=14&amp;locale=ja_JP&amp;buildver=30017"></script>
+    	<script type="text/javascript" src="/assets/legacy_widgets/2397802613.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-TkCpwWzXLlKFdMkumCl80ETrjVio/AKZ8iw4irskGvdIN0yQeK44vRT8OPUYPER5dPvADwdFgkxxcH7NS6gQhQ=="></script>
+    	<script type="text/javascript" src="/assets/ui_messaging_api/898965373.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-xe/v9D1HQTFAff7ZcMNmWPn++llEu7iHM9971qtPAAqtiAu5LqoPs85eO1mlPFmLB0aiIcaegZoU9g5mghGLrQ=="></script>
+    	<script type="text/javascript" src="/assets/ui_messaging_reskin/1795764147.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-pS6cERk7jAdBfW6Yzy+X2LHH26Y0rPgjlU0ySVKOqLu5UMJiF2R6mM/XGgunHCEb0+Kgzlf4scxHiLxc05nKtg=="></script>
+    	<script type="text/javascript" src="/assets/legacy_slavingutil/494223087.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-XKOCTw7yfbjNnVpJuUgxqllK5khISwlYcPW5EiXTC7YEwX9QfJqoccYv812dnwD0z2/ubfY+ebFI00h3bNCr9Q=="></script>
+    	<script type="text/javascript" src="/assets/help_center_service/3696101135.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-iZDDCEn0xa0L9fOUy02HoJAbDFDMKWbvgx9bu1Gz5AcexduKgKl9cHxWEi6Ha8QcQLpeBVvTqATAw/IeUS0LPg=="></script>
+    	<script type="text/javascript" src="/assets/legacy_apputil/3201767747.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-09m0d56ptySjW2NzLiR+PK/lxo1ILTXtIyNTJguRJtMAzDbf6pZcCyAgbMJQWIBUpfYm0oOQQo6fTCtyhZhShQ=="></script>
+    	<script type="text/javascript" src="/javascript/NLAppUtil.jsp?JSP_VER=1&amp;skin=refreshed&amp;NS_VER=2025.2&amp;minver=14&amp;locale=ja_JP&amp;buildver=30017"></script>
+    	<script type="text/javascript" src="/assets/legacy_apputil/856623990.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-O1OLGKiQB5Y5KkLSJboIBHmI+9HA9qvNbCpmB2z6XApFTb8jGcK0dNA3pJ8f/iSJvAql3kmQEjHnhgGAJ28FOA=="></script>
+    	<script type="text/javascript" src="/javascript/NLAPI.jsp?JSP_VER=1&amp;skin=refreshed&amp;NS_VER=2025.2&amp;minver=14&amp;locale=ja_JP&amp;buildver=30017"></script>
+    	<script type="text/javascript" src="/assets/legacy_animation/4223457696.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-x4az9qPGO/YlMCsy1dc6YMmqF0t/mO+wvKS6H0zsfDjgOpfmKBSRyUE/XtdhJBGKCIaGeoo46Bg4iX0mCtmWYw=="></script>
+    	<script type="text/javascript" src="/javascript/NLEventReminder.jsp?JSP_VER=1&amp;skin=refreshed&amp;NS_VER=2025.2&amp;minver=14&amp;locale=ja_JP&amp;buildver=30017"></script>
+    	<script type="text/javascript" src="/javascript/NLExtreme.jsp?JSP_VER=1&amp;skin=refreshed&amp;NS_VER=2025.2&amp;minver=14&amp;locale=ja_JP&amp;buildver=30017"></script>
+    	<script type="text/javascript" src="/javascript/NLCalendar.jsp?sc=null&amp;NS_VER=2025.2&amp;JSP_VER=1&amp;skin=refreshed&amp;minver=14&amp;locale=ja_JP&amp;buildver=30017"></script>
+    	<script type="text/javascript" src="/assets/sessionstatus_init/897901415.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-xmmc5AOsDExvu/Z9MlKQXkutIjCzLTExn5KAk1Y+ceAM5LuHvzfwno9/BS9UQCio2LTzfygsJeieSvaDrU0djw=="></script>
+    	<script type="text/javascript" src="/javascript/sessionstatus/session_status_init.jsp?NS_VER=2025.2&amp;companyId=6806569&amp;roleId=1016&amp;companyName=MITSUKIN+SHOJI+Co.LTD%2F%E4%B8%89%E9%87%91%E5%95%86%E4%BA%8B%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&amp;JSP_VER=1&amp;skin=refreshed&amp;roleName=%E4%B8%89%E9%87%91%E5%95%86%E4%BA%8B%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE+-+%E7%B5%8C%E7%90%86%E6%8B%85%E5%BD%93%E8%80%85&amp;minver=14&amp;entityId=11653&amp;id=6806569~11653~1016~N&amp;locale=ja_JP&amp;buildver=30017"></script>
+    	<script type="text/javascript" src="/assets/legacy_popup/1937971046.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-Dr3GmljsVbXC9AbpA5XSZWy0hopLkY+DpL9RPkwcoz1LaiMRZzAUtjFdw/PEXapBy5Q6l0VI0OpCbO2YNPBByg=="></script>
+    	<script type="text/javascript" src="/javascript/NLPopup.jsp?JSP_VER=1&amp;skin=refreshed&amp;NS_VER=2025.2&amp;minver=14&amp;locale=ja_JP&amp;buildver=30017"></script>
+    	<script type="text/javascript" src="/assets/help/1664606291.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-odiLgqECUp0paIhssLvITWtiRyorxAQo9jNjcCP2ucsp8SDo2YKKgGLZ8Am44I6TONn9IAI2hEPDbbgHNuD3Cg=="></script>
+    	<script type="text/javascript" src="/assets/nlrum/3261946628.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-omJV46PeHP/3kpPT1HAzmegNAPkCShM8UQsO3knnI2tw7XI8yJn2wQpBxGXPZZFJlHr6Nd+IPSCdyTe50rrpRw=="></script>
+    	<script type="text/javascript" src="/assets/reskin_core/3373885985.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-BePOxPMn2820M5ZGdP7ll48KDEV+8yjT6buVDqwKz7qBBO4V+Iq+4Ft7R0JHrvGPNjO8d/MMCwhlOsKt07Af7Q=="></script>
+    	<script type="text/javascript" src="/assets/suitescript_nsrequire/822194838.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-ypTrb/99PEUD+wX/MAJaLWi+7yuuYkDLHTRbtAUdRiiw+pkCb9IsH7n+wyjCUqemKbajM9GDVoGe3fhpid/TOw=="></script>
+    	<script type="text/javascript" src="/assets/suitescript_bootstrap/2919711651.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-/NL5r9TwuzZ56bkLjVYMjdbwuIL2hs8bTd4ARc5LAaTf+Pzpx3H1MpfaM4fBxU6kNxJFQGR0S5rh0wybO54N1A=="></script>
+    	<script type="text/javascript" src="/assets/suitescript_event/2156200013.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-LtZOTqGFrihbqKyJdbq4XgWygiHp4cD2/WreGdhxjAet61Zn5l6h3akkZUC7h4dgqfpTXof/iUpgySqE6gPmYw=="></script>
+    	<script type="text/javascript" src="/javascript/suitescript/2.1/client/N.js?NS_VER=2025.2&amp;minver=14&amp;buildver=30017" integrity="sha512-lZaVqAMkSfD8A/TAchvqal4y3WFFpcK7KI+wzkWINOVbaPGR3jrHFXrpNgL5FAGmwiQ0bSy53QjWhRX3Z8l76A=="></script>
+    	<script type="text/javascript" src="/javascript/workflow/nextgen/runtime.jsp?JSP_VER=1&amp;skin=refreshed&amp;NS_VER=2025.2&amp;minver=14&amp;locale=ja_JP&amp;buildver=30017"></script>
+    	<script type="text/javascript" src="/assets/sessionstatus_reskin/2917684895.js?NS_VER=2025.2&amp;minver=14" integrity="sha512-o46mf6GeigvPUjY/f+RG/jJMsYfb8y3AoN5yoPBonl+N34bQ0XpL7+H48AD0P7iExj+V34bhvTEgKJDNI+5fmw=="></script>
+    <script type='text/javascript' src='/javascript/suitescript/utility/undefine.js'></script><script language='JavaScript' type='text/javascript'>window.status='';</script><script type='text/javascript' src='/core/elements/compound/NLMapping.nl?t=bZ6qbAGAar&NS_VER=2025.2&minver=14&locale=ja_JP'></script>
+<script type='text/javascript' src='/app/crm/calendar/eventreminders.nl?t=bZ6qbAGAarert=2943517.0&NS_VER=2025.2&minver=14&locale=ja_JP'></script>
+    <script language='JavaScript' type='text/javascript'>window.status='読込み中...';</script>
+<script type='text/javascript' src='/javascript/NLMachine.jsp?UI_SLAVING_FOR_CANCEL=F&UI_ALLOW_CLIENT_RENDERING_OF_LISTMACHINES=F&UI_NLMACHINE_ADDLINE_ORDER=F&sublistColumnTooltip=T&NS_VER=2025.2&minver=14&locale=ja_JP'></script>
+<script type='text/javascript' src='/javascript/NLOrderedListMachine.jsp?NS_VER=2025.2&minver=14&locale=ja_JP'></script>
+<script type='text/javascript' src='/javascript/NLAnimation.js?NS_VER=2025.2&minver=14&locale=ja_JP'></script>
+<script type='text/javascript' src='/javascript/NLListJs.js?NS_VER=2025.2&minver=14&locale=ja_JP'></script>
+
+    <script type="text/javascript">window.headerendtime = new Date();</script>
+</head>
+<body data-page-category="form" data-page-variant="default" data-page-background="auto" data-page-theme="refreshed" data-header="refreshed"  bgcolor='#FFFFFF'  class='body_2010 nl-pagetint ' link='#000000' vlink='#000000' alink='#000000' text='#000000' style='margin: 5px 0px 5px 0px;' onload="page_init()">
+<div id="pageContainer" class="ns-vertical-container">
+        <div id="div__bootstrap" class="ns-child-component">
+
+<script type="text/javascript">
+	(async function () {
+		const data = {"uif":{"debug":{"enabled":false,"automation":false,"console":true,"deprecations":false},"environment":{"devOrQaTestEnvironment":false},"devSettings":{"minify":true,"debug":false,"localApps":[],"draftApps":[],"showSettingsButton":false},"dateLocale":{"monthsLong":["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月",""],"monthsShort":["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月",""],"daysLong":["日曜日","月曜日","火曜日","水曜日","木曜日","金曜日","土曜日"],"daysShort":["日","月","火","水","木","金","土"],"amPmLabels":["午前","午後"]},"translations":{"FRAMEWORK.FILTER_CHIP.CHECKBOX_PICKER_YES":"はい","COMMONS.LIST_PRESENTER.CLEAR_1_FILTER":"1つのフィルターをクリア","FRAMEWORK.BUTTON.SHOW_ALL_RESULTS":"すべての結果を表示","FRAMEWORK.CALENDAR.YEARS":"年数","COMMONS.LIST_PRESENTER.SHOW_FILTERS_1_FILTER_APPLIED":"フィルターを表示 - {1: one}つのフィルターを適用済","NS.UI.COMPONENT.REDWOOD_FEEDBACK.SUBMIT":"送信","COMMONS.FILTER_PRESENTER.CLEAR_ALL_FILTERS":"すべてのフィルターをクリア","COMMONS.FILTER_PRESENTER.HIDE_FILTERS":"フィルターを非表示","FRAMEWORK.PAGINATION.ITEMS":"行","FRAMEWORK.AGENDA.MONTH":"月","FRAMEWORK.HEADER.FEEDBACK":"フィードバック","FRAMEWORK.AGENDA.INVALID_DATE":"無効な日付","FRAMEWORK.SHELF.EXPAND_SHELF":"棚を拡張","NS.UI.COMPONENT.REDWOOD_FEEDBACK.CONTRAST_BETWEEN_UI_ELEMENTS":"以前のNetSuiteテーマのUI要素と背景のコントラストなどのビジュアルが好みです。","FRAMEWORK.SHUTTLE_UI.FILTER":"フィルター","FRAMEWORK.SEARCH.CURRENT_PAGE_RESULTS":"現在のページ結果","FRAMEWORK.TABPANEL.MORE_TABS":"その他のタブ","FRAMEWORK.PAGINATION.PAGINATION":"ページ付け","FRAMEWORK.PAGINATION.OF":"/","FRAMEWORK.LISTBOX.UNSELECT_ALL":"すべてを選択解除","FRAMEWORK.LISTBOX.MAX":"最大","FRAMEWORK.BUTTON.OK":"OK","FRAMEWORK.BUTTON.CLOSE":"終了","FRAMEWORK.FILEPICKER.LABEL_EMPTY":"またはここにファイルをドロップします","FRAMEWORK.AGENDA.DATE":"日付","FRAMEWORK.SEARCH.FIELD_GROUP":"フィールド・グループ","FRAMEWORK.CALENDAR.PREVIOUS":"前","NS.UI.COMPONENT.DROPDOWN.NO_SELECTIONS_MADE":"選択していません","COMMONS.FILTER_PRESENTER.1_FILTERS_APPLIED":"{1: number of filters}フィルターを適用済","COMMONS.FILTER_PRESENTER.CLEAR_ALL_1_FILTERS":"{1: number of filters}つのフィルターをすべてクリア","FRAMEWORK.COLOR_PALETTE_BOX.NO_COLOR":"色なし","COMMONS.LIST_PRESENTER.HIDE_FILTERS":"フィルターを非表示","FRAMEWORK.AGENDA.DESCRIPTION":"説明","FRAMEWORK.DATAGRID.SELECT_ALL_ITEMS":"{1:number}アイテムすべての選択","FRAMEWORK.MESSAGE.ERROR":"エラー","FRAMEWORK.COLOR_CHANNEL.HUE":"色相","FRAMEWORK.SEARCH.COLUMN":"列","NS.UI.COMPONENT.REDWOOD_FEEDBACK.COMMENT":"コメント","FRAMEWORK.BUTTON.COLLAPSE":"縮小","FRAMEWORK.VALIDITY_INDICATOR.WARNING":"警告","FRAMEWORK.MESSAGE.WARNING":"警告","FRAMEWORK.LISTBOX.SELECT_ALL":"すべてを選択","FRAMEWORK.FILTER_CHIP.ALL":"すべて","FRAMEWORK.BUTTON.FILL_DOWN":"下方向へコピー","FRAMEWORK.FILEPICKER.LABEL_FILETYPE_NOT_SUPPORTED":"ファイル・タイプがサポートされていません","NS.UI.COMPONENT.REDWOOD_FEEDBACK.OTHER":"その他(コメントを追加)","FRAMEWORK.STEPPERITEM.STEP":"ステップ{1: number}","FRAMEWORK.AGENDA.SAVE":"保存","NS.UI.COMPONENT.QUICKVIEW.ACCEPT":"承諾","FRAMEWORK.DATAGRID.CHECKBOX_NO":"いいえ","COMMONS.LIST_PRESENTER.FILTERS":"フィルター","FRAMEWORK.PAGINATION.SHOW":"表示","FRAMEWORK.CONTROL_VIEW.HELPER_BUTTON_MENU":"ヘルパー・ボタン・メニュー","FRAMEWORK.HEADER.CHANGE_ROLE":"ロールを変更","FRAMEWORK.FILEPICKER.BUTTON_LABEL_UPLOADING":"アップロード中","FRAMEWORK.DATAGRID.CHECKBOX_YES":"はい","FRAMEWORK.BUTTON.ABORT":"中止","FRAMEWORK.AGENDA.INVALID_TIME_RANGE":"無効な時間範囲","FRAMEWORK.PAGINATION.LAST_PAGE":"最終ページ","COMMONS.VALIDITY_INDICATOR.ERROR":"エラー","COMMONS.LIST_PRESENTER.OPEN_SEARCH_BOX":"検索ボックスを開く","FRAMEWORK.BUTTON.SHOW_FEWER_RESULTS":"表示する結果を減らす","FRAMEWORK.DATAGRID.PAGE_DESELECTED":"このページの{1:number}アイテムすべての選択が解除されました","FRAMEWORK.SEARCH.BUTTON":"ボタン","NS.UI.COMPONENT.DROPDOWN.CLICK_SELECTION_TO_ADD":"追加するアイテムをクリックします。","FRAMEWORK.HEADER.MENU_DEFAULT_ROLE":"デフォルト","FRAMEWORK.SEARCH.MENU":"メニュー","FRAMEWORK.COLOR_CHANNEL.ALPHA":"アルファ","FRAMEWORK.COLOR_PALETTE.ADD_BUTTON_ENABLED":"クリックして現在の色を追加します","FRAMEWORK.BUTTON.MINIMIZE":"最小化","FRAMEWORK.FILEPICKER.LABEL_FILE_ATTACHED":"ファイルが添付されています","FRAMEWORK.HEADER.MENU_SIGN_OUT":"ログアウト","NS.UI.COMPONENT.DROPDOWN.QTY":"数量","FRAMEWORK.BUTTON.EXPAND":"展開","NS.UI.COMPONENT.QUICKVIEW.QUICK_ACCEPT":"即時承諾","FRAMEWORK.SHELF.COLLAPSE_SHELF":"棚を折りたたむ","COMMONS.FILTER_PRESENTER.1_FILTER_APPLIED":"{1:one}つのフィルターを適用済","COMMONS.LIST_PRESENTER.APPLY":"適用","FRAMEWORK.BUTTON.MAXIMIZE":"最大化","FRAMEWORK.BUTTON.YES":"はい","FRAMEWORK.HEADER.CREATE_NEW":"新規作成","COMMONS.FILTER_PRESENTER.CLEAR_1_FILTER":"1つのフィルターをクリア","COMMONS.LIST_PRESENTER.CLEAR_ALL":"すべてクリア","FRAMEWORK.AGENDA.TODAY":"TODAY","NS.UI.COMPONENT.DROPDOWN.SHOW_FAVORITES_ONLY":"お気に入りのみを表示","NS.UI.COMPONENT.REDWOOD_SWITCH.HERE_S_AN_EXAMPLE":"Redwoodエクスペリエンスを有効にした場合のスイートの外観の例を示しています。この画像には、新しいヘッダー、アイコンおよびフォントが表示されています。更新をお楽しみください。","FRAMEWORK.FILEPICKER.LABEL_0_FILES_SELECTED":"{0:number}ファイルが選択されています","FRAMEWORK.SHUTTLE_UI.BUTTON_ADD_TO_TARGET":"アイテムをターゲット・リストに追加","COMMONS.FILTER_PRESENTER.HIDE_FILTERS_1_FILTER_APPLIED":"フィルターを非表示 - {1: one}つのフィルターを適用済","COMMONS.LIST_PRESENTER.SHOW_FILTERS_ON_THE_SIDE_1":"横にフィルターを表示({1: number})","FRAMEWORK.SEARCH.SUB_TAB":"サブタブ","FRAMEWORK.DATAGRID.ALL_DESELECTED":"{1:number}アイテムすべての選択が解除されました","COMMONS.LIST_PRESENTER.SHOW_QUICK_SORT_OPTIONS":"クイック・ソート・オプションを表示","FRAMEWORK.FILTER_CHIP.CLEAR_FILTER":"フィルターのクリア","FRAMEWORK.SHUTTLE_UI.BUTTON_REMOVE_FROM_TARGET":"アイテムをターゲット・リストから削除","FRAMEWORK.SEARCH.TAB":"タブ","FRAMEWORK.TABPANEL.CLOSE_TAB":"タブを閉じます","FRAMEWORK.RATINGS.POOR":"悪い","FRAMEWORK.AGENDA.WHOLE_DAY":"終日","FRAMEWORK.FILTER_CHIP.CHECKBOX_PICKER_NO":"いいえ","FRAMEWORK.LOADER.LOADING":"読込み中","FRAMEWORK.HEADER.COPY_TO_CLIPBOARD":"クリップボードにコピー","COMMONS.LIST_PRESENTER.SHOW_FILTERS":"フィルターを表示","COMMONS.LIST_PRESENTER.FILTERED_ITEMS_1":"フィルター済アイテム: {1:number of filtered items}","NS.UI.COMPONENT.REDWOOD_SWITCH.NEW":"新規","NS.UI.COMPONENT.DROPDOWN.DONE":"完了","FRAMEWORK.LISTBOX.VIEW_SELECTED":"選択を表示する","FRAMEWORK.BUTTON.SEARCH":"検索","FRAMEWORK.CALENDAR.NEXT":"次へ","FRAMEWORK.PAGINATION.FIRST_PAGE":"最初のページ","FRAMEWORK.VALIDITY_INDICATOR.ERROR":"エラー","FRAMEWORK.BUTTON.SHOW_N_MORE_RESULTS":"結果をさらに{1:n}件表示","NS.UI.COMPONENT.REDWOOD_SWITCH.ENABLE":"有効化","COMMONS.FILTER_PRESENTER.SHOW_FILTERS_1_FILTER_APPLIED":"フィルターを表示 - {1: one}つのフィルターを適用済","NS.UI.COMPONENT.QUICKVIEW.QUICK_DECLINE":"即時辞退","FRAMEWORK.TAG.REMOVE_ICON_LABEL":"削除","FRAMEWORK.AGENDA.WEEK":"週","FRAMEWORK.PICKER.OPEN_SELECTION":"選択項目を開く","COMMONS.VALIDITY_INDICATOR.WARNING":"警告","FRAMEWORK.PAGINATION.PREVIOUS_PAGE":"前のページ","FRAMEWORK.SEARCH.LINK":"リンク","FRAMEWORK.PAGINATION.TOTAL":"合計","FRAMEWORK.HEADER.NO_RESULTS_FOUND":"結果がありません。","COMMONS.FILTER_PRESENTER.SHOW_FILTERS":"フィルターを表示","COMMONS.LIST_PRESENTER.1_OF_2":"{2}のうち{1}","COMMONS.LIST_PRESENTER.SEARCH":"検索","COMMONS.LIST_PRESENTER.NO_DATA_SELECTED":"データ行が選択されていません。ここに詳細を表示するには、データ行を選択してください。","FRAMEWORK.COLOR_PALETTE.ADD_BUTTON_DISABLED":"この色は既にパレットにあります","FRAMEWORK.SEARCH.ENTER_AT_LEAST_THREE_CHARACTERS":"最善の検索結果を得るには少なくとも3文字入力してください。","FRAMEWORK.CALENDAR.WEEK":"週","COMMONS.LIST_PRESENTER.SEE_ALL_FILTERS":"すべてのフィルターを表示","FRAMEWORK.BUTTON.CANCEL":"キャンセル","FRAMEWORK.COLOR_PALETTE.ADD_BUTTON_NO_COLOR_SELECTED":"色が選択されていません","COMMONS.LIST_PRESENTER.CLEAR_ALL_FILTERS":"すべてのフィルターをクリア","NS.UI.COMPONENT.REDWOOD_SWITCH.SEE_AN_IMAGE":"スイート・クラウドの表示イメージを確認します。","FRAMEWORK.MESSAGE.INFO":"情報","FRAMEWORK.TABPANEL.MORE_ACTIONS":"追加アクション","COMMONS.LIST_PRESENTER.SHOW_FILTERS_ON_THE_SIDE":"横にフィルターを表示","FRAMEWORK.SHUTTLE_UI.TYPE_TO_FILTER":"入力してフィルターします","FRAMEWORK.AGENDA.TIME":"時間","COMMONS.LIST_PRESENTER.OPEN_FILTERS_MODAL_1_FILTER_APPLIED":"フィルターを開く - {1: one}つのフィルターを適用済","NS.UI.COMPONENT.REDWOOD_FEEDBACK.WE_WANT_YOUR_FEEDBACK":"ご意見をお聞かせください","FRAMEWORK.AGENDA.INVALID_NAME":"無効な名前","COMMONS.LIST_PRESENTER.REFRESH_DATA":"データを更新","NS.UI.COMPONENT.REDWOOD_FEEDBACK.CANCEL":"キャンセル","NS.UI.COMPONENT.DROPDOWN.SEARCH":"検索","COMMONS.VALIDITY_INDICATOR.INFO":"情報","COMMONS.LIST_PRESENTER.SHOW_FILTERS_1_FILTERS_APPLIED":"フィルターを表示 - {1: number}つのフィルターを適用済","FRAMEWORK.AGENDA.DAY":"日","COMMONS.LIST_PRESENTER.OPEN_FILTERS_MODAL":"フィルターを開く","NS.UI.COMPONENT.REDWOOD_SWITCH.COLORS_FONTS_AND_CHART_PALETTES":"色、フォントおよびチャート・パレットが含まれているため、これらのプリファレンスはグレー表示になっています。Redwoodエクスペリエンスを無効にすることで、いつでも古い色テーマに戻すことができます。","FRAMEWORK.AGENDA.NEW_EVENT":"新しいイベント","COMMONS.LIST_PRESENTER.HIDE_FILTERS_1_FILTER_APPLIED":"フィルターを非表示 - {1: one}つのフィルターを適用済","FRAMEWORK.FILEPICKER.LABEL_FILE_NOT_ACCEPTED":"ファイルが受け付けられません","COMMONS.FILTER_PRESENTER.SHOW_FILTERS_1_FILTERS_APPLIED":"フィルターを表示 - {1: number}つのフィルターを適用済","COMMONS.CONTROL_VIEW.HELPER_BUTTON_MENU":"ヘルパー・ボタン・メニュー","COMMONS.LIST_PRESENTER.FILTERED_ITEM_1":"フィルター済アイテム: {1:number one}","NS.UI.COMPONENT.REDWOOD_SWITCH.REDWOOD_EXPERIENCE":"Redwoodエクスペリエンス","FRAMEWORK.SHUTTLE_UI.NO_ITEMS_TO_SELECT":"選択するアイテムがありません","FRAMEWORK.AGENDA.DELETE":"削除","FRAMEWORK.HEADER.MENU_SWITCH_ACCOUNT":"SWITCH TO ANOTHER ACCOUNT","FRAMEWORK.BUTTON.GO_BACK":"戻る","COMMONS.LIST_PRESENTER.CANCEL":"キャンセル","NS.UI.COMPONENT.REDWOOD_SWITCH.WE_HOPE_YOU_ENJOY":"更新されたスイートをお楽しみください","NS.UI.COMPONENT.REDWOOD_SWITCH.TRY_OUT_LOOK":"ヘッダー、アイコン、チャートの色およびフォントが改良された新しい表示をお試しください","FRAMEWORK.BUTTON.SHOW_MORE_RESULTS":"結果をさらに表示","NS.UI.COMPONENT.DROPDOWN.FAVORITES":"お気に入り","COMMONS.LIST_PRESENTER.RESET":"リセット","FRAMEWORK.SEARCH.MENU_RESULTS":"メニュー結果","NS.UI.COMPONENT.REDWOOD_FEEDBACK.MORE_COLOR_OPTIONS":"色のオプションがさらに必要です。","FRAMEWORK.PAGINATION.LOAD_MORE":"もっと読み込む","FRAMEWORK.AGENDA.NAME":"名前","FRAMEWORK.COLOR_CHANNEL.LUMINOSITY":"輝度","FRAMEWORK.AGENDA.MULTIPLE_DAYS":"複数日","NS.UI.COMPONENT.REDWOOD_SWITCH.THE_REDWOOD_EXPERIENCE":"Redwoodエクスペリエンス","COMMONS.FIELD.REQUIRED":"必須","FRAMEWORK.MESSAGE.SUCCESS":"確認","NS.UI.COMPONENT.QUICKVIEW.VIEW":"表示","FRAMEWORK.SEARCH.GLOBAL_SEARCH_RESULTS":"グローバル検索結果","FRAMEWORK.AGENDA.COLOR":"色","NS.UI.COMPONENT.REDWOOD_FEEDBACK.ROLES_DIFFERENTIATED_COLOR_THEMES":"以前のNetSuiteカラー・テーマを使用してロールを区別する方法の方が好みです。","FRAMEWORK.VALIDITY_INDICATOR.SUCCESS":"成功","FRAMEWORK.PAGINATION.NEXT_PAGE":"次のページ","FRAMEWORK.RATINGS.GOOD":"良い","COMMONS.FILTER_PRESENTER.SEE_ALL_FILTERS":"すべてのフィルターを表示","FRAMEWORK.COLOR_PALETTE_BOX.DELETE":"削除","FRAMEWORK.BANNER.DON_T_SHOW_ME_AGAIN":"再表示しない","NS.UI.COMPONENT.QUICKVIEW.EDIT":"編集","FRAMEWORK.AGENDA.CANCEL":"キャンセル","NS.UI.COMPONENT.DROPDOWN.CURRENT_SELECTIONS":"現在の選択","FRAMEWORK.CALENDAR.DAYS":"日数","FRAMEWORK.RATINGS.EXCELLENT":"非常に良い","FRAMEWORK.AGENDA.EDIT_EVENT":"編集イベント","COMMONS.FILTER_PRESENTER.HIDE_FILTERS_1_FILTERS_APPLIED":"フィルターを非表示 - {1: number}つのフィルターを適用済","COMMONS.LIST_PRESENTER.SHOW_AVAILABLE_ACTIONS":"利用可能なアクションを表示","FRAMEWORK.COLOR_SELECTOR.CUSTOM_COLORS":"カスタム色","FRAMEWORK.HEADER.MENU_MY_ROLE":"自分のロールを表示","FRAMEWORK.COLOR_CHANNEL.VALUE":"値","FRAMEWORK.AGENDA.MORE":"続き","FRAMEWORK.PAGINATION.ROWS_PER_PAGE":"行/ページ","FRAMEWORK.SEARCH.FIELD":"フィールド","FRAMEWORK.FILEPICKER.BUTTON_LABEL_STANDARD":"ファイルを選択","FRAMEWORK.RATINGS.OKAY":"OK","COMMONS.LIST_PRESENTER.VIEW_SELECTED_1":"選択を表示する: {1: number of items}","COMMONS.LIST_PRESENTER.SHOW_FILTERS_ON_THE_TOP_1":"上部にフィルターを表示({1: number})","FRAMEWORK.PAGINATION.UNKNOWN":"不明","FRAMEWORK.SEARCH.OPEN":"オープン","FRAMEWORK.SHUTTLE_UI.NO_SELECTIONS_MADE":"選択されていません","FRAMEWORK.SHUTTLE_UI.SEGMENTS":"セグメント","COMMONS.VALIDITY_INDICATOR.SUCCESS":"成功","COMMONS.LIST_PRESENTER.OPEN_FILTERS_MODAL_1_FILTERS_APPLIED":"フィルターを開く - {1: number}つのフィルターを適用済","COMMONS.LIST_PRESENTER.IGNORE_FILTERS":"フィルターを無視","FRAMEWORK.RANGE.TO":"終了日","FRAMEWORK.PAGINATION.GO_TO":"次に表示するページ:","COMMONS.LIST_PRESENTER.SHOW_MORE_ACTIONS":"アクションをさらに表示","NS.UI.COMPONENT.QUICKVIEW.DECLINE":"却下","FRAMEWORK.BUTTON.NO":"いいえ","FRAMEWORK.DATAGRID.PAGE_SELECTED":"このページの{1:number}アイテムすべてが選択されています","COMMONS.LIST_PRESENTER.CLOSE_DETAIL_PANEL":"詳細パネルを閉じる","FRAMEWORK.PAGINATION.ALL":"すべて","COMMONS.LIST_PRESENTER.SHOW_DETAIL_PANEL":"詳細パネルを表示","COMMONS.LIST_PRESENTER.VIEW_SELECTED":"選択を表示する","NS.UI.COMPONENT.DROPDOWN.REMOVE":"削除","FRAMEWORK.AGENDA.OK":"OK","FRAMEWORK.HEADER.PERFORMANCE_DETAILS":"パフォーマンス詳細","FRAMEWORK.MENUBAR.MORE_MENUS":"その他のメニュー","COMMONS.LIST_PRESENTER.NO_DATA_AVAILABLE":"利用可能なデータがありません。","COMMONS.LIST_PRESENTER.SHOW_FILTERS_ON_THE_TOP":"上部にフィルターを表示","FRAMEWORK.DATAGRID.DESELECT_ALL_ITEMS":"{1:number}アイテムすべての選択の解除","NS.UI.COMPONENT.DROPDOWN.CANCEL":"キャンセル","NS.UI.COMPONENT.DROPDOWN.ALL_ITEMS":"すべてのアイテム","FRAMEWORK.DATAGRID.ALL_SELECTED":"{1:number}アイテムすべてが選択されています","NS.UI.COMPONENT.DROPDOWN.CHOOSE":"{1}を選択","FRAMEWORK.CALENDAR.MONTHS":"月","COMMONS.LIST_PRESENTER.ACTION":"アクション","COMMONS.LIST_PRESENTER.CLEAR_ALL_1_FILTERS":"{1: number of filters}つのフィルターをすべてクリア","FRAMEWORK.MENUBUTTON.MENU":"メニュー","COMMONS.LIST_PRESENTER.HIDE_DETAIL_PANEL":"詳細パネルを非表示","NS.UI.COMPONENT.REDWOOD_FEEDBACK.WHY_DISABLING_REDWOOD":"新しいRedwoodエクスペリエンス・テーマを無効にする理由をお知らせください。","FRAMEWORK.AGENDA.AGENDA":"アジェンダ","COMMONS.LIST_PRESENTER.REFRESH":"更新","FRAMEWORK.RATINGS.GREAT":"とても良い","FRAMEWORK.CORE.NO_DATA_AVAILABLE":"(利用可能なデータはありません)","COMMONS.LIST_PRESENTER.HIDE_FILTERS_1_FILTERS_APPLIED":"フィルターを非表示 - {1: number}つのフィルターを適用済"},"preferences":{"DATEFORMAT":"YYYY/MM/DD","LANGUAGE":"ja_JP","TIMEFORMATWITHSECONDS":"fmHH24:fmMI:SS","HORIZONTALLABEL":false,"EXPOSEIDS":false,"FIRSTDAYOFWEEK":1,"SEARCHSORTING":"LANGUAGE_SPECIFIC","TIMEFORMAT":"fmHH24:fmMI","TIMEZONE":"Asia/Tokyo"},"theme":"refreshed","colorSet":-12,"colorSetRedwood":-2},"app":{"preferences":{},"translations":{"NLAlertContext.PLEASE_LOG_INTO_THE_APPLICATION_AND_OPEN_THE_HELP_WINDOW_AGAIN":"接続がタイムアウトとなったため、ヘルプは利用できません。\\nアプリケーションにログインし、ヘルプ・ウィンドウをもう一度開いてください。","NLHeadingContext.DATE":"日付","NLPagemessageContext.WHAT_DO_YOU_THINK_ABOUT_1":"{1:application}についてどのようなご意見をお持ちですか?","NLAlertContext.ADDRESS_TOO_LONG_TRUNCATED_AT_1000_CHARACTERS":"住所が長すぎます(1000文字で切捨て)","NLAlertContext.HTML_DOCUMENT_MUST_END_WITH_A_HTML_TAG":"HTMLドキュメントは \u003C/HTML\u003E タグ","NLAlertContext.INVALID_PERCENTAGE_MUST_BE_BETWEEN_1_AND_2":"無効なパーセンテージです。({1}と{2}の間にしてください。)","NLAlertContext.INVALID_URL_URL_MUST_START_WITH_HTTP_HTTPS_FTP_OR_FILE":"URLが無効です。URLは、http://、https://、ftp://、またはfile://で開始しなければなりません","NLButtonContext.EXPANDCOLLAPSE_FILTERS":"フィルターを展開/縮小","NLAlertContext.PLEASE_ENTER_A_VALUE_FOR_1":"{1}に値を入力してください","NLButtonContext.EXPORT__EXCEL_WEB_QUERY":"エクスポート - Excel Web Query","NLButtonContext.ADD_KPI":"KPIを追加","NLAlertContext.PLEASE_ENTER_A_VALID_1_DIGIT_POSTAL_CODE":"有効な{1}桁の郵便番号を入力してください。","NLAlertContext.NON_KATAKANA_DATA_FOUND":"カタカナ以外の文字が入力されました","NLAlertContext.HTML_DOCUMENT_MUST_BEGIN_WITH_AN_HTML_TAG":"HTMLドキュメントは \u003CHTML\u003E タグ","NLButtonContext.EXPORT__PDF":"エクスポート - PDF","NLAlertContext.INVALID_TIME_VALUE":"時間の値が無効です","NLAlertContext.PLEASE_ENTER_A_VALID_DATE_RANGE_THE_FROM_DATE_MUST_PRECEDE_THE_TO_DATE":"適切な日付範囲を入力してください。開始日は終了日以前となるよう設定する必要があります。","NLPagemessageContext.NETSUITE_MAY_CONTACT_ME_TO_MAKE_THIS_EXPERIENCE_BETTER":"エクスペリエンスの向上のために、NetSuiteが自分に連絡する許可を与えます。","NLAlertContext.FROM_ADDRESS_MUST_BE_OF_THE_FORM_NAME_EMAIL_ADDRESS":"送信者アドレスは、\\\"名前\\\" \u003CEmail Address\u003Eのフォームである必要があります。","NLPagemessageContext.PLEASE_RATE_YOUR_EXPERIENCE":"お客様の利用満足度を教えてください","NLAlertContext.INVALID_DATETIME_VALUE_MISS_SPACES_BETWEEN_DATE_AND_TIME":"無効な日付/時刻です(日時の間にスペースがありません)","NLAlertContext.INVALID_NUMBER_MUST_BE_AT_LEAST_1":"無効な数値({1}以上である必要があります)","NLPagemessageContext.HOW_CAN_WE_IMPROVE_1":"{1:application}を改善する方法はありますか?","NLButtonContext.REMOVE":"削除","NLAlertContext.NOT_ALL_TABLE_TAGS_WERE_CLOSED_1__YOUR_HTML_IS_MISSING_A_CLOSING_2_TAG_AT_THE_END":"閉じられていないテーブル・タグがあります({1})。HTMLの末尾に終了{2}\u003Eタグがありません","NLButtonContext.EXPORT__CSV":"エクスポート - CSV","NLAlertContext.HTML_TAG_IS_IN_THE_WRONG_PLACE":"\u003C/HTML\u003E タグの位置が不適切です。","NLAlertContext.INVALID_CURRENCY_VALUE_VALUES_MUST_BE_NUMBERS_UP_TO_1":"通貨の値が無効です。値は{1}以下の数値である必要があります","NLAlertContext.IDENTIFIERS_CAN_CONTAIN_ONLY_DIGITS_ALPHABETIC_CHARACTERS_OR__WITH_NO_SPACES":"IDに使用できるのは数字、アルファベット、または\\\"_\\\"のみで、全角文字、スペースは使用できません。","NLPagemessageContext.RESTORE":"復元","NLFormlabelContext.ACCEPTED":"承諾","NLAlertContext.INVALID_DATE_VALUE_MUST_BE_ON_OR_AFTER_1CUTOFF_DATE":"無効な日付の値({1:cutoff date}以降である必要があります)","NLFormlabelContext.COLLAPSE_ALL":"すべて縮小","NLButtonContext.EXPORT__MICROSOFT_WORD":"エクスポート - Microsoft ® Word","NLPagemessageContext.MY_JOB_TITLE":"自分の役職","NLAlertContext.NOTICE_THE_CREDIT_CARD_APPEARS_TO_BE_INCORRECT":"注意: クレジット・カード情報が不適切です","NLAlertContext.THERE_ARE_TOO_MANY_CLOSING_TABLE_TAGS_DUE_TO_TAG_1_AT_LINE_2_COLUMN_3":"行{2}列{3}のタグ{1}のため、終了テーブル・タグが多すぎます。","NLPagemessageContext.MAXIMIZE":"最大化","NLAlertContext.INVALID_NUMBER_MUST_BE_GREATER_THAN_429B":"無効な数値(-4.29Bより大きい必要があります)","NLButtonContext.PRINT":"印刷","NLAlertContext.YOU_MAY_ONLY_ENTER_NUMBERS_INTO_THIS_FIELD":"このフィールドには数値しか入力できません。","NLAlertContext.COLOR_VALUE_MUST_BE_6_HEXADECIMAL_DIGITS_OF_THE_FORM_RRGGBB__EXAMPLE_FF0000_FOR_RED":"色の値は6桁の16進数で次の形式にしてください: #RRGGBB。たとえば赤は#FF0000となります。","NLFormlabelContext.EXPAND_ALL":"すべて展開","NLFormlabelContext.INLINE_EDITING":"インライン編集","NLPagemessageContext.UNROLLED_VIEW_OFF":"展開表示オフ","NLAlertContext.THE_FUNCTION_FIELD_MUST_BE_A_VALID_JAVASCRIPT_FUNCTION_IDENTIFIER":"機能フィールドは有効なJavaScriptの関数名である必要があります。","NLPagemessageContext.NO_DATA_AVAILABLE":"利用可能なデータがありません。","NLHeadingContext.ITEM":"アイテム","NLAlertContext.INVALID_NUMBER_MUST_BE_AT_MOST_2":"無効な数値({1}以下である必要があります)","NLAlertContext.INVALID_URL_SPACES_ARE_NOT_ALLOWED_IN_THE_URL":"URLが無効です。URLにはスペースを使用できません","NLPagemessageContext.VIDEOS":"ビデオ","NLHeadingContext.FEEDBACK":"フィードバック","NLAlertContext.PLEASE_ENTER_AN_EXPIRATION_DATE_IN_MMYYYY_FORMAT":"有効期限をMM/YYYY形式で入力してください。","NLButtonContext.SHOW_MORE_RESULTS":"結果をさらに表示","NLAlertContext.PLEASE_ENTER_A_SEARCH_STRING":"検索文字列を入力してください。","NLButtonContext.EXPORT__MICROSOFT_EXCEL":"エクスポート - Microsoft ® Excel","NLPagemessageContext.TRAINING":"トレーニング","NLAlertContext.ILLEGAL_NUMBER":"不正番号: ","NLPagemessageContext.HIDE":"非表示","NLFormlabelContext.FILTERS":"フィルター","NLAlertContext.INVALID_NUMBER_MUST_BE_NON_NEGATIVE":"無効: 0以上の数を入力してください。","NLHeadingContext.FILTERS":"フィルター","NLHeadingContext.LIKELIHOOD":"可能性","NLAlertContext.THE_FIRST_TABLE_TAG_IN_YOUR_HTML_MUST_BE_ONE_OF_1_NOT_2":"HTMLの最初のテーブル・タグは、{2}ではなく{1}の中の1つにしてください。","NLAlertContext.INVALID_DATE_VALUE_MUST_BE_1":"無効な日付の値(正しくは{1})","NLPagemessageContext.LOCKED":"ロック済","NLPagemessageContext.VISIT_THIS_HELP_TOPIC":"このヘルプを見る","NLButtonContext.MORE_MENUS":"その他のメニュー","NLPagemessageContext.DEV_PORTAL_DOC":"開発者","NLPagemessageContext.SUITEAPPS":"SuiteApp","NLAlertContext.THE_FIRST_TABLE_TAG_IN_YOUR_HTML_MUST_BE_A_1_TAG_NOT_2":"HTMLの最初のテーブル・タグは、{2}ではなく{1}タグにしてください。","NLButtonContext.SCROLL_LEFT":"左にスクロール","NLAlertContext.DO_YOU_REALLY_WANT_TO_DELETE_SELECTED_ENTRIES":"選択されたエントリーを削除しますか?","NLFormlabelContext.CANCELLED":"キャンセル済","NLPagemessageContext.PORTLETS_LEFT":"残りのポートレット:","NLFormlabelContext.EDIT":"編集","NLButtonContext.EXPORT__TABLEAU_WORKBOOK":"エクスポート - Tableau®ワークブック","NLAlertContext.YOU_HAVE_EXCEEDED_THE_LENGTH_LIMIT_FOR_THIS_FIELD_PLEASE_SHORTEN_YOUR_ENTRY_BY_1_CHARACTERS":"このフィールドの字数制限を超過しました。 入力を{1}文字短縮してください。","NLAlertContext.NO_VALID_EMAILS_FOUND_IN_1":"「{1}」には有効な電子メールがありません。","NLAlertContext.FIELD_MUST_CONTAIN_A_VALUE":"フィールドには必ず値を入力してください","NLPagemessageContext.NEW_RELEASE":"新リリース","NLFormlabelContext.FIELD":"フィールド","NLAlertContext.THIS_FIELD_COULD_CONTAIN_ONLY_LOWER_CASE_LETTERS_NUMBERS_AND_":"このフィールドで使用できるのは、小文字、数字、および「-」のみです。","NLHeadingContext.THANK_YOU":"ありがとうございました","NLPagemessageContext.ADD_ROW":"行を追加","NLPagemessageContext.IS_THERE_ANYTHING_ELSE_YOU_WOULD_YOU_LIKE_TO_SHARE_WITH_US":"他にお話しいただけることはありますか?","NLAlertContext.MISSING_SUBSTITUTION_CLOSING_TAG_SEQUENCE__FOR_OPEN_TAG_AT_LINE_1_COLUMN_2":"行{1}列{2}の開始タグに、代替終了タグ・シーケンス%\u003Eが欠落しています","NLAlertContext.INVALID_CURRENCY_VALUE_VALUE_CAN_NOT_BE_NEGATIVE":"通貨の値が無効です。負の値は使用できません。","NLAlertContext.ONLY_AN_HTML_FRAGMENT_IS_EXPECTED_HERE_NOT_A_WHOLE_HTML_DOCUMENT__THERE_SHOULD_BE_NO_HTML_OR_BODY_TAGS":"この場所はHTMLドキュメント全体ではなく、HTMLフラグメント用です。 \u003CHTML\u003E または \u003CBODY\u003E タグは含めないでください。","NLAlertContext.INVALID_SUITEAPP_APPLICATION_ID":"アプリケーションIDは、完全に適格な名称(com.publisherid.projectidなど)である必要があります。小文字の英数字とピリオドを2つのみ含める必要があります。IDの最初と最後はピリオドにしないでください。","NLFormlabelContext.TENTATIVE":"暫定","NLPagemessageContext.LOADING":"読込み中","NLButtonContext.SCROLL_RIGHT":"右にスクロール","NLAlertContext.INVALID_EMAILS_FOUND":"無効な電子メールが見つかりました: ","NLButtonContext.SEARCH_SERIALIZATION":"エクスポート - シリアル化","NLAlertContext.HTML_DOCUMENT_IS_MISSING_BODY_TAG":"HTMLドキュメントに \u003C/BODY\u003E タグ","NLAlertContext.EXPECTED_1_AT_LINE_2_COLUMN_3_BUT_FOUND_A_4_TAG":"行{2}列{3}で予期した{1}ではなく、{4}タグが見つかりました","NLAlertContext.YOU_HAVE_EXCEEDED_THE_1_CHARACTER_LIMIT_FOR_THIS_FIELD_PLEASE_SHORTEN_YOUR_ENTRY_BY_2_CHARACTERS":"このフィールドの字数制限{1}を超過しました。入力を{2}文字短縮してください。","NLFormlabelContext.TAB":"タブ","NLButtonContext.SHARE_YOUR_FEEDBACK":"フィードバックの共有","NLAlertContext.TOTAL_AMOUNT_TOO_LARGE_ALERT":"合計金額が大きすぎます。トランザクションを複数に分割してください。","NLAlertContext.INVALID_TIME_VALUE_MUST_BE_HHMI":"時間の値が無効です(HH:MM形式にしてください)","NLAlertContext.INVALID_NUMBER_MUST_BE_POSITIVE":"無効な数値(正の値である必要があります)","NLAlertContext.PLEASE_ENTER_A_VALID_FROM_START_DATE_IN_MMYYYY_FORMAT":"有効な開始日をMM/YYYY形式で入力してください。","NLAlertContext.YOU_MUST_ENTER_AN_ADDRESS_BEFORE_YOU_CAN_VIEW_A_MAP":"マップを表示する前に住所を入力する必要があります。","NLFormlabelContext.REQUIRED":"必須","NLButtonContext.SHOW_ALL_RESULTS":"すべての結果を表示","NLPagemessageContext.HOW_CAN_WE_IMPROVE_THIS_EXPERIENCE":"このエクスペリエンスを改善する方法はありますか?","NLStaticlistContext.OPTIONAL":"任意","NLPagemessageContext.SUITEANSWERS":"SuiteAnswers","NLAlertContext.INVALID_NUMBER_OR_PERCENTAGE":"数値またはパーセント値が無効","NLAlertContext.INVALID_NUMBER_MUST_BE_BETWEEN_1_AND_2":"無効な数値({1}から{2}の間である必要があります)","NLAlertContext.BODY_TAG_IS_IN_THE_WRONG_PLACE":"\u003CBODY\u003E タグの位置が不適切です。","NLButtonContext.CANCEL":"キャンセル","NLAlertContext.PLEASE_INCLUDE_THE_AREA_CODE_FOR_PHONE_NUMBER":"電話番号には市外番号を含めてください。 ","NLHeadingContext.SEARCH":"検索","NLButtonContext.ADD":"追加","NLHeadingContext.NO_RESULTS_FOUND":"結果がありません。","NLButtonContext.SUBMIT":"送信","NLHeadingContext.ERROR":"エラー","NLPagemessageContext.USER_GUIDES":"ユーザー・ガイド","NLAlertContext.PHONE_NUMBER_SHOULD_HAVE_SEVEN_DIGITS_OR_MORE":"電話番号は7桁以上の数字が必要です","NLPagemessageContext.PLEASE_RATE_YOUR_EXPERIENCE_WITH_1":"お客様の{1:application}での利用満足度を教えてください","NLAlertContext.PLEASE_ENTER_AT_LEAST_THREE_CHARACTERS_FOR_BEST_SEARCH_RESULTS":"最善の検索結果を得るには少なくとも3文字入力してください。","NLPagemessageContext.YOUR_FEEDBACK_IS_GREATLY_APPRECIATED":"フィードバックをお願いします。","NLPagemessageContext.HELP_CENTER":"ヘルプ・センター"}},"page":{"availablePromotions":{"SUITEPROCUREMENTV1":{"title":"間接調達を合理化して支出を管理","text":"SuiteProcurementは、NetSuite内から商品とサービスを間接的に購入するための効率的で費用対効果の高い透過的な方法を提供します。","color":"ORANGE","promotionLink":"https://6262239.extforms.netsuite.com/app/site/crm/externalleadpage.nl?compid=6262239\u0026formid=4218\u0026h=AAFdikaIDBFHx65KQErYZ34-a8iG7OpjXiISHAy8bK0UuVGmTmM\u0026leadsource=AMO_Horiz_SuiteProcurement_FreeProductTour_0325","promotionLinkLabel":"ツアーを見る"},"NSPBV1":{"title":"計画サイクルと予測サイクルの改善および高速化","text":"AIを活用したNetSuite Planning and Budgetingで予算および予測をすばやく簡単に作成し、what-ifシナリオをモデル化し、レポートを生成します。","imageUrl":"","color":"BLUE_DARK","promotionLink":"https://6262239.extforms.netsuite.com/app/site/crm/externalleadpage.nl/compid.6262239/.f?formid=3801\u0026h=AAFdikaImrJkK0CMG7JRQMfgm4vuK6dzXJmuOzAhydqykfZ9qtA\u0026leadsource=AMO_Horiz_NSPB_FreeProductTour_0724\u0026redirect_count=1\u0026did_javascript_redirect=T","promotionLinkLabel":"ツアーを見る"},"FAMV1":{"title":"より優れた固定資産の管理方法","text":"NetSuite Fixed Asset Managementを使用すると、固定資産のライフサイクル全体を管理できます。","imageUrl":"/images/logos/FAM@4x.png","color":"ORANGE","promotionLink":"https://6262239.extforms.netsuite.com/app/site/crm/externalleadpage.nl?compid=6262239\u0026formid=3984\u0026h=AAFdikaI0vQlVlnjs6bPL_Ad9tWWmz8gU2IrdQB1BMpJu0Qd4V0\u0026leadsource=AMO_Horiz_FAM_FreeProductTour_1024","promotionLinkLabel":"ツアーを見る"},"PROJECTS1":{"title":"Manage Your Projects with Ease","text":"Streamline your entire project lifecycle with NetSuite\u0027s unified project management solution.","color":"GREEN","promotionLink":"https://6262239.extforms.netsuite.com/app/site/crm/externalleadpage.nl?compid=6262239\u0026formid=3985\u0026h=AAFdikaI_V-5COA_xbXUhYaUop4ZcIORGI_OATIaG162xwiRakM\u0026leadsource=AMO_Horiz_SuiteProjects_FreeProductTour_1024","promotionLinkLabel":"ツアーを見る"},"TEST":{"title":"テスト","text":"テスト","imageUrl":"/images/logos/netsuite-oracle.svg","color":"ORANGE","promotionLink":"/app/center/card.nl","promotionLinkLabel":"無料の製品ツアーを取得"},"WMSV1":{"title":"倉庫オペレーションを変換","text":"NetSuite Warehouse Management Systemを使用すると、手数料を最小化して、より効率的に実行できます。","imageUrl":"/images/promotions/WMSV1.png","color":"GREEN","promotionLink":"https://6262239.extforms.netsuite.com/app/site/crm/externalleadpage.nl?compid=6262239\u0026formid=3986\u0026h=AAFdikaI54Gtvc09SBPpc02R9QP6oZA51gbBG1d94BRuSlLzFMs\u0026leadsource=AMO_Horiz_WMS_FreeProductTour_1024","promotionLinkLabel":"ツアーを見る"},"BILLINGV1":{"title":"登録請求を簡略化","text":"NetSuite SuiteBillingで繰返し登録の管理と請求を簡略化および自動化します。","color":"BLUE","promotionLink":"https://6262239.extforms.netsuite.com/app/site/crm/externalleadpage.nl?compid=6262239\u0026formid=4219\u0026h=AAFdikaIl4q7Oc2RC4TSlTFo5FvtRnZo7DrQSyW1dsEFCFizjHc\u0026leadsource=AMO_Horiz_SuiteBilling_FreeProductTour_0325","promotionLinkLabel":"ツアーを見る"},"NSARV1":{"title":"勘定照合プロセスを簡略化","text":"期間締めを迅速化するためにNetSuite Account Reconciliationで照合およびトランザクション照合を自動化します。","color":"BLUE","promotionLink":"https://6262239.extforms.netsuite.com/app/site/crm/externalleadpage.nl?compid=6262239\u0026formid=3800\u0026h=AAFdikaI6CtldPYW7zRsTLPv2wBt1wuh5dkQr1ephHnkX0CIXhg\u0026leadsource=AMO_Horiz_NSAR_FreeProductTour_0724Replace","promotionLinkLabel":"ツアーを見る"},"NSAWV1":{"title":"データに対するより優れた洞察を取得","text":"AIを活用したNetSuite Analytics Warehouseを使用すると、データの可視性、傾向、異常値および予測の検出が向上します。","imageUrl":"/images/in-app-banner/nsawv1.png","color":"BLUE","promotionLink":"https://6262239.extforms.netsuite.com/app/site/crm/externalleadpage.nl?compid=6262239\u0026formid=3124\u0026h=AAFdikaI0hUnZ7hLp_5Gk1Hiws6FC7IxFXmqyUrYRLxeYQQ-9pk\u0026leadsource=AMO_Horiz_NSAW_FreeProductTour_0523","promotionLinkLabel":"ツアーを見る"},"CLOSEMANAGEMENTV1":{"title":"より速く、より正確な締めを実現","text":"グローバルな連結およびコンプライアンスからタスク管理まで、NetSuite Close Management and Consolidationは財務の締めプロセスを簡略化します。","color":"GREEN","promotionLink":"https://6262239.extforms.netsuite.com/app/site/crm/externalleadpage.nl?compid=6262239\u0026formid=4217\u0026h=AAFdikaIwBMwk0HTrPjPBulr_nOd9r3QTN4xJgc6WkFaXEF1bic\u0026leadsource=AMO_Horiz_CloseManagement_FreeProductTour_0325","promotionLinkLabel":"ツアーを見る"},"BILLCAPTUREV1":{"title":"請求書データをNetSuiteにすばやく少ないエラーで取込み","text":"AIを活用したNetSuite Bill Captureを使用すると、請求書の入力およびコード付けなど、手動での退屈なタスクを減らすことができます。","imageUrl":"/images/logos/BC@4x.png","color":"BLUE","promotionLink":"https://6262239.extforms.netsuite.com/app/site/crm/externalleadpage.nl?compid=6262239\u0026formid=3775\u0026h=AAFdikaIhIpkvRGrTPEw-7-AyysHqTo-cKUipS9kQr8XR9Gj2cE\u0026leadsource=AMO_Horiz_BillCapture_FreeProductTour_0624","promotionLinkLabel":"ツアーを見る"},"CRMV1":{"title":"顧客データを最大限に活用","text":"営業、サポート、サービスおよびマーケティング向けに構築されたNetSuite CRMは、すべてのチームをすべての顧客データに接続します","color":"ORANGE","promotionLink":"https://6262239.extforms.netsuite.com/app/site/crm/externalleadpage.nl?compid=6262239\u0026formid=3983\u0026h=AAFdikaIV0Dy6YKizmnm1-VdYxJicFIs1_zyGxX6pyoRM1r0Nj0\u0026leadsource=AMO_Horiz_CRM_FreeProductTour_1024","promotionLinkLabel":"ツアーを見る"}},"taskId":"EDIT_CUST_396"}};
+		const {bootstrapLegacy} = await import('@nsn-ui/ui-apps-uif-bootstrap');
+		bootstrapLegacy(data);
+	}());
+</script>        </div>
+        <div id="div__header" class="ns-child-component">
+
+<div id="div__header__skeleton">
+	<div class="bgoff"></div>
+</div>
+
+<script type="text/javascript">
+	(async function () {
+		const [SystemHeader, UIF] = await Promise.all([
+			import('@nsn-ui/ui-apps-system-header'),
+			NS.UIF.load(),
+		]);
+
+		const {host} = UIF;
+		const options = {"logo":{"items":[{"url":"/images/logos/netsuite-oracle.svg","caption":"logo"},{"url":"/core/media/media.nl?id=2863\u0026c=6806569\u0026h=QtBPmDPsSVWD4wZyPsARdnmTjJuilmqM5guUxhJYJSQV5IYk","caption":"logo"}]},"visible":true,"taskId":"EDIT_CUST_396","theme":"refreshed","globalSearch":{"visible":true,"autoSuggestEnabled":true,"enabled":true},"systemSearch":{"globalSearch":{"visible":true,"autoSuggestEnabled":true,"enabled":true},"pageSearch":{"enabled":true},"visible":true,"autoSuggestEnabled":true},"headerNavigation":{"quickMenu":{"label":"新規作成","items":[{"id":"EDIT_EVENT","label":"イベント","url":"/app/crm/calendar/event.nl?whence=","type":"event","iconUrl":"/uirefresh/img/recordicon/event.svg","personalize":false},{"id":"EDIT_CALL","label":"通話","url":"/app/crm/calendar/call.nl?whence=","type":"call","iconUrl":"/uirefresh/img/recordicon/call.svg","personalize":false},{"id":"EDIT_TASK","label":"タスク","url":"/app/crm/calendar/task.nl?whence=","type":"task","iconUrl":"/uirefresh/img/recordicon/task.svg","personalize":false},{"id":"EDIT_CUSTJOB","label":"顧客","url":"/app/common/entity/custjob.nl?whence=","type":"customer","iconUrl":"/uirefresh/img/recordicon/customer.svg","personalize":false},{"id":"EDIT_TRAN_SALESORD","label":"注文書","url":"/app/accounting/transactions/salesord.nl?whence=","type":"salesorder","iconUrl":"/uirefresh/img/recordicon/salesorder.svg","personalize":false},{"id":"EDIT_TRAN_CASHSALE","label":"現金売上","url":"/app/accounting/transactions/cashsale.nl?whence=","type":"cashsale","iconUrl":"/uirefresh/img/recordicon/invoice.svg","personalize":false},{"id":"EDIT_TRAN_CUSTINVC","label":"請求書","url":"/app/accounting/transactions/custinvc.nl?whence=","type":"invoice","iconUrl":"/uirefresh/img/recordicon/invoice.svg","personalize":false},{"id":"EDIT_TRAN_CHECK","label":"小切手","url":"/app/accounting/transactions/check.nl?whence=","type":"check","iconUrl":"/uirefresh/img/recordicon/file.svg","personalize":false},{"id":"EDIT_TRAN_VENDBILL","label":"支払請求書","url":"/app/accounting/transactions/vendbill.nl?whence=","type":"bill","iconUrl":"/uirefresh/img/recordicon/transaction.svg","personalize":false}],"personalizeItem":{"id":"personalize","label":"パーソナライズ","url":"/app/center/setup/newbar.nl?whence=","type":"personalize","personalize":true}},"helpMenu":{"type":"TAB","label":"ヘルプ","submenu":[]},"accountMenu":{"currentRole":{"roleName":"三金商事株式会社 - 経理担当者","userName":"093","changeRoleUrl":"/app/login/secure/changerole.nl?id=6806569%7E11653%7E1016%7EN","isDefault":false,"showVendorName":false},"currentAccount":{"accountId":"6806569","accountName":"MITSUKIN SHOJI Co.LTD/三金商事株式会社","accountType":"PRODUCTION","changeAccountUrl":"/app/login/secure/changeaccount.nl?company=6806569"},"allRoles":[{"roleName":"三金商事株式会社 - 経理担当者","userName":"093","changeRoleUrl":"/app/login/secure/changerole.nl?id=6806569%7E11653%7E1016%7EN","isDefault":false,"showVendorName":false}],"allAccounts":[]},"feedbackSettings":{"backendUrl":"/app/ui/feedback/sendfeedback.nl","popupTimeout":"2000","ratingOptions":[{"key":"veryUnsatisfied","value":"1","text":"非常に不満"},{"key":"unsatisfied","value":"2","text":"不満"},{"key":"satisfied","value":"3","text":"満足"},{"key":"verySatisfied","value":"4","text":"非常に満足"}]}},"mainNavigation":{"items":[{"type":"TAB","id":"recentRecords","url":"/app/common/otherlists/recentrecords.nl?whence=\u0026whence=","icon":{"url":"/ui/webcore/images/icon-history.svg","caption":"最近使ったレコード","width":"24px","height":"24px"},"submenu":[{"type":"OVERVIEW","label":"最近使ったすべてのレコード","url":"/app/common/otherlists/recentrecords.nl?whence=","submenu":[],"recordId":0},{"type":"TASK","label":"订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=123837\u0026whence=","icon":{"url":"/uirefresh/img/recordicon/file.svg","caption":""},"submenu":[{"type":"TASK","label":"編集","ariaLabel":"編集 订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=123837\u0026e=T\u0026whence=","submenu":[],"recordId":0}],"recordId":123837,"lastAccess":1766044800000,"recordType":"generic"},{"type":"TASK","label":"订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=123607\u0026whence=","icon":{"url":"/uirefresh/img/recordicon/file.svg","caption":""},"submenu":[{"type":"TASK","label":"編集","ariaLabel":"編集 订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=123607\u0026e=T\u0026whence=","submenu":[],"recordId":0}],"recordId":123607,"lastAccess":1766044800000,"recordType":"generic"},{"type":"TASK","label":"订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=123608\u0026whence=","icon":{"url":"/uirefresh/img/recordicon/file.svg","caption":""},"submenu":[{"type":"TASK","label":"編集","ariaLabel":"編集 订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=123608\u0026e=T\u0026whence=","submenu":[],"recordId":0}],"recordId":123608,"lastAccess":1766044800000,"recordType":"generic"},{"type":"TASK","label":"发票 #01016839","url":"/app/accounting/transactions/custinvc.nl?id=6717265\u0026whence=","icon":{"url":"/uirefresh/img/recordicon/invoice.svg","caption":""},"submenu":[{"type":"TASK","label":"編集","ariaLabel":"編集 发票 #01016839","url":"/app/accounting/transactions/custinvc.nl?id=6717265\u0026e=T\u0026whence=","submenu":[],"recordId":0}],"recordId":6717265,"lastAccess":1766044800000,"recordType":"invoice","detail":"C000551 Shopee J-Beauty Hub PH フィリピン"},{"type":"TASK","label":"订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=43016\u0026whence=","icon":{"url":"/uirefresh/img/recordicon/file.svg","caption":""},"submenu":[{"type":"TASK","label":"編集","ariaLabel":"編集 订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=43016\u0026e=T\u0026whence=","submenu":[],"recordId":0}],"recordId":43016,"lastAccess":1766044800000,"recordType":"generic"},{"type":"TASK","label":"订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=43020\u0026whence=","icon":{"url":"/uirefresh/img/recordicon/file.svg","caption":""},"submenu":[{"type":"TASK","label":"編集","ariaLabel":"編集 订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=43020\u0026e=T\u0026whence=","submenu":[],"recordId":0}],"recordId":43020,"lastAccess":1766044800000,"recordType":"generic"},{"type":"TASK","label":"出金票 #17","url":"/app/accounting/transactions/vendpymt.nl?id=6937028\u0026whence=","icon":{"url":"/uirefresh/img/recordicon/file.svg","caption":""},"submenu":[{"type":"TASK","label":"編集","ariaLabel":"編集 出金票 #17","url":"/app/accounting/transactions/vendpymt.nl?id=6937028\u0026e=T\u0026whence=","submenu":[],"recordId":0}],"recordId":6937028,"lastAccess":1766044800000,"recordType":"generic","detail":"C000481 Lazada VN ベトナム"},{"type":"TASK","label":"支払請求書 2025/12/07","url":"/app/accounting/transactions/vendbill.nl?id=6936949\u0026whence=","icon":{"url":"/uirefresh/img/recordicon/transaction.svg","caption":""},"submenu":[{"type":"TASK","label":"編集","ariaLabel":"編集 支払請求書 2025/12/07","url":"/app/accounting/transactions/vendbill.nl?id=6936949\u0026e=T\u0026whence=","submenu":[],"recordId":0}],"recordId":6936949,"lastAccess":1766044800000,"recordType":"bill","detail":"C000481 Lazada VN ベトナム"},{"type":"TASK","label":"订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=93042\u0026whence=","icon":{"url":"/uirefresh/img/recordicon/file.svg","caption":""},"submenu":[{"type":"TASK","label":"編集","ariaLabel":"編集 订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=93042\u0026e=T\u0026whence=","submenu":[],"recordId":0}],"recordId":93042,"lastAccess":1766044800000,"recordType":"generic"},{"type":"TASK","label":"订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=51095\u0026whence=","icon":{"url":"/uirefresh/img/recordicon/file.svg","caption":""},"submenu":[{"type":"TASK","label":"編集","ariaLabel":"編集 订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=51095\u0026e=T\u0026whence=","submenu":[],"recordId":0}],"recordId":51095,"lastAccess":1766044800000,"recordType":"generic"},{"type":"TASK","label":"订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=191407\u0026whence=","icon":{"url":"/uirefresh/img/recordicon/file.svg","caption":""},"submenu":[{"type":"TASK","label":"編集","ariaLabel":"編集 订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=191407\u0026e=T\u0026whence=","submenu":[],"recordId":0}],"recordId":191407,"lastAccess":1766044800000,"recordType":"generic"},{"type":"TASK","label":"订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=123642\u0026whence=","icon":{"url":"/uirefresh/img/recordicon/file.svg","caption":""},"submenu":[{"type":"TASK","label":"編集","ariaLabel":"編集 订单后续中间表","url":"/app/common/custom/custrecordentry.nl?rectype=396\u0026id=123642\u0026e=T\u0026whence=","submenu":[],"recordId":0}],"recordId":123642,"lastAccess":1766044800000,"recordType":"generic"}]},{"type":"TAB","id":"shortcuts","action":"redirectToStickyPage(\u0027\u0027,\u0027OTHERCARD\u0027,false);","icon":{"url":"/ui/webcore/images/icon-favorites.svg","caption":"ショートカット","width":"24px","height":"24px"},"submenu":[{"type":"TASK","label":"Mitsukin外部サイト","url":"http://mitsukin.info","submenu":[],"inNewWindow":true},{"type":"TASK","label":"社内掲示板：ブロッコリー","url":"https://sites.google.com/mitsukin.info/burokori/%E3%83%9B%E3%83%BC%E3%83%A0","submenu":[],"inNewWindow":true},{"type":"TASK","label":"社内規定・ルール","url":"https://drive.google.com/drive/folders/1602f3viPbEdUwIBwISG6_II9Lnu9m9mV","submenu":[],"inNewWindow":true},{"type":"TASK","label":"各種申請書","url":"https://sites.google.com/mitsukin.info/burokori/%E7%AE%A1%E7%90%86%E9%83%A8","submenu":[],"inNewWindow":true},{"type":"TASK","label":"福利厚生","url":"https://sites.google.com/mitsukin.info/burokori/%E7%AE%A1%E7%90%86%E9%83%A8","submenu":[],"inNewWindow":true},{"type":"TASK","label":"ECログイン情報","url":"http://sanjin.heteml.net/ims/","submenu":[],"inNewWindow":true},{"type":"TASK","label":"ネクストエンジン","url":"https://ne95.next-engine.com/Userjyuchu","submenu":[],"inNewWindow":true},{"type":"TASK","label":"会社案内資料","url":"https://drive.google.com/file/d/1ydrmrQJeGaR0FFlZd7vqYr-o2EXNohhp/view","submenu":[],"inNewWindow":true},{"type":"TASK","label":"Netsuite各種登録用　フォーマット","url":"https://drive.google.com/drive/folders/16oUPLaeCHDm9jx-pbEDcwIwaO8g7Z7Di","submenu":[],"inNewWindow":true},{"type":"TASK","label":"業務マニュアル","url":"https://drive.google.com/drive/folders/0B-KHnIXaDItGYVJiQmx6V0ZENUk?resourcekey=0-m-NAFn98GW2PB2-aPiFJUA","submenu":[],"inNewWindow":true},{"type":"TASK","label":"商品説明書","url":"https://drive.google.com/drive/folders/0B-KHnIXaDItGb09PRHV2c2tmQlE?resourcekey=0-DQagdQxEP1yCUEqwFEkfQg","submenu":[],"inNewWindow":true},{"type":"TASK","label":"未納品リスト","url":"https://docs.google.com/spreadsheets/d/122t-vGwdi62HB-5_BDb9g8DJQLt3RZov/edit#gid=888842","submenu":[],"inNewWindow":true},{"type":"TASK","label":"海外商品情報","url":"https://drive.google.com/drive/folders/1omX-itsXWEvVU6dQu49T6JjdfbIZTAhd","submenu":[],"inNewWindow":true},{"type":"TASK","label":"新商品開発スケジュール","url":"https://drive.google.com/drive/folders/17LvrFaccxWN80fi8_H4D4f6VUkbnCirf","submenu":[],"inNewWindow":true},{"type":"TASK","label":"セール情報","url":"https://docs.google.com/spreadsheets/d/1nKKlllninn4kGrWb3UpFpXfundjRfjM-/edit#gid=982770101","submenu":[],"inNewWindow":true},{"type":"TASK","label":"運送会社・追跡","url":"https://sites.google.com/mitsukin.info/burokori/%E5%95%86%E5%93%81%E7%AE%A1%E7%90%86%E9%83%A8","submenu":[],"inNewWindow":true},{"type":"TASK","label":"メイン競合会社","url":"https://sites.google.com/mitsukin.info/burokori/ec%E8%B2%A9%E5%A3%B2%E9%83%A8","submenu":[],"inNewWindow":true},{"type":"TASK","label":"弁天倉庫カレンダー","url":"https://docs.google.com/spreadsheets/d/1J-5u5m3V1tnSeIB-yG2kKuN0K6dYV4BO/edit#gid=768560337","submenu":[],"inNewWindow":true},{"type":"TASK","label":"JD 已完成包裹查询日志","url":"/app/common/custom/custrecordentry.nl?rectype=401\u0026cf=-1401\u0026rectype=401\u0026whence=","submenu":[],"inNewWindow":true},{"type":"TASK","label":"ショートカットを設定","url":"/app/center/setup/shortcuts.nl?sc=-29\u0026sectionid=-29\u0026whence=","submenu":[],"inNewWindow":false}]},{"type":"TAB","id":"-29","url":"/app/center/card.nl?sc=-29\u0026whence=","icon":{"url":"/ui/webcore/images/icon-home.svg","caption":"ホーム","width":"24px","height":"24px"},"submenu":[{"type":"OVERVIEW","label":"ダッシュボード","url":"/app/center/card.nl?sc=-29\u0026whence=","submenu":[]},{"type":"TASK","label":"プリファレンスの設定","url":"/app/center/userprefs.nl?sc=-29\u0026whence=","submenu":[]}]},{"type":"TAB","id":"-62","label":"活動","url":"/app/center/card.nl?sc=-62\u0026whence=","submenu":[]},{"type":"TAB","id":"-100","label":"請求","url":"/app/center/card.nl?sc=-100\u0026whence=","submenu":[]},{"type":"TAB","id":"-38","label":"顧客","url":"/app/center/card.nl?sc=-38\u0026whence=","submenu":[]},{"type":"TAB","id":"-39","label":"仕入先","url":"/app/center/card.nl?sc=-39\u0026whence=","submenu":[]},{"type":"TAB","id":"-40","label":"給与管理および人事管理","url":"/app/center/card.nl?sc=-40\u0026whence=","submenu":[]},{"type":"TAB","id":"-41","label":"財務","url":"/app/center/card.nl?sc=-41\u0026whence=","submenu":[]},{"type":"TAB","id":"-42","label":"レポート","url":"/app/center/card.nl?sc=-42\u0026whence=","submenu":[]},{"type":"TAB","id":"-160","label":"分析","url":"/app/common/report/list.nl?sc=-160\u0026whence=","submenu":[]},{"type":"TAB","id":"16","label":"輸入諸掛","url":"/app/center/card.nl?sc=16\u0026whence=","submenu":[]},{"type":"TAB","id":"-63","label":"ドキュメント","url":"/app/common/media/mediaitemfolders.nl?sc=-63\u0026whence=","submenu":[]},{"type":"TAB","id":"-44","label":"設定","url":"/app/setup/mainsetup.nl?sc=-44\u0026whence=","submenu":[]},{"type":"TAB","id":"13","label":"入金","url":"/app/center/card.nl?sc=13\u0026whence=","submenu":[]},{"type":"TAB","id":"26","label":"Shopee 付款","url":"/app/center/card.nl?sc=26\u0026whence=","submenu":[]},{"type":"TAB","id":"-180","label":"SuiteApp","url":"/suiteapp/ui/marketplace.nl?sc=-180\u0026whence=","submenu":[]},{"type":"TAB","id":"-11","label":"サポート","url":"/app/center/card.nl?sc=-11\u0026whence=","submenu":[]}],"visible":true,"selectedSectionId":"26"},"addToShortcutData":{"label":"","taskId":"EDIT_CUST_396","params":"","itemLabel":"ショートカットに追加","callAddShortcut":true},"environment":"production","aiModeAvailable":false};
+		const systemHeader = SystemHeader['renderNetsuiteHeader'](host, options, true);
+
+		const skeleton = document.querySelector('#div__header__skeleton');
+		skeleton.remove();
+
+		const parent = document.querySelector('#div__header');
+		parent.classList.add('noprint');
+
+		host.render(systemHeader, parent);
+	}());
+</script>
+
+<iframe src="javascript:false" id="server_commands" name="server_commands" style="display: block; position: absolute; visibility: hidden; height: 0px; width: 0px" height="0" aria-hidden="true" tabindex="-1" title="空白"></iframe>
+        </div>
+        <div id="body" class="ns-child-component">
+<div id='div__title' style='margin: 0px;'></div><div id='div__label' class='scrollarea' style='margin: 0px; overflow:hidden;'></div><div id='div__body'><form class="uir-tab-form " enctype="UTF-8" method="post" name="main_form" action="/app/common/custom/custrecordentry.nl" data-body-fields="true" id="main_form" onsubmit="try {if (NS.form.isInited() && NS.form.isValid() && save_record(true)) { return true; } return false; } catch(e) { return false; }" onkeypress="if (getEventKeypress(event) == 13) { setEventCancelBubble(event);NLDoMainFormButtonAction('submitter',true); return false;} return true;"  style="margin: 0; font-size: 0px; padding-bottom: 10px; ">
+<div class='uir-form-header '>
+<div class="uir-page-title uir-page-title-record" data-title-type="default">
+
+    <div class="uir-page-title-firstline uir-page-title-firstline-record">
+        <h1 class="uir-record-type">订单后续中间表</h1>
+<div class="page-title-menu noprint page-title-menu-context">
+    <ul class="ns-menu">
+<li class="ns-menuitem ns-menuitem--icon-only" data-automation-id="previous-record" onpointerover="NS.UI.Helpers.Menu.initializeMenu(this);" data-nsps-type='menu_top' data-nsps-id="" data-nsps-label='前'>
+    <a id="" href="/app/common/framework/nextprev.nl?t=customrecordentry&amp;y=396&amp;id=123837&amp;url=%2Fapp%2Fcommon%2Fcustom%2Fcustrecordentry.nl%3Frectype%3D396&amp;e=T">
+        <img src="/uirefresh/img/move_left.svg" title="前" alt="前" />
+    </a>
+</li><li class="ns-menuitem ns-menuitem--icon-only" data-automation-id="next-record" onpointerover="NS.UI.Helpers.Menu.initializeMenu(this);" data-nsps-type='menu_top' data-nsps-id="" data-nsps-label='次へ'>
+    <a id="" href="/app/common/framework/nextprev.nl?t=customrecordentry&amp;y=396&amp;id=123837&amp;url=%2Fapp%2Fcommon%2Fcustom%2Fcustrecordentry.nl%3Frectype%3D396&amp;e=T&amp;n=T">
+        <img src="/uirefresh/img/move_right.svg" title="次へ" alt="次へ" />
+    </a>
+</li><li class="ns-menuitem" onpointerover="NS.UI.Helpers.Menu.initializeMenu(this);" data-nsps-type='menu_top' data-nsps-id="" data-nsps-label='リスト'>
+    <a id="" href="/app/common/custom/custrecordentrylist.nl?rectype=396">
+     リスト
+    </a>
+</li><li class="ns-menuitem" onpointerover="NS.UI.Helpers.Menu.initializeMenu(this);" data-nsps-type='menu_top' data-nsps-id="" data-nsps-label='検索'>
+    <a id="" href="/app/common/search/search.nl?searchtype=Custom&amp;rectype=396">
+     検索
+    </a>
+</li><li class="ns-menuitem ns-submenu" onpointerover="NS.UI.Helpers.Menu.initializeMenu(this);" data-nsps-type='menu_top' data-nsps-id="" data-nsps-label='その他'>
+    <a id="" href="#">
+     その他
+    </a>
+        <ul class="ns-menu">
+<li class="ns-menuitem" onpointerover="NS.UI.Helpers.Menu.initializeMenu(this);" data-nsps-type='menu' data-nsps-id="" data-nsps-label='ショートカットに追加'>
+    <a id="" href="addShortcut#" onclick="addShortcut();return false;">
+     ショートカットに追加
+    </a>
+</li>        </ul>
+</li>    </ul>
+</div>
+    </div>
+	<div id="uir-quickfind-box" class="uir-quickfind">
+		<div>
+			<input type="text" id="quickfind-field" class="uir-quickfind-text" placeholder="クイック検索" aria-label="クイック検索"/>
+			<input type="button" class="uir-quickfind-button" value="検索" onclick="doQuickFind(document.getElementById('quickfind-field').value); new NS.UI.Helpers.uir_loader('#uir-quickfind-box', 16);"/>
+		</div>
+	</div>
+</div>
+<div class='uir-buttons-top uir-header-buttons' data-alignment='left'>
+	<table role='presentation' cellpadding="0" cellspacing="0">
+		<tr class='uir-buttons'>
+                <td class='uir-multi-button-wrapper'><input type="hidden" id="multibuttonsubmit"/><script language="javascript">document.currentScript.parentNode.appendChild((new NLMultiButton('multibutton_submitter', [['保存', "submitter"],['保存 & 新規', "submitnew"],['保存 & コピー', "submitcopy"],['保存 & 次へ', "submitnext"]],'保存','EDIT_CUST_396','submitter',false, true, true, '', 'refreshed')).render());</script></td>        <td style='display:none;'>
+
+    
+
+    <table  id='tbl_submitter' cellpadding='0' cellspacing='0' border='0' class='uir-button'
+          style='margin-right:6px;' role='presentation'>
+
+        <tr id='tr_submitter' class='pgBntG pgBntB'>
+        <td id='tdleftcap_submitter'><img src='/images/nav/ns_x.gif' class='bntLT' border='0' height='50%' width='3' alt=''/>
+            <img src='/images/nav/ns_x.gif' class='bntLB' border='0' height='50%' width='3' alt=''/>
+        </td>
+        <td id='tdbody_submitter' height='20' valign='top' nowrap class='bntBgB'>
+
+
+    <input type='submit' style='' class='rndbuttoninpt bntBgT '
+
+        value='保存'
+
+
+    id='submitter' name='submitter'
+
+    
+
+    
+
+    
+
+	    onmousedown="this.setAttribute('_mousedown','T'); setButtonDown(true, false, this);"
+	    onmouseup="this.setAttribute('_mousedown','F'); setButtonDown(false, false, this);"
+	    onmouseout="if(this.getAttribute('_mousedown')=='T') setButtonDown(false, false, this);"
+	    onmouseover="if(this.getAttribute('_mousedown')=='T') setButtonDown(true, false, this);"
+    ></td> 
+
+       <td id='tdrightcap_submitter'>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRT' border='0' width='3' alt=''>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRB' border='0' width='3' alt=''>
+       </td>
+		</tr>
+
+    </table>
+    </td>
+        <td style='display:none;'>
+
+    
+
+    <table  id='tbl_submitnew' cellpadding='0' cellspacing='0' border='0' class='uir-button'
+          style='margin-right:6px;' role='presentation'>
+
+        <tr id='tr_submitnew' class='pgBntG'>
+        <td id='tdleftcap_submitnew'><img src='/images/nav/ns_x.gif' class='bntLT' border='0' height='50%' width='3' alt=''/>
+            <img src='/images/nav/ns_x.gif' class='bntLB' border='0' height='50%' width='3' alt=''/>
+        </td>
+        <td id='tdbody_submitnew' height='20' valign='top' nowrap class='bntBgB'>
+
+
+    <input type='submit' style='' class='rndbuttoninpt bntBgT '
+
+        value='保存 &amp; 新規'
+
+
+    id='submitnew' name='submitnew'
+
+    
+
+    
+
+    
+
+	    onmousedown="this.setAttribute('_mousedown','T'); setButtonDown(true, false, this);"
+	    onmouseup="this.setAttribute('_mousedown','F'); setButtonDown(false, false, this);"
+	    onmouseout="if(this.getAttribute('_mousedown')=='T') setButtonDown(false, false, this);"
+	    onmouseover="if(this.getAttribute('_mousedown')=='T') setButtonDown(true, false, this);"
+    ></td> 
+
+       <td id='tdrightcap_submitnew'>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRT' border='0' width='3' alt=''>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRB' border='0' width='3' alt=''>
+       </td>
+		</tr>
+
+    </table>
+    </td>
+        <td style='display:none;'>
+
+    
+
+    <table  id='tbl_submitcopy' cellpadding='0' cellspacing='0' border='0' class='uir-button'
+          style='margin-right:6px;' role='presentation'>
+
+        <tr id='tr_submitcopy' class='pgBntG'>
+        <td id='tdleftcap_submitcopy'><img src='/images/nav/ns_x.gif' class='bntLT' border='0' height='50%' width='3' alt=''/>
+            <img src='/images/nav/ns_x.gif' class='bntLB' border='0' height='50%' width='3' alt=''/>
+        </td>
+        <td id='tdbody_submitcopy' height='20' valign='top' nowrap class='bntBgB'>
+
+
+    <input type='submit' style='' class='rndbuttoninpt bntBgT '
+
+        value='保存 &amp; コピー'
+
+
+    id='submitcopy' name='submitcopy'
+
+    
+
+    
+
+    
+
+	    onmousedown="this.setAttribute('_mousedown','T'); setButtonDown(true, false, this);"
+	    onmouseup="this.setAttribute('_mousedown','F'); setButtonDown(false, false, this);"
+	    onmouseout="if(this.getAttribute('_mousedown')=='T') setButtonDown(false, false, this);"
+	    onmouseover="if(this.getAttribute('_mousedown')=='T') setButtonDown(true, false, this);"
+    ></td> 
+
+       <td id='tdrightcap_submitcopy'>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRT' border='0' width='3' alt=''>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRB' border='0' width='3' alt=''>
+       </td>
+		</tr>
+
+    </table>
+    </td>
+        <td style='display:none;'>
+
+    
+
+    <table  id='tbl_submitnext' cellpadding='0' cellspacing='0' border='0' class='uir-button'
+          style='margin-right:6px;' role='presentation'>
+
+        <tr id='tr_submitnext' class='pgBntG'>
+        <td id='tdleftcap_submitnext'><img src='/images/nav/ns_x.gif' class='bntLT' border='0' height='50%' width='3' alt=''/>
+            <img src='/images/nav/ns_x.gif' class='bntLB' border='0' height='50%' width='3' alt=''/>
+        </td>
+        <td id='tdbody_submitnext' height='20' valign='top' nowrap class='bntBgB'>
+
+
+    <input type='submit' style='' class='rndbuttoninpt bntBgT '
+
+        value='保存 &amp; 次へ'
+
+
+    id='submitnext' name='submitnext'
+
+    
+
+    
+
+    
+
+	    onmousedown="this.setAttribute('_mousedown','T'); setButtonDown(true, false, this);"
+	    onmouseup="this.setAttribute('_mousedown','F'); setButtonDown(false, false, this);"
+	    onmouseout="if(this.getAttribute('_mousedown')=='T') setButtonDown(false, false, this);"
+	    onmouseover="if(this.getAttribute('_mousedown')=='T') setButtonDown(true, false, this);"
+    ></td> 
+
+       <td id='tdrightcap_submitnext'>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRT' border='0' width='3' alt=''>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRB' border='0' width='3' alt=''>
+       </td>
+		</tr>
+
+    </table>
+    </td>
+        <td>
+
+    
+
+    <table  id='tbl__cancel' cellpadding='0' cellspacing='0' border='0' class='uir-button'
+          style='margin-right:6px;' role='presentation'>
+
+        <tr id='tr__cancel' class='pgBntG'>
+        <td id='tdleftcap__cancel'><img src='/images/nav/ns_x.gif' class='bntLT' border='0' height='50%' width='3' alt=''/>
+            <img src='/images/nav/ns_x.gif' class='bntLB' border='0' height='50%' width='3' alt=''/>
+        </td>
+        <td id='tdbody__cancel' height='20' valign='top' nowrap class='bntBgB'>
+
+
+    <input type='button' style='' class='rndbuttoninpt bntBgT '
+
+        value='キャンセル'
+
+		data-nsps-type='button' data-nsps-label='キャンセル'
+
+    id='_cancel' name='_cancel'
+
+    
+
+    
+
+     onclick="setWindowChanged(window, false);;history.back(); return false;"
+
+	    onmousedown="this.setAttribute('_mousedown','T'); setButtonDown(true, false, this);"
+	    onmouseup="this.setAttribute('_mousedown','F'); setButtonDown(false, false, this);"
+	    onmouseout="if(this.getAttribute('_mousedown')=='T') setButtonDown(false, false, this);"
+	    onmouseover="if(this.getAttribute('_mousedown')=='T') setButtonDown(true, false, this);"
+    ></td> 
+
+       <td id='tdrightcap__cancel'>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRT' border='0' width='3' alt=''>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRB' border='0' width='3' alt=''>
+       </td>
+		</tr>
+
+    </table>
+    </td>
+        <td style='display:none;'>
+
+    
+
+    <table  id='tbl_makecopy' cellpadding='0' cellspacing='0' border='0' class='uir-button'
+          style='margin-right:6px;' role='presentation'>
+
+        <tr id='tr_makecopy' class='pgBntG'>
+        <td id='tdleftcap_makecopy'><img src='/images/nav/ns_x.gif' class='bntLT' border='0' height='50%' width='3' alt=''/>
+            <img src='/images/nav/ns_x.gif' class='bntLB' border='0' height='50%' width='3' alt=''/>
+        </td>
+        <td id='tdbody_makecopy' height='20' valign='top' nowrap class='bntBgB'>
+
+
+    <input type='submit' style='' class='rndbuttoninpt bntBgT '
+
+        value='コピー作成'
+
+
+    id='makecopy' name='makecopy'
+
+    
+
+    
+
+     onclick="return((document.forms[0].id.value='',true));"
+
+	    onmousedown="this.setAttribute('_mousedown','T'); setButtonDown(true, false, this);"
+	    onmouseup="this.setAttribute('_mousedown','F'); setButtonDown(false, false, this);"
+	    onmouseout="if(this.getAttribute('_mousedown')=='T') setButtonDown(false, false, this);"
+	    onmouseover="if(this.getAttribute('_mousedown')=='T') setButtonDown(true, false, this);"
+    ></td> 
+
+       <td id='tdrightcap_makecopy'>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRT' border='0' width='3' alt=''>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRB' border='0' width='3' alt=''>
+       </td>
+		</tr>
+
+    </table>
+    </td>
+        <td style='display:none;'>
+
+    
+
+    <table  id='tbl_delete' cellpadding='0' cellspacing='0' border='0' class='uir-button'
+          style='margin-right:6px;' role='presentation'>
+
+        <tr id='tr_delete' class='pgBntG'>
+        <td id='tdleftcap_delete'><img src='/images/nav/ns_x.gif' class='bntLT' border='0' height='50%' width='3' alt=''/>
+            <img src='/images/nav/ns_x.gif' class='bntLB' border='0' height='50%' width='3' alt=''/>
+        </td>
+        <td id='tdbody_delete' height='20' valign='top' nowrap class='bntBgB'>
+
+
+    <input type='submit' style='' class='rndbuttoninpt bntBgT '
+
+        value='削除'
+
+
+    id='delete' name='delete'
+
+    
+
+    
+
+     onclick="if ((delete_record()) === false) { return false; } else { this.form.method = 'post'; }"
+
+	    onmousedown="this.setAttribute('_mousedown','T'); setButtonDown(true, false, this);"
+	    onmouseup="this.setAttribute('_mousedown','F'); setButtonDown(false, false, this);"
+	    onmouseout="if(this.getAttribute('_mousedown')=='T') setButtonDown(false, false, this);"
+	    onmouseover="if(this.getAttribute('_mousedown')=='T') setButtonDown(true, false, this);"
+    ></td> 
+
+       <td id='tdrightcap_delete'>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRT' border='0' width='3' alt=''>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRB' border='0' width='3' alt=''>
+       </td>
+		</tr>
+
+    </table>
+    </td>
+<td><table border='0' cellpadding='0' cellspacing='0'><tr><td><div class='uir-button-menu-divider'></div></td></tr></table></td><td class="uir-button-menu" data-automation-id="button-menu-createnew">
+<ul class="ns-menu">
+			<li class="ns-menuitem ns-menuitem--icon-only" onpointerover="NS.UI.Helpers.Menu.initializeMenu(this);" data-group="">
+				<a href="javascript:void(0)">
+					<img src='/uirefresh/img/add-record.svg' />
+				</a>
+
+<ul class="ns-menu">
+			<li class="ns-menuitem " data-group="新規作成">
+				<a href="javascript:void(0)" onclick="nlOpenWindow(&#39;/app/crm/common/note.nl?l=T&amp;refresh=usernotes&amp;perm=LIST_CUSTRECORDENTRY&amp;recordtype=396&amp;record=123837&amp;_ts=&#39;+(new Date).getTime(), &#39;newnote&#39;,&#39;width=710,height=640,resizable=yes,scrollbars=yes&#39;)">
+新しいノート					<img class='record-icon-small' src='/uirefresh/img/recordicon/note.svg' alt=''>
+				</a>
+			</li>
+			<li class="ns-menuitem " data-group="">
+				<a href="javascript:void(0)" onclick="document.location=&#39;/core/pages/customizenewbar.nl?taskid=EDIT_CUST_396&amp;dest=%2Fapp%2Fcommon%2Fcustom%2Fcustrecordentry.nl%3Frectype%3D396%26id%3D123837%26e%3DT&amp;page=%25u8BA2%25u5355%25u540E%25u7EED%25u4E2D%25u95F4%25u8868&amp;buttons=newhist&amp;labels=%25u65B0%25u3057%25u3044%25u30CE%25u30FC%25u30C8&#39;">
+パーソナライズ					
+				</a>
+			</li>
+</ul>			</li>
+</ul></td><td class="uir-button-menu" data-automation-id="button-menu-actionmenu">
+<ul class="ns-menu">
+			<li class="ns-menuitem " onpointerover="NS.UI.Helpers.Menu.initializeMenu(this);" data-group="">
+				<a href="javascript:void(0)">
+アクション					
+				</a>
+
+<ul class="ns-menu">
+			<li class="ns-menuitem " data-group="">
+				<a href="javascript:void(0)" onclick="NLInvokeButton(getButton(&#39;makecopy&#39;))">
+コピー作成					
+				</a>
+			</li>
+			<li class="ns-menuitem ">
+				<a href="javascript:void(0)" onclick="NLInvokeButton(getButton(&#39;delete&#39;))">
+削除					
+				</a>
+			</li>
+</ul>			</li>
+</ul></td>
+		</tr>
+	</table>
+</div>
+</div>
+<table width='100%' border='0' cellspacing='0' cellpadding='0' role='presentation'>
+
+<TR>
+<TD >
+<table border='0' class="uir-tab-fields" data-tab-name="main"  cellspacing='0' cellpadding='0' width='100%'>
+<TR><TD class='uir-table-fields-wrapper' valign='top' width='33%'><TABLE border='0' class='table_fields' cellspacing='0' cellpadding='0' data-colnumber='3'>
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="Custom Form"data-nsps-type="field"	 	data-required="true"
+	 	data-required-text="必須"
+data-field-type="select"data-field-name="customform"data-walkthrough="Field:customform"data-mode="edit"><span id="customform_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="customform_fs_lbl" class="uir-label-span labelSpanEdit smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'customform', this, 'customrecord', 'NA', '89', 'UI', 'EDIT_CUST_396', '6806569', 'RECORD', 'F', '', '%E8%AE%A2%E5%8D%95%E5%90%8E%E7%BB%AD%E4%B8%AD%E9%97%B4%E8%A1%A8', 'APP:FORMLABEL:CUSTOM_FORM', '')" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">Custom Form</a>
+<img class="required_icon" title="必須フィールド" alt="必須フィールド" src="/images/chiles/pageTitle/required.png" /><label class="uir-required-icon">*</label></span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="select">
+        <span id='customform_fs' data-fieldtype="select"  class=' uir-field-input  nldropdown' style="white-space:nowrap;">
+
+<div class="uir-select-input-container uir-field--medium-size">
+	<input name="inpt_customform"
+		   type="text"
+		   value="Standard 订单后续中间表 Form 2"
+		   class="dropdownInput textbox"
+		   onkeydown="getDropdown(this).handleKeydown(event);"
+		   onkeypress="getDropdown(this).handleKeypress(event);"
+		   onfocus="getDropdown(this).handleOnFocus(event);"
+		   onblur="getDropdown(this).handleOnBlur(event);"
+		   placeholder=" "
+           aria-labelledby="customform_fs_lbl"
+		   autocomplete="off"
+		   contenteditable="false"
+		   role="combobox" />
+
+	<span class="ddarrowSpan uir-field-dropdown-arrow">
+			<img src="/uirefresh/img/field/dropdown.png" height="20" width="20" class="i_dropdownarrow" alt="追加オプション"/>
+	</span>
+</div>
+
+<div class="ns-dropdown"
+	 data-name="customform"
+	 data-initialized="F"
+	 data-options="[{&quot;value&quot;:&quot;-1396&quot;,&quot;text&quot;:&quot;Standard 订单后续中间表 Form&quot;},{&quot;value&quot;:&quot;89&quot;,&quot;text&quot;:&quot;Standard 订单后续中间表 Form 2&quot;}]"
+	 data-favorites="[]"
+	 data-favorites-enabled="F"
+	 data-default-option="1"
+	 data-settings="{&quot;flags&quot;:-2147483520,&quot;width&quot;:280,&quot;minWidth&quot;:280,&quot;mandatory&quot;:true,&quot;displaySize&quot;:&quot;MEDIUM&quot;}"
+	 data-machine-name=""
+	 style="display: none; ">
+</div>
+
+<input name="customform"
+	   type="hidden"
+	   class="nldropdown"
+	   value="89"
+	   onchange="if (Synccustomform(true,null,null,null,null,null) == false) return false;if (getEventTarget(event)==this)this.focus();changeForm(nlapiGetFieldValue('customform'));"  />
+
+<input type="hidden" class="nldropdown-idx" value="1"/>
+
+<script type="text/javascript">
+    (function () {
+        var win = (window.parentAccesible != false && parent.initializeDropdowns) ? parent : window;
+        win.initializeDropdowns(win.NS.jQuery(document));
+    }())
+</script><span class='field_widget_helper_pos effectStatic'></span></span>
+</span>
+</div>
+		</td>
+
+	   </tr>
+
+
+
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="订单编号"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="text"data-field-name="custrecord_of_orderid"data-walkthrough="Field:custrecord_of_orderid"data-mode="edit"><span id="custrecord_of_orderid_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord_of_orderid_fs_lbl" class="uir-label-span labelSpanEdit smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord_of_orderid', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">订单编号</a>
+</span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="text">
+        <span style="white-space: nowrap" id="custrecord_of_orderid_fs" class="effectStatic uir-field-input" data-fieldtype="text"><input onKeyDown="" onKeyUp="" onChange="setWindowChanged(window, true);this.checkvalid=false;this.isvalid=validate_field(this,'text',true,false,null,null,false, null ,8);if (this.isvalid) this.isvalid=validate_textfield_maxlen(this,300,true,true);if (!this.isvalid) { selectAndFocusField(this);}return this.isvalid;" maxlength="300" onKeyPress="" type="text" onFocus="this.checkvalid=true;" onBlur="if (this.checkvalid == true) {this.isvalid=validate_field(this,'text',false,false,null,null,false, null ,8);} if (this.isvalid == false) { selectAndFocusField(this); if (arguments[0]){ arguments[0].stopPropagation();} return this.isvalid;} " size="0" aria-labelledby="custrecord_of_orderid_fs_lbl" name="custrecord_of_orderid" style="width: 280px" id="custrecord_of_orderid" placeholder=" " class="input uir-custom-field uir-field--medium-size uir-input-text" value="251008GNCFFVY7"></span>
+</span>
+</div>
+		</td>
+
+	   </tr>
+
+
+
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="拨款完成日期"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="date"data-field-name="custrecord_of_date"data-walkthrough="Field:custrecord_of_date"data-mode="edit"><span id="custrecord_of_date_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord_of_date_fs_lbl" class="uir-label-span labelSpanEdit smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord_of_date', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">拨款完成日期</a>
+</span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="date">
+        <span style="white-space: nowrap" id="custrecord_of_date_fs" class="effectStatic uir-field-input" data-fieldtype="date"><input onKeyDown="if(!window.NLDateField_handleKeyboardShortcut){return true;} return NLDateField_handleKeyboardShortcut(this, event);" onKeyUp="" onChange="setWindowChanged(window, true);this.checkvalid=false;this.isvalid=validate_field(this,'date',true,false,null,null,false, null ,8);if (!this.isvalid) { selectAndFocusField(this);}return this.isvalid;" maxlength="20" onKeyPress="" type="text" onFocus="this.checkvalid=true;" onBlur="if (this.checkvalid == true) {this.isvalid=validate_field(this,'date',false,false,null,null,false, null ,8);} if (this.isvalid == false) { selectAndFocusField(this); if (arguments[0]){ arguments[0].stopPropagation();} return this.isvalid;} " size="13" aria-labelledby="custrecord_of_date_fs_lbl" name="custrecord_of_date" style="width: 280px" id="custrecord_of_date" placeholder=" " class="input uir-custom-field uir-field--medium-size uir-input-text" value="2025/10/22"><span class='field_widget_pos uir-field-widget'><a onClick="NLCalender_popup(this, '', 'main:custrecord_of_date', false);return false;" onKeyPress="event.cancelBubble = true; return true;" tabindex="-1" href="javascript:void('custrecord_of_date')" id="custrecord_of_date_helper_calendar" title="選択" class="uir-helper-button uir-no-link smalltextul field_widget i_calendar"></a></span></span>
+</span>
+</div>
+		</td>
+
+	   </tr>
+
+
+
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="状态"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="text"data-field-name="custrecord_of_status"data-walkthrough="Field:custrecord_of_status"data-mode="edit"><span id="custrecord_of_status_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord_of_status_fs_lbl" class="uir-label-span labelSpanEdit smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord_of_status', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">状态</a>
+</span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="text">
+        <span style="white-space: nowrap" id="custrecord_of_status_fs" class="effectStatic uir-field-input" data-fieldtype="text"><input onKeyDown="" onKeyUp="" onChange="setWindowChanged(window, true);this.checkvalid=false;this.isvalid=validate_field(this,'text',true,false,null,null,false, null ,8);if (this.isvalid) this.isvalid=validate_textfield_maxlen(this,300,true,true);if (!this.isvalid) { selectAndFocusField(this);}return this.isvalid;" maxlength="300" onKeyPress="" type="text" onFocus="this.checkvalid=true;" onBlur="if (this.checkvalid == true) {this.isvalid=validate_field(this,'text',false,false,null,null,false, null ,8);} if (this.isvalid == false) { selectAndFocusField(this); if (arguments[0]){ arguments[0].stopPropagation();} return this.isvalid;} " size="0" aria-labelledby="custrecord_of_status_fs_lbl" name="custrecord_of_status" style="width: 280px" id="custrecord_of_status" placeholder=" " class="input uir-custom-field uir-field--medium-size uir-input-text" value=""></span>
+</span>
+</div>
+		</td>
+
+	   </tr>
+
+
+
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="关联付款"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="select"data-field-name="custrecord_of_relateddocuments"data-walkthrough="Field:custrecord_of_relateddocuments"data-mode="edit"><span id="custrecord_of_relateddocuments_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord_of_relateddocuments_fs_lbl" class="uir-label-span labelSpanEdit smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord_of_relateddocuments', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">关联付款</a>
+</span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="select">
+        <span data-fieldtype='popupselect' id='custrecord_of_relateddocuments_fs' style='white-space: nowrap' data-favorites-enabled='F'class='uir-field-input effectIE effectStatic'><div class="uir-select-input-container uir-field-popup-wrapper uir-field--medium-size"><input type='text' name='custrecord_of_relateddocuments_display' id='custrecord_of_relateddocuments_display' class='input dropdownInput rtpadding' style="width:280px" value=""  placeholder='<入力してTabキー>'aria-labelledby="custrecord_of_relateddocuments_fs_lbl" autocomplete='off' onkeypress="if( getEventKeypress(event) == 13) { window.lastKeyStroke = getEventKeypress(event); return false; } " onfocus="if (typeof this.isvalid == 'undefined') this.isvalid=true;"  asheep="409dacd7ed181a02c55523a052750ff49a90222eadf6b624426f3174a0457932" asuuk="6806569_1016_11653" onkeyup="if (NLPopupAutoSuggest_ignoreKeyStrokes(event)) { return false; } else { NLPopupAutoSuggest_handleKeyStroke(this, '2004521410:custrecord_of_relateddocuments', event, true, null); }" onkeydown="if(NLPopupAutoSuggest_ignoreKeyStrokes(event)) return false; var keycode = getEventKeypress(event); if(keycode == 13 || keycode == 9) { NLPopupAutoSuggest_hidePopupSuggestion(); }" onblur="if (this.isvalid == false) {this.focus();this.select();}" onmouseover="this.title=this.value;" onchange="if (typeof this.getAttribute('previousvalue')!='undefined' && this.getAttribute('previousvalue') == this.value) return false; this.haschanged = true; Searchcustrecord_of_relateddocuments(document.forms['main_form'].elements.custrecord_of_relateddocuments_display.value);" previousvalue='' data-field-label='关联付款'><span class='fwpopupsel_pos uir-field-popup-arrow' id='parent_actionbuttons_custrecord_of_relateddocuments_fs'><a id='custrecord_of_relateddocuments_popup_muli' class='fwpopupsel' onclick="NLAccelMenu_onButtonClick(event, 'actionbuttons_custrecord_of_relateddocuments_fs', false,this);return false;" onMouseOut="NLAccelMenu_onMouseOut('actionbuttons_custrecord_of_relateddocuments_fs');return false;" onMouseOver="NLAccelMenu_onMouseOver('actionbuttons_custrecord_of_relateddocuments_fs');return false;" onfocus="if (this.className.indexOf('_focus') == -1) this.className = this.className + '_focus'; return true;" onblur="this.className = this.className.replace('_focus', ''); return true;" style="display:none !important"></a><span class="fwpopupsel uir-field-popup-arrow-image" onclick="uir_showPopupSelectMenu(this);return false;" tabindex="-1"></span></span></div><span style='display: none; position: absolute;'><span style='padding:0px' onmouseover="NLAccelMenu_onMouseOver('actionbuttons_custrecord_of_relateddocuments_fs');" onmouseout="NLAccelMenu_onMouseOut('actionbuttons_custrecord_of_relateddocuments_fs');" class='dropdownDiv' id="actionbuttons_custrecord_of_relateddocuments_fs"><div class='ddmInnerTable'><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><span class='field_widget_boxpos'>
+<a data-helperbuttontype='list' id='custrecord_of_relateddocuments_popup_list' tabindex=-1 class='uir-helper-button uir-no-link smalltextnolink uir-field-widget' title='リスト' href='javascript:void("custrecord_of_relateddocuments_list")' onclick='Listcustrecord_of_relateddocuments(this);return false;'><img src='/images/core/widgets/popupselect/list.png' border=0 align=absmiddle alt='' >&nbsp;リスト</a></span>
+</div><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><span class='field_widget_boxpos'>
+<a data-helperbuttontype='search' id='custrecord_of_relateddocuments_popup_search' tabindex=-1 class='uir-helper-button uir-no-link smalltextnolink fwpopupsearch' title='検索' href='javascript:void("custrecord_of_relateddocuments_search")' onclick='PopupSearchcustrecord_of_relateddocuments(this); return false;'><img src='/images/core/widgets/popupselect/search.png' alt='検索'  border=0 align=absmiddle>&nbsp;検索</a></span>
+</div><span class='field_widget_boxpos'><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><a data-helperbuttontype='open' href='#' id='custrecord_of_relateddocuments_popup_link' class='uir-helper-button uir-no-link smalltextnolink' tabindex=-1 title='開く' onclick="if (getSelectValue(getFormElementViaFormName('main_form', 'custrecord_of_relateddocuments')).length>0) nlOpenWindow('/app/accounting/transactions/transaction.nl?id='+getSelectValue(getFormElementViaFormName('main_form', 'custrecord_of_relateddocuments'))+'', '_blank',''); else alert('まずエントリーを選択してください。');return false;"><img src='/images/core/widgets/popupselect/options.png' alt='開く' border=0 align=absmiddle>&nbsp;開く</a></div></span></div></span></span><input type='hidden' name='custrecord_of_relateddocuments' id='hddn_custrecord_of_relateddocuments_fs' onchange="setWindowChanged(window, true);if (Synccustrecord_of_relateddocuments(true) == false) return false; ;" value=""></span>
+</span>
+</div>
+		</td>
+
+	   </tr>
+
+
+
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="客户"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="select"data-field-name="custrecord_ml_ne_ro_shop"data-walkthrough="Field:custrecord_ml_ne_ro_shop"data-mode="edit"><span id="custrecord_ml_ne_ro_shop_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord_ml_ne_ro_shop_fs_lbl" class="uir-label-span labelSpanEdit smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord_ml_ne_ro_shop', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">客户</a>
+</span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="select">
+        <span data-fieldtype='popupselect' id='custrecord_ml_ne_ro_shop_fs' style='white-space: nowrap' data-favorites-enabled='F'class='uir-field-input effectIE effectStatic'><div class="uir-select-input-container uir-field-popup-wrapper uir-field--medium-size"><input type='text' name='custrecord_ml_ne_ro_shop_display' id='custrecord_ml_ne_ro_shop_display' class='input dropdownInput rtpadding' style="width:280px" value="C000551 Shopee J-Beauty Hub PH フィリピン"  placeholder='<入力してTabキー>'aria-labelledby="custrecord_ml_ne_ro_shop_fs_lbl" autocomplete='off' onkeypress="if( getEventKeypress(event) == 13) { window.lastKeyStroke = getEventKeypress(event); return false; } " onfocus="if (typeof this.isvalid == 'undefined') this.isvalid=true;"  asheep="409dacd7ed181a02c55523a052750ff49a90222eadf6b624426f3174a0457932" asuuk="6806569_1016_11653" onkeyup="if (NLPopupAutoSuggest_ignoreKeyStrokes(event)) { return false; } else { NLPopupAutoSuggest_handleKeyStroke(this, '2004521410:custrecord_ml_ne_ro_shop', event, true, null); }" onkeydown="if(NLPopupAutoSuggest_ignoreKeyStrokes(event)) return false; var keycode = getEventKeypress(event); if(keycode == 13 || keycode == 9) { NLPopupAutoSuggest_hidePopupSuggestion(); }" onblur="if (this.isvalid == false) {this.focus();this.select();}" onmouseover="this.title=this.value;" onchange="if (typeof this.getAttribute('previousvalue')!='undefined' && this.getAttribute('previousvalue') == this.value) return false; this.haschanged = true; Searchcustrecord_ml_ne_ro_shop(document.forms['main_form'].elements.custrecord_ml_ne_ro_shop_display.value);" previousvalue='C000551 Shopee J-Beauty Hub PH フィリピン' data-field-label='客户'><span class='fwpopupsel_pos uir-field-popup-arrow' id='parent_actionbuttons_custrecord_ml_ne_ro_shop_fs'><a id='custrecord_ml_ne_ro_shop_popup_muli' class='fwpopupsel' onclick="NLAccelMenu_onButtonClick(event, 'actionbuttons_custrecord_ml_ne_ro_shop_fs', false,this);return false;" onMouseOut="NLAccelMenu_onMouseOut('actionbuttons_custrecord_ml_ne_ro_shop_fs');return false;" onMouseOver="NLAccelMenu_onMouseOver('actionbuttons_custrecord_ml_ne_ro_shop_fs');return false;" onfocus="if (this.className.indexOf('_focus') == -1) this.className = this.className + '_focus'; return true;" onblur="this.className = this.className.replace('_focus', ''); return true;" style="display:none !important"></a><span class="fwpopupsel uir-field-popup-arrow-image" onclick="uir_showPopupSelectMenu(this);return false;" tabindex="-1"></span></span></div><span style='display: none; position: absolute;'><span style='padding:0px' onmouseover="NLAccelMenu_onMouseOver('actionbuttons_custrecord_ml_ne_ro_shop_fs');" onmouseout="NLAccelMenu_onMouseOut('actionbuttons_custrecord_ml_ne_ro_shop_fs');" class='dropdownDiv' id="actionbuttons_custrecord_ml_ne_ro_shop_fs"><div class='ddmInnerTable'><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><span class='field_widget_boxpos'>
+<a data-helperbuttontype='list' id='custrecord_ml_ne_ro_shop_popup_list' tabindex=-1 class='uir-helper-button uir-no-link smalltextnolink uir-field-widget' title='リスト' href='javascript:void("custrecord_ml_ne_ro_shop_list")' onclick='Listcustrecord_ml_ne_ro_shop(this);return false;'><img src='/images/core/widgets/popupselect/list.png' border=0 align=absmiddle alt='' >&nbsp;リスト</a></span>
+</div><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><span class='field_widget_boxpos'>
+<a data-helperbuttontype='search' id='custrecord_ml_ne_ro_shop_popup_search' tabindex=-1 class='uir-helper-button uir-no-link smalltextnolink fwpopupsearch' title='検索' href='javascript:void("custrecord_ml_ne_ro_shop_search")' onclick='PopupSearchcustrecord_ml_ne_ro_shop(this); return false;'><img src='/images/core/widgets/popupselect/search.png' alt='検索'  border=0 align=absmiddle>&nbsp;検索</a></span>
+</div><span class='field_widget_boxpos'><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><a data-helperbuttontype='new' id='custrecord_ml_ne_ro_shop_popup_new' tabindex=-1 class='uir-helper-button uir-no-link smalltextnolink' title='新規' href='javascript:void("custrecord_ml_ne_ro_shop_new")' onclick="nlOpenWindow('/app/common/entity/custjob.nl?target=main:custrecord_ml_ne_ro_shop&label=%E5%AE%A2%E6%88%B7', 'newcustrecord_ml_ne_ro_shop', 'width=900, height=800, resizable=yes, scrollbars=yes'); "><img src='/images/core/widgets/popupselect/sqnew.png' alt='新規追加' border=0 align=absmiddle>&nbsp;新規</a>
+</div></span><span class='field_widget_boxpos'><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><a data-helperbuttontype='open' href='#' id='custrecord_ml_ne_ro_shop_popup_link' class='uir-helper-button uir-no-link smalltextnolink' tabindex=-1 title='開く' onclick="if (getSelectValue(getFormElementViaFormName('main_form', 'custrecord_ml_ne_ro_shop')).length>0) nlOpenWindow('/app/common/entity/custjob.nl?id='+getSelectValue(getFormElementViaFormName('main_form', 'custrecord_ml_ne_ro_shop'))+'', '_blank',''); else alert('まずエントリーを選択してください。');return false;"><img src='/images/core/widgets/popupselect/options.png' alt='開く' border=0 align=absmiddle>&nbsp;開く</a></div></span></div></span></span><input type='hidden' name='custrecord_ml_ne_ro_shop' id='hddn_custrecord_ml_ne_ro_shop_fs' onchange="setWindowChanged(window, true);if (Synccustrecord_ml_ne_ro_shop(true) == false) return false; ;" value="11634"></span>
+</span>
+</div>
+		</td>
+
+	   </tr>
+
+
+
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="关联账单"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="select"data-field-name="custrecord_of_bill"data-walkthrough="Field:custrecord_of_bill"data-mode="edit"><span id="custrecord_of_bill_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord_of_bill_fs_lbl" class="uir-label-span labelSpanEdit smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord_of_bill', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">关联账单</a>
+</span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="select">
+        <span data-fieldtype='popupselect' id='custrecord_of_bill_fs' style='white-space: nowrap' data-favorites-enabled='F'class='uir-field-input effectIE effectStatic'><div class="uir-select-input-container uir-field-popup-wrapper uir-field--medium-size"><input type='text' name='custrecord_of_bill_display' id='custrecord_of_bill_display' class='input dropdownInput rtpadding' style="width:280px" value=""  placeholder='<入力してTabキー>'aria-labelledby="custrecord_of_bill_fs_lbl" autocomplete='off' onkeypress="if( getEventKeypress(event) == 13) { window.lastKeyStroke = getEventKeypress(event); return false; } " onfocus="if (typeof this.isvalid == 'undefined') this.isvalid=true;"  asheep="409dacd7ed181a02c55523a052750ff49a90222eadf6b624426f3174a0457932" asuuk="6806569_1016_11653" onkeyup="if (NLPopupAutoSuggest_ignoreKeyStrokes(event)) { return false; } else { NLPopupAutoSuggest_handleKeyStroke(this, '2004521410:custrecord_of_bill', event, true, null); }" onkeydown="if(NLPopupAutoSuggest_ignoreKeyStrokes(event)) return false; var keycode = getEventKeypress(event); if(keycode == 13 || keycode == 9) { NLPopupAutoSuggest_hidePopupSuggestion(); }" onblur="if (this.isvalid == false) {this.focus();this.select();}" onmouseover="this.title=this.value;" onchange="if (typeof this.getAttribute('previousvalue')!='undefined' && this.getAttribute('previousvalue') == this.value) return false; this.haschanged = true; Searchcustrecord_of_bill(document.forms['main_form'].elements.custrecord_of_bill_display.value);" previousvalue='' data-field-label='关联账单'><span class='fwpopupsel_pos uir-field-popup-arrow' id='parent_actionbuttons_custrecord_of_bill_fs'><a id='custrecord_of_bill_popup_muli' class='fwpopupsel' onclick="NLAccelMenu_onButtonClick(event, 'actionbuttons_custrecord_of_bill_fs', false,this);return false;" onMouseOut="NLAccelMenu_onMouseOut('actionbuttons_custrecord_of_bill_fs');return false;" onMouseOver="NLAccelMenu_onMouseOver('actionbuttons_custrecord_of_bill_fs');return false;" onfocus="if (this.className.indexOf('_focus') == -1) this.className = this.className + '_focus'; return true;" onblur="this.className = this.className.replace('_focus', ''); return true;" style="display:none !important"></a><span class="fwpopupsel uir-field-popup-arrow-image" onclick="uir_showPopupSelectMenu(this);return false;" tabindex="-1"></span></span></div><span style='display: none; position: absolute;'><span style='padding:0px' onmouseover="NLAccelMenu_onMouseOver('actionbuttons_custrecord_of_bill_fs');" onmouseout="NLAccelMenu_onMouseOut('actionbuttons_custrecord_of_bill_fs');" class='dropdownDiv' id="actionbuttons_custrecord_of_bill_fs"><div class='ddmInnerTable'><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><span class='field_widget_boxpos'>
+<a data-helperbuttontype='list' id='custrecord_of_bill_popup_list' tabindex=-1 class='uir-helper-button uir-no-link smalltextnolink uir-field-widget' title='リスト' href='javascript:void("custrecord_of_bill_list")' onclick='Listcustrecord_of_bill(this);return false;'><img src='/images/core/widgets/popupselect/list.png' border=0 align=absmiddle alt='' >&nbsp;リスト</a></span>
+</div><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><span class='field_widget_boxpos'>
+<a data-helperbuttontype='search' id='custrecord_of_bill_popup_search' tabindex=-1 class='uir-helper-button uir-no-link smalltextnolink fwpopupsearch' title='検索' href='javascript:void("custrecord_of_bill_search")' onclick='PopupSearchcustrecord_of_bill(this); return false;'><img src='/images/core/widgets/popupselect/search.png' alt='検索'  border=0 align=absmiddle>&nbsp;検索</a></span>
+</div><span class='field_widget_boxpos'><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><a data-helperbuttontype='open' href='#' id='custrecord_of_bill_popup_link' class='uir-helper-button uir-no-link smalltextnolink' tabindex=-1 title='開く' onclick="if (getSelectValue(getFormElementViaFormName('main_form', 'custrecord_of_bill')).length>0) nlOpenWindow('/app/accounting/transactions/transaction.nl?id='+getSelectValue(getFormElementViaFormName('main_form', 'custrecord_of_bill'))+'', '_blank',''); else alert('まずエントリーを選択してください。');return false;"><img src='/images/core/widgets/popupselect/options.png' alt='開く' border=0 align=absmiddle>&nbsp;開く</a></div></span></div></span></span><input type='hidden' name='custrecord_of_bill' id='hddn_custrecord_of_bill_fs' onchange="setWindowChanged(window, true);if (Synccustrecord_of_bill(true) == false) return false; ;" value=""></span>
+</span>
+</div>
+		</td>
+
+	   </tr>
+
+
+</TABLE></TD><TD class='uir-table-fields-wrapper' valign='top' width='33%'><TABLE class='table_fields' border='0' cellspacing='0' cellpadding='0'>
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper uir-onoff" data-nsps-label="账单完成"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="checkbox"data-field-name="custrecord_of_billend"data-walkthrough="Field:custrecord_of_billend"data-mode="edit"><span class="uir-field" data-nsps-type="field_input" data-field-type="checkbox">
+        <span style="white-space: nowrap" onClick="return NLCheckboxOnClick(this);" id="custrecord_of_billend_fs" class="checkbox_unck uir-field-input" data-fieldtype="checkbox"><input onClick="setEventCancelBubble(event); setWindowChanged(window, true);;" aria-labelledby="custrecord_of_billend_fs_lbl" onChange="NLCheckboxOnChange(this); " onKeyPress="NLCheckboxOnKeyPress(event);  return true;" name="custrecord_of_billend" id="custrecord_of_billend_fs_inp" type="checkbox" value="T" class="checkbox uir-check-box"><input type="hidden" name="custrecord_of_billend_send"><img class='checkboximage' src='/images/nav/ns_x.gif' alt='' /></span>
+</span>
+<span id="custrecord_of_billend_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord_of_billend_fs_lbl" class="uir-label-span checkboxSpan smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord_of_billend', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">账单完成</a>
+</span></span></div>
+		</td>
+
+	   </tr>
+
+
+
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper uir-onoff" data-nsps-label="付款完成"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="checkbox"data-field-name="custrecord_of_paymentend"data-walkthrough="Field:custrecord_of_paymentend"data-mode="edit"><span class="uir-field" data-nsps-type="field_input" data-field-type="checkbox">
+        <span style="white-space: nowrap" onClick="return NLCheckboxOnClick(this);" id="custrecord_of_paymentend_fs" class="checkbox_unck uir-field-input" data-fieldtype="checkbox"><input onClick="setEventCancelBubble(event); setWindowChanged(window, true);;" aria-labelledby="custrecord_of_paymentend_fs_lbl" onChange="NLCheckboxOnChange(this); " onKeyPress="NLCheckboxOnKeyPress(event);  return true;" name="custrecord_of_paymentend" id="custrecord_of_paymentend_fs_inp" type="checkbox" value="T" class="checkbox uir-check-box"><input type="hidden" name="custrecord_of_paymentend_send"><img class='checkboximage' src='/images/nav/ns_x.gif' alt='' /></span>
+</span>
+<span id="custrecord_of_paymentend_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord_of_paymentend_fs_lbl" class="uir-label-span checkboxSpan smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord_of_paymentend', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">付款完成</a>
+</span></span></div>
+		</td>
+
+	   </tr>
+
+
+
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="关联Invoice"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="select"data-field-name="custrecord_of_invoice"data-walkthrough="Field:custrecord_of_invoice"data-mode="edit"><span id="custrecord_of_invoice_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord_of_invoice_fs_lbl" class="uir-label-span labelSpanEdit smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord_of_invoice', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">关联Invoice</a>
+</span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="select">
+        <span data-fieldtype='popupselect' id='custrecord_of_invoice_fs' style='white-space: nowrap' data-favorites-enabled='F'class='uir-field-input effectIE effectStatic'><div class="uir-select-input-container uir-field-popup-wrapper uir-field--medium-size"><input type='text' name='custrecord_of_invoice_display' id='custrecord_of_invoice_display' class='input dropdownInput rtpadding' style="width:280px" value="請求書 #01010194"  placeholder='<入力してTabキー>'aria-labelledby="custrecord_of_invoice_fs_lbl" autocomplete='off' onkeypress="if( getEventKeypress(event) == 13) { window.lastKeyStroke = getEventKeypress(event); return false; } " onfocus="if (typeof this.isvalid == 'undefined') this.isvalid=true;"  asheep="409dacd7ed181a02c55523a052750ff49a90222eadf6b624426f3174a0457932" asuuk="6806569_1016_11653" onkeyup="if (NLPopupAutoSuggest_ignoreKeyStrokes(event)) { return false; } else { NLPopupAutoSuggest_handleKeyStroke(this, '2004521410:custrecord_of_invoice', event, true, null); }" onkeydown="if(NLPopupAutoSuggest_ignoreKeyStrokes(event)) return false; var keycode = getEventKeypress(event); if(keycode == 13 || keycode == 9) { NLPopupAutoSuggest_hidePopupSuggestion(); }" onblur="if (this.isvalid == false) {this.focus();this.select();}" onmouseover="this.title=this.value;" onchange="if (typeof this.getAttribute('previousvalue')!='undefined' && this.getAttribute('previousvalue') == this.value) return false; this.haschanged = true; Searchcustrecord_of_invoice(document.forms['main_form'].elements.custrecord_of_invoice_display.value);" previousvalue='請求書 #01010194' data-field-label='关联Invoice'><span class='fwpopupsel_pos uir-field-popup-arrow' id='parent_actionbuttons_custrecord_of_invoice_fs'><a id='custrecord_of_invoice_popup_muli' class='fwpopupsel' onclick="NLAccelMenu_onButtonClick(event, 'actionbuttons_custrecord_of_invoice_fs', false,this);return false;" onMouseOut="NLAccelMenu_onMouseOut('actionbuttons_custrecord_of_invoice_fs');return false;" onMouseOver="NLAccelMenu_onMouseOver('actionbuttons_custrecord_of_invoice_fs');return false;" onfocus="if (this.className.indexOf('_focus') == -1) this.className = this.className + '_focus'; return true;" onblur="this.className = this.className.replace('_focus', ''); return true;" style="display:none !important"></a><span class="fwpopupsel uir-field-popup-arrow-image" onclick="uir_showPopupSelectMenu(this);return false;" tabindex="-1"></span></span></div><span style='display: none; position: absolute;'><span style='padding:0px' onmouseover="NLAccelMenu_onMouseOver('actionbuttons_custrecord_of_invoice_fs');" onmouseout="NLAccelMenu_onMouseOut('actionbuttons_custrecord_of_invoice_fs');" class='dropdownDiv' id="actionbuttons_custrecord_of_invoice_fs"><div class='ddmInnerTable'><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><span class='field_widget_boxpos'>
+<a data-helperbuttontype='list' id='custrecord_of_invoice_popup_list' tabindex=-1 class='uir-helper-button uir-no-link smalltextnolink uir-field-widget' title='リスト' href='javascript:void("custrecord_of_invoice_list")' onclick='Listcustrecord_of_invoice(this);return false;'><img src='/images/core/widgets/popupselect/list.png' border=0 align=absmiddle alt='' >&nbsp;リスト</a></span>
+</div><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><span class='field_widget_boxpos'>
+<a data-helperbuttontype='search' id='custrecord_of_invoice_popup_search' tabindex=-1 class='uir-helper-button uir-no-link smalltextnolink fwpopupsearch' title='検索' href='javascript:void("custrecord_of_invoice_search")' onclick='PopupSearchcustrecord_of_invoice(this); return false;'><img src='/images/core/widgets/popupselect/search.png' alt='検索'  border=0 align=absmiddle>&nbsp;検索</a></span>
+</div><span class='field_widget_boxpos'><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><a data-helperbuttontype='open' href='#' id='custrecord_of_invoice_popup_link' class='uir-helper-button uir-no-link smalltextnolink' tabindex=-1 title='開く' onclick="if (getSelectValue(getFormElementViaFormName('main_form', 'custrecord_of_invoice')).length>0) nlOpenWindow('/app/accounting/transactions/transaction.nl?id='+getSelectValue(getFormElementViaFormName('main_form', 'custrecord_of_invoice'))+'', '_blank',''); else alert('まずエントリーを選択してください。');return false;"><img src='/images/core/widgets/popupselect/options.png' alt='開く' border=0 align=absmiddle>&nbsp;開く</a></div></span></div></span></span><input type='hidden' name='custrecord_of_invoice' id='hddn_custrecord_of_invoice_fs' onchange="setWindowChanged(window, true);if (Synccustrecord_of_invoice(true) == false) return false; ;" value="6694404"></span>
+</span>
+</div>
+		</td>
+
+	   </tr>
+
+
+
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="测试字段"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="textarea"data-field-name="custrecord4"data-walkthrough="Field:custrecord4"data-mode="edit"><span id="custrecord4_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord4_fs_lbl" class="uir-label-span labelSpanEdit smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord4', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">测试字段</a>
+</span></span><span class="uir-field uir-resizable" data-nsps-type="field_input" data-field-type="textarea">
+        <span id='custrecord4_fs' data-fieldtype="textarea" class='effectStatic uir-field-input' style='white-space: nowrap'><textarea name='custrecord4' id='custrecord4' rows='4' class='input textarea uir-input-text-area' wrap='VIRTUAL' placeholder=' 'aria-labelledby="custrecord4_fs_lbl" style='width: 280px' cols='40' onfocus="this.isvalid=false;" onblur="this.isvalid=validate_textfield_maxlen(this,1000000,false,true);return this.isvalid;" onchange="setWindowChanged(window, true);if (!this.isvalid) this.isvalid=validate_textfield_maxlen(this,1000000,true,true);if (this.isvalid == false) { selectAndFocusField(this); }if (this.isvalid) {};return this.isvalid;" onkeypress='event.cancelBubble = true; return true;'></textarea></span>
+</span>
+</div>
+		</td>
+
+	   </tr>
+
+
+</TABLE></TD><TD class='uir-table-fields-wrapper' valign='top' width='33%'><TABLE class='table_fields' border='0' cellspacing='0' cellpadding='0'>
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="付款金额"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="float"data-field-name="custrecord_ml_paymentamount"data-walkthrough="Field:custrecord_ml_paymentamount"data-mode="edit"><span id="custrecord_ml_paymentamount_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord_ml_paymentamount_fs_lbl" class="uir-label-span labelSpanEdit smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord_ml_paymentamount', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">付款金额</a>
+</span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="float">
+        <span style="white-space: nowrap" id="custrecord_ml_paymentamount_fs" class="effectStatic uir-field-input" data-fieldtype="float"><input onKeyDown="" onKeyUp="" onChange="setWindowChanged(window, true);this.checkvalid=false;this.isvalid=validate_field(this,'float',true,false,null,null,false, null ,8); if(this.isvalid) {getFormElementViaFormName('main_form', 'custrecord_ml_paymentamount').value = NLStringToNormalizedNumberString(this.value);}if (!this.isvalid) { selectAndFocusField(this);}return this.isvalid;" onKeyPress="" dataType="float" type="text" onFocus="this.checkvalid=true;" onBlur="if (this.checkvalid == true) {this.isvalid=validate_field(this,'float',false,false,null,null,false, null ,8); if(this.isvalid) {getFormElementViaFormName('main_form', 'custrecord_ml_paymentamount').value = NLStringToNormalizedNumberString(this.value);}} if (this.isvalid == false) { selectAndFocusField(this); if (arguments[0]){ arguments[0].stopPropagation();} return this.isvalid;} " size="15" aria-labelledby="custrecord_ml_paymentamount_fs_lbl" name="custrecord_ml_paymentamount_formattedValue" style="width: 280px; ime-mode:disabled" id="custrecord_ml_paymentamount_formattedValue" placeholder=" " class="input uir-custom-field uir-field--medium-size uir-input-text" value="1,434"><input onChange="getNLNumericOrCurrencyDisplayField(this).onchange()" dataType="float" name="custrecord_ml_paymentamount" id="custrecord_ml_paymentamount" placeholder=" " type="hidden" value="1434"></span>
+</span>
+</div>
+		</td>
+
+	   </tr>
+
+
+
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="退款金额"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="float"data-field-name="custrecord_ml_refoundamount"data-walkthrough="Field:custrecord_ml_refoundamount"data-mode="edit"><span id="custrecord_ml_refoundamount_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord_ml_refoundamount_fs_lbl" class="uir-label-span labelSpanEdit smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord_ml_refoundamount', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">退款金额</a>
+</span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="float">
+        <span style="white-space: nowrap" id="custrecord_ml_refoundamount_fs" class="effectStatic uir-field-input" data-fieldtype="float"><input onKeyDown="" onKeyUp="" onChange="setWindowChanged(window, true);this.checkvalid=false;this.isvalid=validate_field(this,'float',true,false,null,null,false, null ,8); if(this.isvalid) {getFormElementViaFormName('main_form', 'custrecord_ml_refoundamount').value = NLStringToNormalizedNumberString(this.value);}if (!this.isvalid) { selectAndFocusField(this);}return this.isvalid;" onKeyPress="" dataType="float" type="text" onFocus="this.checkvalid=true;" onBlur="if (this.checkvalid == true) {this.isvalid=validate_field(this,'float',false,false,null,null,false, null ,8); if(this.isvalid) {getFormElementViaFormName('main_form', 'custrecord_ml_refoundamount').value = NLStringToNormalizedNumberString(this.value);}} if (this.isvalid == false) { selectAndFocusField(this); if (arguments[0]){ arguments[0].stopPropagation();} return this.isvalid;} " size="15" aria-labelledby="custrecord_ml_refoundamount_fs_lbl" name="custrecord_ml_refoundamount_formattedValue" style="width: 280px; ime-mode:disabled" id="custrecord_ml_refoundamount_formattedValue" placeholder=" " class="input uir-custom-field uir-field--medium-size uir-input-text" value="0"><input onChange="getNLNumericOrCurrencyDisplayField(this).onchange()" dataType="float" name="custrecord_ml_refoundamount" id="custrecord_ml_refoundamount" placeholder=" " type="hidden" value="0"></span>
+</span>
+</div>
+		</td>
+
+	   </tr>
+
+
+
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="账单金额"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="float"data-field-name="custrecord_ml_billamount"data-walkthrough="Field:custrecord_ml_billamount"data-mode="edit"><span id="custrecord_ml_billamount_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord_ml_billamount_fs_lbl" class="uir-label-span labelSpanEdit smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord_ml_billamount', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">账单金额</a>
+</span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="float">
+        <span style="white-space: nowrap" id="custrecord_ml_billamount_fs" class="effectStatic uir-field-input" data-fieldtype="float"><input onKeyDown="" onKeyUp="" onChange="setWindowChanged(window, true);this.checkvalid=false;this.isvalid=validate_field(this,'float',true,false,null,null,false, null ,8); if(this.isvalid) {getFormElementViaFormName('main_form', 'custrecord_ml_billamount').value = NLStringToNormalizedNumberString(this.value);}if (!this.isvalid) { selectAndFocusField(this);}return this.isvalid;" onKeyPress="" dataType="float" type="text" onFocus="this.checkvalid=true;" onBlur="if (this.checkvalid == true) {this.isvalid=validate_field(this,'float',false,false,null,null,false, null ,8); if(this.isvalid) {getFormElementViaFormName('main_form', 'custrecord_ml_billamount').value = NLStringToNormalizedNumberString(this.value);}} if (this.isvalid == false) { selectAndFocusField(this); if (arguments[0]){ arguments[0].stopPropagation();} return this.isvalid;} " size="15" aria-labelledby="custrecord_ml_billamount_fs_lbl" name="custrecord_ml_billamount_formattedValue" style="width: 280px; ime-mode:disabled" id="custrecord_ml_billamount_formattedValue" placeholder=" " class="input uir-custom-field uir-field--medium-size uir-input-text" value="-551"><input onChange="getNLNumericOrCurrencyDisplayField(this).onchange()" dataType="float" name="custrecord_ml_billamount" id="custrecord_ml_billamount" placeholder=" " type="hidden" value="-551"></span>
+</span>
+</div>
+		</td>
+
+	   </tr>
+
+
+
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="关联贷项"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="select"data-field-name="custrecord_of_credit"data-walkthrough="Field:custrecord_of_credit"data-mode="edit"><span id="custrecord_of_credit_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord_of_credit_fs_lbl" class="uir-label-span labelSpanEdit smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord_of_credit', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">关联贷项</a>
+</span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="select">
+        <span data-fieldtype='popupselect' id='custrecord_of_credit_fs' style='white-space: nowrap' data-favorites-enabled='F'class='uir-field-input effectIE effectStatic'><div class="uir-select-input-container uir-field-popup-wrapper uir-field--medium-size"><input type='text' name='custrecord_of_credit_display' id='custrecord_of_credit_display' class='input dropdownInput rtpadding' style="width:280px" value=""  placeholder='<入力してTabキー>'aria-labelledby="custrecord_of_credit_fs_lbl" autocomplete='off' onkeypress="if( getEventKeypress(event) == 13) { window.lastKeyStroke = getEventKeypress(event); return false; } " onfocus="if (typeof this.isvalid == 'undefined') this.isvalid=true;"  asheep="409dacd7ed181a02c55523a052750ff49a90222eadf6b624426f3174a0457932" asuuk="6806569_1016_11653" onkeyup="if (NLPopupAutoSuggest_ignoreKeyStrokes(event)) { return false; } else { NLPopupAutoSuggest_handleKeyStroke(this, '2004521410:custrecord_of_credit', event, true, null); }" onkeydown="if(NLPopupAutoSuggest_ignoreKeyStrokes(event)) return false; var keycode = getEventKeypress(event); if(keycode == 13 || keycode == 9) { NLPopupAutoSuggest_hidePopupSuggestion(); }" onblur="if (this.isvalid == false) {this.focus();this.select();}" onmouseover="this.title=this.value;" onchange="if (typeof this.getAttribute('previousvalue')!='undefined' && this.getAttribute('previousvalue') == this.value) return false; this.haschanged = true; Searchcustrecord_of_credit(document.forms['main_form'].elements.custrecord_of_credit_display.value);" previousvalue='' data-field-label='关联贷项'><span class='fwpopupsel_pos uir-field-popup-arrow' id='parent_actionbuttons_custrecord_of_credit_fs'><a id='custrecord_of_credit_popup_muli' class='fwpopupsel' onclick="NLAccelMenu_onButtonClick(event, 'actionbuttons_custrecord_of_credit_fs', false,this);return false;" onMouseOut="NLAccelMenu_onMouseOut('actionbuttons_custrecord_of_credit_fs');return false;" onMouseOver="NLAccelMenu_onMouseOver('actionbuttons_custrecord_of_credit_fs');return false;" onfocus="if (this.className.indexOf('_focus') == -1) this.className = this.className + '_focus'; return true;" onblur="this.className = this.className.replace('_focus', ''); return true;" style="display:none !important"></a><span class="fwpopupsel uir-field-popup-arrow-image" onclick="uir_showPopupSelectMenu(this);return false;" tabindex="-1"></span></span></div><span style='display: none; position: absolute;'><span style='padding:0px' onmouseover="NLAccelMenu_onMouseOver('actionbuttons_custrecord_of_credit_fs');" onmouseout="NLAccelMenu_onMouseOut('actionbuttons_custrecord_of_credit_fs');" class='dropdownDiv' id="actionbuttons_custrecord_of_credit_fs"><div class='ddmInnerTable'><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><span class='field_widget_boxpos'>
+<a data-helperbuttontype='list' id='custrecord_of_credit_popup_list' tabindex=-1 class='uir-helper-button uir-no-link smalltextnolink uir-field-widget' title='リスト' href='javascript:void("custrecord_of_credit_list")' onclick='Listcustrecord_of_credit(this);return false;'><img src='/images/core/widgets/popupselect/list.png' border=0 align=absmiddle alt='' >&nbsp;リスト</a></span>
+</div><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><span class='field_widget_boxpos'>
+<a data-helperbuttontype='search' id='custrecord_of_credit_popup_search' tabindex=-1 class='uir-helper-button uir-no-link smalltextnolink fwpopupsearch' title='検索' href='javascript:void("custrecord_of_credit_search")' onclick='PopupSearchcustrecord_of_credit(this); return false;'><img src='/images/core/widgets/popupselect/search.png' alt='検索'  border=0 align=absmiddle>&nbsp;検索</a></span>
+</div><span class='field_widget_boxpos'><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><a data-helperbuttontype='open' href='#' id='custrecord_of_credit_popup_link' class='uir-helper-button uir-no-link smalltextnolink' tabindex=-1 title='開く' onclick="if (getSelectValue(getFormElementViaFormName('main_form', 'custrecord_of_credit')).length>0) nlOpenWindow('/app/accounting/transactions/transaction.nl?id='+getSelectValue(getFormElementViaFormName('main_form', 'custrecord_of_credit'))+'', '_blank',''); else alert('まずエントリーを選択してください。');return false;"><img src='/images/core/widgets/popupselect/options.png' alt='開く' border=0 align=absmiddle>&nbsp;開く</a></div></span></div></span></span><input type='hidden' name='custrecord_of_credit' id='hddn_custrecord_of_credit_fs' onchange="setWindowChanged(window, true);if (Synccustrecord_of_credit(true) == false) return false; ;" value=""></span>
+</span>
+</div>
+		</td>
+
+	   </tr>
+
+
+
+	   <tr class="uir-field-wrapper-cell ">
+
+		<td>
+
+<div class=" uir-field-wrapper uir-onoff" data-nsps-label="贷项完成"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="checkbox"data-field-name="custrecord_of_credited"data-walkthrough="Field:custrecord_of_credited"data-mode="edit"><span class="uir-field" data-nsps-type="field_input" data-field-type="checkbox">
+        <span style="white-space: nowrap" onClick="return NLCheckboxOnClick(this);" id="custrecord_of_credited_fs" class="checkbox_unck uir-field-input" data-fieldtype="checkbox"><input onClick="setEventCancelBubble(event); setWindowChanged(window, true);;" aria-labelledby="custrecord_of_credited_fs_lbl" onChange="NLCheckboxOnChange(this); " onKeyPress="NLCheckboxOnKeyPress(event);  return true;" name="custrecord_of_credited" id="custrecord_of_credited_fs_inp" type="checkbox" value="T" class="checkbox uir-check-box"><input type="hidden" name="custrecord_of_credited_send"><img class='checkboximage' src='/images/nav/ns_x.gif' alt='' /></span>
+</span>
+<span id="custrecord_of_credited_fs_lbl_uir_label" class="smallgraytextnolink uir-label " data-nsps-type="field_label"><span id="custrecord_of_credited_fs_lbl" class="uir-label-span checkboxSpan smallgraytextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'custrecord_of_credited', this)" class='smallgraytextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smallgraytext'); return true;" onmouseout="setFirstClassName(this, 'smallgraytextnolink'); ">贷项完成</a>
+</span></span></div>
+		</td>
+
+	   </tr>
+
+
+</TABLE></TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+
+</table>
+<input name="_eml_nkey_" id="_eml_nkey_" type="hidden" value="6806569~11653~1016~N">
+<input name="_multibtnstate_" id="_multibtnstate_" type="hidden" value="">
+<input name="selectedtab" id="selectedtab" type="hidden" value="">
+<input name="nsapiPI" id="nsapiPI" type="hidden" value="">
+<input name="nsapiSR" id="nsapiSR" type="hidden" value="">
+<input name="nsapiVF" id="nsapiVF" type="hidden" value="">
+<input name="nsapiFC" id="nsapiFC" type="hidden" value="">
+<input name="nsapiPS" id="nsapiPS" type="hidden" value="">
+<input name="nsapiVI" id="nsapiVI" type="hidden" value="">
+<input name="nsapiVD" id="nsapiVD" type="hidden" value="">
+<input name="nsapiPD" id="nsapiPD" type="hidden" value="">
+<input name="nsapiVL" id="nsapiVL" type="hidden" value="">
+<input name="nsapiRC" id="nsapiRC" type="hidden" value="">
+<input name="nsapiLI" id="nsapiLI" type="hidden" value="">
+<input name="nsapiLC" id="nsapiLC" type="hidden" value="">
+<input name="nsapiCT" id="nsapiCT" type="hidden" value="1766110491917">
+<input name="nsbrowserenv" id="nsbrowserenv" type="hidden" value="">
+<input name="wfPI" id="wfPI" type="hidden" value="">
+<input name="wfSR" id="wfSR" type="hidden" value="">
+<input name="wfVF" id="wfVF" type="hidden" value="">
+<input name="wfFC" id="wfFC" type="hidden" value="">
+<input name="wfPS" id="wfPS" type="hidden" value="">
+<input name="type" id="type" type="hidden" value="custrecordentry">
+<input name="id" id="id" type="hidden" value="123837">
+<input name="externalid" id="externalid" type="hidden" value="">
+<input name="whence" id="whence" type="hidden" value="/app/common/custom/custrecordentry.nl?rectype=396&amp;id=123837&amp;scrollid=123837">
+<input name="customwhence" id="customwhence" type="hidden" value="">
+<input name="entryformquerystring" id="entryformquerystring" type="hidden" value="rectype=396&amp;id=123837&amp;e=T">
+<input name="_csrf" id="_csrf" type="hidden" value="767eJsazU-YGHQ4yW4ch4nqYEd7h5naxJLQTcVi2xtOJuJVVd5Lep56fMP3olS6XwM_T0ZcTCmpuEvZFl08GceQddwAzls_eYEHoFKIzAaSVBwyJwUzRqRxp8TDOgAszJdDFwKXVZisRQtmnupmOQNhdCoaWryZ2zicZT0dI9c4=">
+<input name="wfinstances" id="wfinstances" type="hidden" value="">
+<input name="owner" id="owner" type="hidden" onChange="if(!this.noslaving) { setWindowChanged(window, true); }" value="11653">
+<input name="isinactive" id="isinactive" type="hidden" value="F">
+<input name="custrecord_of_platform" id="custrecord_of_platform" type="hidden" value="">
+<input name="custrecord_of_originalprice" id="custrecord_of_originalprice" type="hidden" value="">
+<input name="custrecord_of_merchandisediscount" id="custrecord_of_merchandisediscount" type="hidden" value="">
+<input name="custrecord_of_refundamount" id="custrecord_of_refundamount" type="hidden" value="">
+<input name="custrecord_of_amountrebate" id="custrecord_of_amountrebate" type="hidden" value="">
+<input name="custrecord_of_sellercouponamount" id="custrecord_of_sellercouponamount" type="hidden" value="">
+<input name="custrecord_of_rebatesprovid" id="custrecord_of_rebatesprovid" type="hidden" value="">
+<input name="custrecord_of_buyerpaysfreight" id="custrecord_of_buyerpaysfreight" type="hidden" value="">
+<input name="custrecord_of_shopeefreightsubsidy" id="custrecord_of_shopeefreightsubsidy" type="hidden" value="">
+<input name="custrecord_of_sellerpaysforshipping" id="custrecord_of_sellerpaysforshipping" type="hidden" value="">
+<input name="custrecord_of_backfreight" id="custrecord_of_backfreight" type="hidden" value="">
+<input name="custrecord_of_affiliatecommission" id="custrecord_of_affiliatecommission" type="hidden" value="">
+<input name="custrecord_of_commission" id="custrecord_of_commission" type="hidden" value="">
+<input name="custrecord_of_overseasservicefeefree" id="custrecord_of_overseasservicefeefree" type="hidden" value="">
+<input name="custrecord_of_servicecharge" id="custrecord_of_servicecharge" type="hidden" value="">
+<input name="custrecord_of_transactionfee" id="custrecord_of_transactionfee" type="hidden" value="">
+<input name="custrecord_of_producttax" id="custrecord_of_producttax" type="hidden" value="">
+<input name="custrecord_of_shippingtax" id="custrecord_of_shippingtax" type="hidden" value="">
+<input name="custrecord_of_grantamount" id="custrecord_of_grantamount" type="hidden" value="">
+<input name="custrecord_of_shippingfeepaidbyselle" id="custrecord_of_shippingfeepaidbyselle" type="hidden" value="">
+<input name="custrecord_of_shippingfeechargedby3p" id="custrecord_of_shippingfeechargedby3p" type="hidden" value="">
+<input name="custrecord_of_shippingfeevoucher" id="custrecord_of_shippingfeevoucher" type="hidden" value="">
+<input name="custrecord_of_lazada_commission" id="custrecord_of_lazada_commission" type="hidden" value="">
+<input name="custrecord_of_lazada_paymentfee" id="custrecord_of_lazada_paymentfee" type="hidden" value="">
+<input name="custrecord_of_lazada_itempricecredit" id="custrecord_of_lazada_itempricecredit" type="hidden" value="">
+<input name="custrecord_of_promotionalchargesvouchers" id="custrecord_of_promotionalchargesvouchers" type="hidden" value="">
+<input name="custrecord_of_lazada_freeshippingmaxfee" id="custrecord_of_lazada_freeshippingmaxfee" type="hidden" value="">
+<input name="custrecord_lazada_refundamount" id="custrecord_lazada_refundamount" type="hidden" value="">
+<input name="templatestored" id="templatestored" type="hidden" value="F">
+<input name="scriptid" id="scriptid" type="hidden" value="val_13009160_6806569_861">
+<input name="ownerid" id="ownerid" type="hidden" value="11653">
+<input name="rectype" id="rectype" type="hidden" onChange="if(!this.noslaving) { setWindowChanged(window, true); }" value="396">
+<input name="linenumber" id="linenumber" type="hidden" value="123837">
+<input name="version" id="version" type="hidden" value="">
+<input name="submitnext_t" id="submitnext_t" type="hidden" value="customrecordentry">
+<input name="submitnext_y" id="submitnext_y" type="hidden" value="396">
+<input name="nluser" id="nluser" type="hidden" value="11653">
+<input name="nlrole" id="nlrole" type="hidden" value="1016">
+<input name="nldept" id="nldept" type="hidden" value="1">
+<input name="nlloc" id="nlloc" type="hidden" value="0">
+<input name="nlsub" id="nlsub" type="hidden" value="1">
+<input name="baserecordtype" id="baserecordtype" type="hidden" value="customrecord_ml_orderfollowup">
+<input name="submitted" id="submitted" type="hidden" value="">
+<input name="formdisplayview" id="formdisplayview" type="hidden" value="NONE">
+<input name="_button" id="_button" type="hidden" value="">
+<input type='hidden' autocomplete='off' id='systemnotesloaded' name='systemnotesloaded' value='F'>
+<input type='hidden' autocomplete='off' id='systemnotesdotted' name='systemnotesdotted' value='T'>
+<input type='hidden' autocomplete='off' id='activeworkflowsloaded' name='activeworkflowsloaded' value='F'>
+<input type='hidden' autocomplete='off' id='activeworkflowsdotted' name='activeworkflowsdotted' value='F'>
+<input type='hidden' autocomplete='off' id='workflowhistoryloaded' name='workflowhistoryloaded' value='F'>
+<input type='hidden' autocomplete='off' id='workflowhistorydotted' name='workflowhistorydotted' value='F'>
+
+<br />
+</form>
+<div id='notes_wrapper' class='nltabcontent' data-nsps-wrapper='notes' style="z-index:2; display: block; width:100%;position:relative;">
+<div id='notes_div' style='width:100%;padding-bottom:3;'>
+<div class='nltabcontent' style='display: block;'>
+<form class="uir-tab-form " method="post" name="notes_form" id="notes_form" onkeypress="if (getEventKeypress(event) == 13) { setEventCancelBubble(event);NLDoMainFormButtonAction('submitter',true); return false;} return true;"  style="margin: 0; font-size: 0px; ">
+<table border='0' cellspacing='0' cellpadding='0' width='100%'>
+
+
+</table>
+</form>
+<table class="uir-table-block uir-tabs uir-tabs--nested" cellpadding=0 cellspacing=0 border=0 width='100%'><tbody><tr><td>
+<div id='notes_mh' class='bgsubtabbar uir-subtab-panel-tabs'>
+<div class='subtabbarul' style='position: absolute; top:0px; left:0px;'></div>
+<div class='subtabbarur' style='position: absolute; top:0px; right:0px;'></div>
+<table border='0' cellspacing='0' cellpadding='0' class='bgsubtabbar' role='presentation'>
+<tr class='uir-subtab-panel-tabs-row'>
+<td id='notes_mh_sp_0' class='formsubtabsep' side='0'>&nbsp;</td><td valign='middle' nowrap id='usernoteslnk' class='formsubtabon' style=''><a href='javascript:void("usernotes");' id='usernotestxt' class='formsubtabtext formsubtabtexton'  onclick='if (NS.form.isInited()) { window.shownmachine = "usernotes";ShownotesMachine("usernotes"); } return false;' aria-keyshortcuts='u' data-accesskey='u' onfocus=' if (getEventAltKey(event)) {if (NS.form.isInited()) { window.shownmachine = "usernotes";ShownotesMachine("usernotes"); } return false;}' onkeypress='event.cancelBubble = true; return true;' data-nsps-label='User Notes (u)' data-nsps-id='usernotes' data-nsps-type='subtab' on='1'>User Notes (<SPAN style='text-decoration:underline'>u</SPAN>)</a><span id='usernoteslnkdot' class='uir-tab-content-dot formsubtabtext formsubtabtexton' style='display:none;'> <img id='usernotesltidot' name='usernotesltidot' src='/images/forms/tab/contentindicator_on.png' alt='利用可能なコンテンツ' style='width:6px; height:8px;' border='0'/></span></td><td id='notes_mh_sp_1' class='formsubtabsep' side=''>&nbsp;</td><td valign='middle' nowrap id='systemnoteslnk' class='formsubtaboff' style=''><a href='javascript:void("systemnotes");' id='systemnotestxt' class='formsubtabtext formsubtabtextoff'  onclick='if (NS.form.isInited()) { window.shownmachine = "systemnotes";ShownotesMachine("systemnotes"); } return false;' aria-keyshortcuts='s' data-accesskey='s' onfocus=' if (getEventAltKey(event)) {if (NS.form.isInited()) { window.shownmachine = "systemnotes";ShownotesMachine("systemnotes"); } return false;}' onkeypress='event.cancelBubble = true; return true;' data-nsps-label='System Notes (s)' data-nsps-id='systemnotes' data-nsps-type='subtab' on='0'>System Notes (<SPAN style='text-decoration:underline'>s</SPAN>)</a><span id='systemnoteslnkdot' class='uir-tab-content-dot formsubtabtext formsubtabtextoff' style='display:;'> <img id='systemnotesltidot' name='systemnotesltidot' src='/images/forms/tab/contentindicator_off.png' alt='利用可能なコンテンツ' style='width:6px; height:8px;' border='0'/></span></td><td id='notes_mh_sp_2' class='formsubtabsep' side='1'>&nbsp;</td></tr>
+</table>
+</div>
+</td></tr>
+<tr class='ns-subtab-border'><td>
+<div class='subtabblock' style='position:relative; '>
+<div id='usernotes_layer' style='' data-nsps-layer='usernotes'>
+<div  class='subtabblock uir-machine-block' style='padding: 4px;' ><form class='uir-machine-form' id='usernotes_main_form' name='usernotes_main_form' action='javascript:void(0)' style='margin:0;'>
+<div class='uir-list-filters'>
+<table  border='0' cellspacing='0' cellpadding='0' role='presentation'>
+<tr>
+
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="表示"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="select"data-field-name="searchid"data-walkthrough="Field:searchid"data-mode="edit"><span id="usernotes_searchid_fs_lbl_uir_label" class="smalltextnolink uir-label " data-nsps-type="field_label"><span id="usernotes_searchid_fs_lbl" class="uir-label-span labelSpanEdit smalltextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'searchid', this, 'customrecord', 'NA', '89', 'UI', 'EDIT_CUST_396', '6806569', 'RECORD', 'F', '', '%E8%AE%A2%E5%8D%95%E5%90%8E%E7%BB%AD%E4%B8%AD%E9%97%B4%E8%A1%A8', 'APP:FORMLABEL:VIEW', '')" class='smalltextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smalltextul'); return true;" onmouseout="setFirstClassName(this, 'smalltextnolink'); ">表示</a>
+</span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="select">
+        <span id='usernotes_searchid_fs' data-fieldtype="select"  class=' uir-field-input  nldropdown' style="white-space:nowrap;">
+
+<div class="uir-select-input-container uir-field--auto-size">
+	<input name="inpt_searchid"
+		   type="text"
+		   value="ユーザー・ノート・デフォルト・サブリスト・ビュー"
+		   class="dropdownInput textbox"
+		   onkeydown="getDropdown(this).handleKeydown(event);"
+		   onkeypress="getDropdown(this).handleKeypress(event);"
+		   onfocus="getDropdown(this).handleOnFocus(event);"
+		   onblur="getDropdown(this).handleOnBlur(event);"
+		   placeholder=" "
+           aria-labelledby="usernotes_searchid_fs_lbl"
+		   autocomplete="off"
+		   contenteditable="false"
+		   role="combobox" />
+
+	<span class="ddarrowSpan uir-field-dropdown-arrow">
+			<img src="/uirefresh/img/field/dropdown.png" height="20" width="20" class="i_dropdownarrow" alt="追加オプション"/>
+	</span>
+</div>
+
+<div class="ns-dropdown"
+	 data-name="searchid"
+	 data-initialized="F"
+	 data-options="[{&quot;value&quot;:&quot;-2400&quot;,&quot;text&quot;:&quot;ユーザー・ノート・デフォルト・サブリスト・ビュー&quot;}]"
+	 data-favorites="[]"
+	 data-favorites-enabled="F"
+	 data-default-option="0"
+	 data-settings="{&quot;flags&quot;:-2147483648,&quot;width&quot;:-1,&quot;minWidth&quot;:-1,&quot;mandatory&quot;:false,&quot;displaySize&quot;:&quot;AUTO&quot;}"
+	 data-machine-name="usernotes"
+	 style="display: none; ">
+</div>
+
+<input name="searchid"
+	   type="hidden"
+	   class="nldropdown"
+	   value="-2400"
+	   onchange="if(!this.noslaving) { setWindowChanged(window, true); }Syncusernotesrange();"  />
+
+<input type="hidden" class="nldropdown-idx" value="0"/>
+
+<script type="text/javascript">
+    (function () {
+        var win = (window.parentAccesible != false && parent.initializeDropdowns) ? parent : window;
+        win.initializeDropdowns(win.NS.jQuery(document));
+    }())
+</script><span class='field_widget_helper_pos effectStatic'></span></span>
+</span>
+</div>
+		</td>
+
+
+
+<input name="sortcol" id="sortcol" type="hidden" value="UserNote_NOTEDATE_raw" defaultValue="UserNote_NOTEDATE_raw">
+<input name="sortdir" id="sortdir" type="hidden" value="DESC" defaultValue="DESC">
+</tr>
+</table>
+</div>
+<div class='uir-list-control-bar' data-above='true'><table width='100%' border='0' cellspacing='0' cellpadding='0' role='presentation'>
+<tr>
+<td><TABLE border=0 cellspacing=0 cellpadding='2' role='presentation'><TR>        <td>
+
+    
+
+    <table  id='tbl_newhist' cellpadding='0' cellspacing='0' border='0' class='uir-button'
+          style='margin-right:6px;' role='presentation'>
+
+        <tr id='tr_newhist' class='tabBnt'>
+        <td id='tdleftcap_newhist'><img src='/images/nav/ns_x.gif' class='bntLT' border='0' height='50%' width='10' alt=''/>
+            <img src='/images/nav/ns_x.gif' class='bntLB' border='0' height='50%' width='10' alt=''/>
+        </td>
+        <td id='tdbody_newhist' height='20' valign='top' nowrap class='bntBgB'>
+
+
+    <input type='button' style='' class='rndbuttoninpt bntBgT '
+
+        value='新しいノート'
+
+		data-nsps-type='button' data-nsps-label='新しいノート'
+
+    id='newhist' name='newhist'
+
+    
+
+    
+
+     onclick="nlOpenWindow('/app/crm/common/note.nl?l=T&amp;refresh=usernotes&amp;perm=LIST_CUSTRECORDENTRY&amp;recordtype=396&amp;record=123837&amp;_ts='+(new Date).getTime(), 'newnote','width=710,height=640,resizable=yes,scrollbars=yes'); return false;"
+
+	    onmousedown="this.setAttribute('_mousedown','T'); setButtonDown(true, true, this);"
+	    onmouseup="this.setAttribute('_mousedown','F'); setButtonDown(false, true, this);"
+	    onmouseout="if(this.getAttribute('_mousedown')=='T') setButtonDown(false, true, this);"
+	    onmouseover="if(this.getAttribute('_mousedown')=='T') setButtonDown(true, true, this);"
+    ></td> 
+
+       <td id='tdrightcap_newhist'>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRT' border='0' width='10' alt=''>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRB' border='0' width='10' alt=''>
+       </td>
+		</tr>
+
+    </table>
+    </td>
+        <td>
+
+    
+
+    <table  id='tbl_customize' cellpadding='0' cellspacing='0' border='0' class='uir-button'
+          style='margin-right:6px;' role='presentation'>
+
+        <tr id='tr_customize' class='tabBnt'>
+        <td id='tdleftcap_customize'><img src='/images/nav/ns_x.gif' class='bntLT' border='0' height='50%' width='10' alt=''/>
+            <img src='/images/nav/ns_x.gif' class='bntLB' border='0' height='50%' width='10' alt=''/>
+        </td>
+        <td id='tdbody_customize' height='20' valign='top' nowrap class='bntBgB'>
+
+
+    <input type='button' style='' class='rndbuttoninpt bntBgT '
+
+        value='ビューをカスタマイズ'
+
+		data-nsps-type='button' data-nsps-label='ビューをカスタマイズ'
+
+    id='customize' name='customize'
+
+    
+
+    
+
+     onclick="document.location='/app/common/search/search.nl?cu=T&amp;gs=T&amp;rt=T&amp;ismachine=T&amp;refresh=usernotes&amp;e=T&amp;whence=%2Fapp%2Fcommon%2Fcustom%2Fcustrecordentry.nl%3Frectype%3D396%26id%3D123837%26e%3DT&amp;id='+getSelectValue(getFormElementViaFormName('usernotes_main_form', 'searchid'))+'&amp;nl='+(getSelectValue(getFormElementViaFormName('usernotes_main_form', 'searchid'))&lt;0 ? 'T' : 'F'); return false;"
+
+	    onmousedown="this.setAttribute('_mousedown','T'); setButtonDown(true, true, this);"
+	    onmouseup="this.setAttribute('_mousedown','F'); setButtonDown(false, true, this);"
+	    onmouseout="if(this.getAttribute('_mousedown')=='T') setButtonDown(false, true, this);"
+	    onmouseover="if(this.getAttribute('_mousedown')=='T') setButtonDown(true, true, this);"
+    ></td> 
+
+       <td id='tdrightcap_customize'>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRT' border='0' width='10' alt=''>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRB' border='0' width='10' alt=''>
+       </td>
+		</tr>
+
+    </table>
+    </td>
+</TR></TABLE></td><td valign='top' align = 'right' class=''>
+<span id='usernotes_usernotesrange_fs' data-fieldtype="select"  class=' uir-field-input uir-row-range-select nldropdown' style="display:none;white-space:nowrap;">
+
+<div class="uir-select-input-container uir-field--auto-size">
+	<input name="inpt_usernotesrange"
+		   type="text"
+		   value=" "
+		   class="dropdownInput textbox"
+		   onkeydown="getDropdown(this).handleKeydown(event);"
+		   onkeypress="getDropdown(this).handleKeypress(event);"
+		   onfocus="getDropdown(this).handleOnFocus(event);"
+		   onblur="getDropdown(this).handleOnBlur(event);"
+		   placeholder=" "
+           aria-labelledby="usernotes_usernotesrange_fs_lbl"
+		   autocomplete="off"
+		   contenteditable="false"
+		   role="combobox" />
+
+	<span class="ddarrowSpan uir-field-dropdown-arrow">
+			<img src="/uirefresh/img/field/dropdown.png" height="20" width="20" class="i_dropdownarrow" alt="追加オプション"/>
+	</span>
+</div>
+
+<div class="ns-dropdown"
+	 data-name="usernotesrange"
+	 data-initialized="F"
+	 data-options="[{&quot;value&quot;:&quot;0&quot;,&quot;text&quot;:&quot;&quot;}]"
+	 data-favorites="[]"
+	 data-favorites-enabled="F"
+	 data-default-option="0"
+	 data-settings="{&quot;flags&quot;:-2147483648,&quot;width&quot;:-1,&quot;minWidth&quot;:-1,&quot;mandatory&quot;:false,&quot;displaySize&quot;:&quot;AUTO&quot;}"
+	 data-machine-name="usernotes"
+	 style="display: none; ">
+</div>
+
+<input name="usernotesrange"
+	   type="hidden"
+	   class="nldropdown"
+	   value="0"
+	   onchange="if(!this.noslaving) { setWindowChanged(window, true); }if (Syncusernotesrange(true,null,null,null,null,null) == false) return false;if (getEventTarget(event)==this)this.focus();"  />
+
+<input type="hidden" class="nldropdown-idx" value="0"/>
+
+<script type="text/javascript">
+    (function () {
+        var win = (window.parentAccesible != false && parent.initializeDropdowns) ? parent : window;
+        win.initializeDropdowns(win.NS.jQuery(document));
+    }())
+</script><span class='field_widget_helper_pos effectStatic'></span></span>
+</td>
+</tr></table>
+</div>
+</form>
+<div id='usernotes__div' class="uir-machine-table-container" data-nsps-type='sublist' data-nsps-id='usernotes' data-nsps-added=true>
+<table id="usernotes__tab" border="0" cellspacing="0" class="listtable listborder openList uir-list-table"  cellpadding='0' width='100%' data-list-printing='false' data-list-report-style='false'><thead>
+<tr class='uir-list-headerrow '  id='usernotesheader'>
+<td height='100%' style="cursor:pointer;" id="div__lab1" nowrap class="listheadertdleft listheadertextb uir-list-header-td" onClick="l_sort(0,'STRING',false,false,'usernotes');return false;" data-label='編集' data-nsps-id='columnheader_usernotes_UserNote_EDIT_raw' data-nsps-type='columnheader' data-nsps-label='編集'><div class="listheader">編集<span  id='usernotesdir0' class='listheadersort'></span></div></td><td height='100%' style="cursor:pointer;" id="div__lab2" nowrap class="listheadertd listheadertextb uir-list-header-td" onClick="l_sort(1,'DATETIME',false,false,'usernotes');return false;" data-label='日付' data-nsps-id='columnheader_usernotes_UserNote_NOTEDATE_raw' data-nsps-type='columnheader' data-nsps-label='日付'><div class="listheader">日付<span  id='usernotesdir1' class='listheadersort'></span></div></td><td height='100%' style="cursor:pointer;" id="div__lab3" nowrap class="listheadertd listheadertextb uir-list-header-td" onClick="l_sort(2,'STRING',false,false,'usernotes');return false;" data-label='作成者' data-nsps-id='columnheader_usernotes_UserNote_AUTHOR_raw' data-nsps-type='columnheader' data-nsps-label='作成者'><div class="listheader">作成者<span  id='usernotesdir2' class='listheadersort'></span></div></td><td height='100%' style="cursor:pointer;" id="div__lab4" nowrap class="listheadertd listheadertextb uir-list-header-td" onClick="l_sort(3,'STRING',false,false,'usernotes');return false;" data-label='タイトル' data-nsps-id='columnheader_usernotes_UserNote_TITLE_raw' data-nsps-type='columnheader' data-nsps-label='タイトル'><div class="listheader">タイトル<span  id='usernotesdir3' class='listheadersort'></span></div></td><td height='100%' style="cursor:pointer;" id="div__lab5" nowrap class="listheadertd listheadertextb uir-list-header-td" onClick="l_sort(4,'STRING',false,false,'usernotes');return false;" data-label='メモ' data-nsps-id='columnheader_usernotes_UserNote_NOTE_raw' data-nsps-type='columnheader' data-nsps-label='メモ'><div class="listheader">メモ<span  id='usernotesdir4' class='listheadersort'></span></div></td><td height='100%' style="cursor:pointer;" id="div__lab6" nowrap class="listheadertd listheadertextb uir-list-header-td" onClick="l_sort(5,'STRING',false,false,'usernotes');return false;" data-label='方向' data-nsps-id='columnheader_usernotes_UserNote_DIRECTION_raw' data-nsps-type='columnheader' data-nsps-label='方向'><div class="listheader">方向<span  id='usernotesdir5' class='listheadersort'></span></div></td><td height='100%' style="cursor:pointer;" id="div__lab7" nowrap class="listheadertd listheadertextb uir-list-header-td" onClick="l_sort(6,'STRING',false,false,'usernotes');return false;" data-label='種類' data-nsps-id='columnheader_usernotes_UserNote_NOTETYPE_raw' data-nsps-type='columnheader' data-nsps-label='種類'><div class="listheader">種類<span  id='usernotesdir6' class='listheadersort'></span></div></td><td height='100%' id="div__lab8" nowrap class="listheadertd listheadertextb uir-list-header-td" data-label='削除' data-nsps-id='columnheader_usernotes_REMOVE_raw' data-nsps-type='columnheader' data-nsps-label='削除'><div class="listheader">削除</div></td></tr>
+</thead>
+<tr class='uir-nodata-row'>
+<td class='uir-nodata-cell listtexthl' colspan='8'>表示するレコードはありません。</td>
+</tr>
+
+</table>
+</div>
+</div>
+</div>
+
+<div id='systemnotes_layer' style='display:none;' data-nsps-layer='systemnotes'>
+<div  class='subtabblock uir-machine-block' style='padding: 4px;' ><form class='uir-machine-form' id='systemnotes_main_form' name='systemnotes_main_form' action='javascript:void(0)' style='margin:0;'>
+<div class='uir-list-filters'>
+<table  border='0' cellspacing='0' cellpadding='0' role='presentation'>
+<tr>
+
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="表示"data-nsps-type="field"	 	data-required="false"
+	 	data-required-text="必須"
+data-field-type="select"data-field-name="searchid"data-walkthrough="Field:searchid"data-mode="edit"><span id="systemnotes_searchid_fs_lbl_uir_label" class="smalltextnolink uir-label " data-nsps-type="field_label"><span id="systemnotes_searchid_fs_lbl" class="uir-label-span labelSpanEdit smalltextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'searchid', this, 'customrecord', 'NA', '89', 'UI', 'EDIT_CUST_396', '6806569', 'RECORD', 'F', '', '%E8%AE%A2%E5%8D%95%E5%90%8E%E7%BB%AD%E4%B8%AD%E9%97%B4%E8%A1%A8', 'APP:FORMLABEL:VIEW', '')" class='smalltextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smalltextul'); return true;" onmouseout="setFirstClassName(this, 'smalltextnolink'); ">表示</a>
+</span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="select">
+        <span id='systemnotes_searchid_fs' data-fieldtype="select"  class=' uir-field-input  nldropdown' style="white-space:nowrap;">
+
+<div class="uir-select-input-container uir-field--auto-size">
+	<input name="inpt_searchid"
+		   type="text"
+		   value="システム・ノート・デフォルト・サブリスト・ビュー"
+		   class="dropdownInput textbox"
+		   onkeydown="getDropdown(this).handleKeydown(event);"
+		   onkeypress="getDropdown(this).handleKeypress(event);"
+		   onfocus="getDropdown(this).handleOnFocus(event);"
+		   onblur="getDropdown(this).handleOnBlur(event);"
+		   placeholder=" "
+           aria-labelledby="systemnotes_searchid_fs_lbl"
+		   autocomplete="off"
+		   contenteditable="false"
+		   role="combobox" />
+
+	<span class="ddarrowSpan uir-field-dropdown-arrow">
+			<img src="/uirefresh/img/field/dropdown.png" height="20" width="20" class="i_dropdownarrow" alt="追加オプション"/>
+	</span>
+</div>
+
+<div class="ns-dropdown"
+	 data-name="searchid"
+	 data-initialized="F"
+	 data-options="[{&quot;value&quot;:&quot;-2300&quot;,&quot;text&quot;:&quot;システム・ノート・デフォルト・サブリスト・ビュー&quot;},{&quot;value&quot;:&quot;91&quot;,&quot;text&quot;:&quot;トランザクション監査ログ&quot;}]"
+	 data-favorites="[]"
+	 data-favorites-enabled="F"
+	 data-default-option="0"
+	 data-settings="{&quot;flags&quot;:-2147483648,&quot;width&quot;:-1,&quot;minWidth&quot;:-1,&quot;mandatory&quot;:false,&quot;displaySize&quot;:&quot;AUTO&quot;}"
+	 data-machine-name="systemnotes"
+	 style="display: none; ">
+</div>
+
+<input name="searchid"
+	   type="hidden"
+	   class="nldropdown"
+	   value="-2300"
+	   onchange="if(!this.noslaving) { setWindowChanged(window, true); }Syncsystemnotesrange();"  />
+
+<input type="hidden" class="nldropdown-idx" value="0"/>
+
+<script type="text/javascript">
+    (function () {
+        var win = (window.parentAccesible != false && parent.initializeDropdowns) ? parent : window;
+        win.initializeDropdowns(win.NS.jQuery(document));
+    }())
+</script><span class='field_widget_helper_pos effectStatic'></span></span>
+</span>
+</div>
+		</td>
+
+
+
+<input name="sortcol" id="sortcol" type="hidden" value="SystemNote_DATE_raw" defaultValue="SystemNote_DATE_raw">
+<input name="sortdir" id="sortdir" type="hidden" value="DESC" defaultValue="DESC">
+
+
+		<td>
+
+<div class=" uir-field-wrapper" data-nsps-label="フィールド"data-nsps-type="field"	 	data-required="true"
+	 	data-required-text="必須"
+data-field-type="select"data-field-name="SystemNote_FIELD"data-walkthrough="Field:SystemNote_FIELD"data-mode="edit"><span id="systemnotes_SystemNote_FIELD_fs_lbl_uir_label" class="smalltextnolink uir-label " data-nsps-type="field_label"><span id="systemnotes_SystemNote_FIELD_fs_lbl" class="uir-label-span labelSpanEdit smalltextnolink" style="" data-nsps-type="label"><a  tabindex=-1 title="ヘルプ" href='javascript:void("help")' style='cursor:help' onclick="return nlFieldHelp('フィールド・ヘルプ', 'SystemNote_FIELD', this, 'customrecord', 'NA', '89', 'UI', 'EDIT_CUST_396', '6806569', 'RECORD', 'F', '', '%E8%AE%A2%E5%8D%95%E5%90%8E%E7%BB%AD%E4%B8%AD%E9%97%B4%E8%A1%A8', '', '%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%89')" class='smalltextnolink uir-no-link' onmouseover="setFirstClassName(this, 'smalltextul'); return true;" onmouseout="setFirstClassName(this, 'smalltextnolink'); ">フィールド</a>
+<img class="required_icon" title="必須フィールド" alt="必須フィールド" src="/images/chiles/pageTitle/required.png" /><label class="uir-required-icon">*</label></span></span><span class="uir-field" data-nsps-type="field_input" data-field-type="select">
+        <span data-fieldtype='popupselect' id='systemnotes_SystemNote_FIELD_fs' style='white-space: nowrap' data-favorites-enabled='F'class='uir-field-input effectIE effectStatic'><div class="uir-select-input-container uir-field-popup-wrapper uir-field--auto-size"><input type='text' name='SystemNote_FIELD_display' id='systemnotes_SystemNote_FIELD_display' class='inputreq dropdownInput rtpadding'  size=40 value=""  placeholder='<入力してTabキー>'aria-labelledby="systemnotes_SystemNote_FIELD_fs_lbl" autocomplete='off' onkeypress="if( getEventKeypress(event) == 13) { window.lastKeyStroke = getEventKeypress(event); return false; } " onfocus="if (typeof this.isvalid == 'undefined') this.isvalid=true;"  asheep="409dacd7ed181a02c55523a052750ff49a90222eadf6b624426f3174a0457932" asuuk="6806569_1016_11653" onkeyup="if (NLPopupAutoSuggest_ignoreKeyStrokes(event)) { return false; } else { NLPopupAutoSuggest_handleKeyStroke(this, '2004521410:SystemNote_FIELD.systemnotes', event, true, null); }" onkeydown="if(NLPopupAutoSuggest_ignoreKeyStrokes(event)) return false; var keycode = getEventKeypress(event); if(keycode == 13 || keycode == 9) { NLPopupAutoSuggest_hidePopupSuggestion(); }" onblur="if (this.isvalid == false) {this.focus();this.select();}" onmouseover="this.title=this.value;" onchange="if (typeof this.getAttribute('previousvalue')!='undefined' && this.getAttribute('previousvalue') == this.value) return false; this.haschanged = true; SearchSystemNote_FIELD(document.forms['systemnotes_main_form'].elements.SystemNote_FIELD_display.value);" previousvalue='' data-field-label='フィールド'><span class='fwpopupsel_pos uir-field-popup-arrow' id='parent_actionbuttons_systemnotes_SystemNote_FIELD_fs'><a id='SystemNote_FIELD_popup_muli' class='fwpopupsel' onclick="NLAccelMenu_onButtonClick(event, 'actionbuttons_systemnotes_SystemNote_FIELD_fs', false,this);return false;" onMouseOut="NLAccelMenu_onMouseOut('actionbuttons_systemnotes_SystemNote_FIELD_fs');return false;" onMouseOver="NLAccelMenu_onMouseOver('actionbuttons_systemnotes_SystemNote_FIELD_fs');return false;" onfocus="if (this.className.indexOf('_focus') == -1) this.className = this.className + '_focus'; return true;" onblur="this.className = this.className.replace('_focus', ''); return true;" style="display:none !important"></a><span class="fwpopupsel uir-field-popup-arrow-image" onclick="uir_showPopupSelectMenu(this);return false;" tabindex="-1"></span></span></div><span style='display: none; position: absolute;'><span style='padding:0px' onmouseover="NLAccelMenu_onMouseOver('actionbuttons_systemnotes_SystemNote_FIELD_fs');" onmouseout="NLAccelMenu_onMouseOut('actionbuttons_systemnotes_SystemNote_FIELD_fs');" class='dropdownDiv' id="actionbuttons_systemnotes_SystemNote_FIELD_fs"><div class='ddmInnerTable'><div nowrap class='dropdownNotSelected' onmouseover='NLAccelMenuButton_onMouseOver(this);' onmouseout='NLAccelMenuButton_onMouseOut(this);' onclick='this.onmouseout();'><span class='field_widget_boxpos'>
+<a data-helperbuttontype='list' id='SystemNote_FIELD_popup_list' tabindex=-1 class='uir-helper-button uir-no-link smalltextnolink uir-field-widget' title='リスト' href='javascript:void("SystemNote_FIELD_list")' onclick='ListSystemNote_FIELD(this);return false;'><img src='/images/core/widgets/popupselect/list.png' border=0 align=absmiddle alt='' >&nbsp;リスト</a></span>
+</div></div></span></span><input type='hidden' name='SystemNote_FIELD' id='hddn_systemnotes_SystemNote_FIELD_fs' onchange="setWindowChanged(window, true);if (SyncSystemNote_FIELD(true) == false) return false; ;setSelectValue(getFormElementViaFormName('systemnotes_main_form', 'systemnotesrange'),0);Syncsystemnotesrange();" value='' defaultValue=''></span>
+</span>
+</div>
+		</td>
+
+
+
+</tr>
+</table>
+</div>
+<div class='uir-list-control-bar' data-above='true'><table width='100%' border='0' cellspacing='0' cellpadding='0' role='presentation'>
+<tr>
+<td><TABLE border=0 cellspacing=0 cellpadding='2' role='presentation'><TR>        <td>
+
+    
+
+    <table  id='tbl_customize' cellpadding='0' cellspacing='0' border='0' class='uir-button'
+          style='margin-right:6px;' role='presentation'>
+
+        <tr id='tr_customize' class='tabBnt'>
+        <td id='tdleftcap_customize'><img src='/images/nav/ns_x.gif' class='bntLT' border='0' height='50%' width='10' alt=''/>
+            <img src='/images/nav/ns_x.gif' class='bntLB' border='0' height='50%' width='10' alt=''/>
+        </td>
+        <td id='tdbody_customize' height='20' valign='top' nowrap class='bntBgB'>
+
+
+    <input type='button' style='' class='rndbuttoninpt bntBgT '
+
+        value='ビューをカスタマイズ'
+
+		data-nsps-type='button' data-nsps-label='ビューをカスタマイズ'
+
+    id='customize' name='customize'
+
+    
+
+    
+
+     onclick="document.location='/app/common/search/search.nl?cu=T&amp;gs=T&amp;rt=T&amp;ismachine=T&amp;refresh=systemnotes&amp;e=T&amp;whence=%2Fapp%2Fcommon%2Fcustom%2Fcustrecordentry.nl%3Frectype%3D396%26id%3D123837%26e%3DT&amp;id='+getSelectValue(getFormElementViaFormName('systemnotes_main_form', 'searchid'))+'&amp;nl='+(getSelectValue(getFormElementViaFormName('systemnotes_main_form', 'searchid'))&lt;0 ? 'T' : 'F'); return false;"
+
+	    onmousedown="this.setAttribute('_mousedown','T'); setButtonDown(true, true, this);"
+	    onmouseup="this.setAttribute('_mousedown','F'); setButtonDown(false, true, this);"
+	    onmouseout="if(this.getAttribute('_mousedown')=='T') setButtonDown(false, true, this);"
+	    onmouseover="if(this.getAttribute('_mousedown')=='T') setButtonDown(true, true, this);"
+    ></td> 
+
+       <td id='tdrightcap_customize'>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRT' border='0' width='10' alt=''>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRB' border='0' width='10' alt=''>
+       </td>
+		</tr>
+
+    </table>
+    </td>
+</TR></TABLE></td><td valign='top' align = 'right' class=''>
+<span id='systemnotes_systemnotesrange_fs' data-fieldtype="select"  class=' uir-field-input uir-row-range-select nldropdown' style="display:none;white-space:nowrap;">
+
+<div class="uir-select-input-container uir-field--auto-size">
+	<input name="inpt_systemnotesrange"
+		   type="text"
+		   value=" "
+		   class="dropdownInput textbox"
+		   onkeydown="getDropdown(this).handleKeydown(event);"
+		   onkeypress="getDropdown(this).handleKeypress(event);"
+		   onfocus="getDropdown(this).handleOnFocus(event);"
+		   onblur="getDropdown(this).handleOnBlur(event);"
+		   placeholder=" "
+           aria-labelledby="systemnotes_systemnotesrange_fs_lbl"
+		   autocomplete="off"
+		   contenteditable="false"
+		   role="combobox" />
+
+	<span class="ddarrowSpan uir-field-dropdown-arrow">
+			<img src="/uirefresh/img/field/dropdown.png" height="20" width="20" class="i_dropdownarrow" alt="追加オプション"/>
+	</span>
+</div>
+
+<div class="ns-dropdown"
+	 data-name="systemnotesrange"
+	 data-initialized="F"
+	 data-options="[]"
+	 data-favorites="[]"
+	 data-favorites-enabled="F"
+	 data-default-option="0"
+	 data-settings="{&quot;flags&quot;:-2147483648,&quot;width&quot;:-1,&quot;minWidth&quot;:-1,&quot;mandatory&quot;:false,&quot;displaySize&quot;:&quot;AUTO&quot;}"
+	 data-machine-name="systemnotes"
+	 style="display: none; ">
+</div>
+
+<input name="systemnotesrange"
+	   type="hidden"
+	   class="nldropdown"
+	   value=""
+	   onchange="if(!this.noslaving) { setWindowChanged(window, true); }if (Syncsystemnotesrange(true,null,null,null,null,null) == false) return false;if (getEventTarget(event)==this)this.focus();"  />
+
+<input type="hidden" class="nldropdown-idx" value="0"/>
+
+<script type="text/javascript">
+    (function () {
+        var win = (window.parentAccesible != false && parent.initializeDropdowns) ? parent : window;
+        win.initializeDropdowns(win.NS.jQuery(document));
+    }())
+</script><span class='field_widget_helper_pos effectStatic'></span></span>
+</td>
+</tr></table>
+</div>
+</form>
+<div id='systemnotes__div' class="uir-machine-table-container" data-nsps-type='sublist' data-nsps-id='systemnotes' data-nsps-added=false>
+<table id='systemnotes_splits' width='100%' border='0' cellspacing='0' cellpadding='0' class='listtable listborder uir-machine-table'><tr class='uir-machine-headerrow uir-loading-row'><td class=text>読込み中<img src='/images/setup/loading.gif' border='0' alt=''></td></tr></table></div>
+</div>
+</div>
+
+</div>
+</td></tr></tbody></table>
+</div>
+</DIV>
+</div>
+<div class='uir-buttons-bottom uir-secondary-buttons' data-alignment='left'>
+	<table role='presentation' cellpadding="0" cellspacing="0">
+		<tr class='uir-buttons'>
+                <td class='uir-multi-button-wrapper'><input type="hidden" id="multibuttonsubmit"/><script language="javascript">document.currentScript.parentNode.appendChild((new NLMultiButton('secondarymultibutton_submitter', [['保存', "submitter"],['保存 & 新規', "submitnew"],['保存 & コピー', "submitcopy"],['保存 & 次へ', "submitnext"]],'保存','EDIT_CUST_396','submitter',false, true, true, '', 'refreshed')).render());</script></td>        <td style='display:none;'>
+
+    
+
+    <table  id='tbl_submitter' cellpadding='0' cellspacing='0' border='0' class='uir-button'
+          style='margin-right:6px;' role='presentation'>
+
+        <tr id='tr_submitter' class='pgBntG pgBntB'>
+        <td id='tdleftcap_submitter'><img src='/images/nav/ns_x.gif' class='bntLT' border='0' height='50%' width='3' alt=''/>
+            <img src='/images/nav/ns_x.gif' class='bntLB' border='0' height='50%' width='3' alt=''/>
+        </td>
+        <td id='tdbody_submitter' height='20' valign='top' nowrap class='bntBgB'>
+
+
+    <input type='submit' style='' class='rndbuttoninpt bntBgT '
+
+        value='保存'
+
+
+    id='submitter' name='submitter'
+
+    
+
+    
+
+    
+
+	    onmousedown="this.setAttribute('_mousedown','T'); setButtonDown(true, false, this);"
+	    onmouseup="this.setAttribute('_mousedown','F'); setButtonDown(false, false, this);"
+	    onmouseout="if(this.getAttribute('_mousedown')=='T') setButtonDown(false, false, this);"
+	    onmouseover="if(this.getAttribute('_mousedown')=='T') setButtonDown(true, false, this);"
+    ></td> 
+
+       <td id='tdrightcap_submitter'>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRT' border='0' width='3' alt=''>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRB' border='0' width='3' alt=''>
+       </td>
+		</tr>
+
+    </table>
+    </td>
+        <td>
+
+    
+
+    <table  id='tbl_secondary_cancel' cellpadding='0' cellspacing='0' border='0' class='uir-button'
+          style='margin-right:6px;' role='presentation'>
+
+        <tr id='tr_secondary_cancel' class='pgBntG'>
+        <td id='tdleftcap_secondary_cancel'><img src='/images/nav/ns_x.gif' class='bntLT' border='0' height='50%' width='3' alt=''/>
+            <img src='/images/nav/ns_x.gif' class='bntLB' border='0' height='50%' width='3' alt=''/>
+        </td>
+        <td id='tdbody_secondary_cancel' height='20' valign='top' nowrap class='bntBgB'>
+
+
+    <input type='button' style='' class='rndbuttoninpt bntBgT '
+
+        value='キャンセル'
+
+
+    id='secondary_cancel' name='secondary_cancel'
+
+    
+
+    
+
+     onclick="nlFireEvent(getButton('_cancel'), 'click'); return false;"
+
+	    onmousedown="this.setAttribute('_mousedown','T'); setButtonDown(true, false, this);"
+	    onmouseup="this.setAttribute('_mousedown','F'); setButtonDown(false, false, this);"
+	    onmouseout="if(this.getAttribute('_mousedown')=='T') setButtonDown(false, false, this);"
+	    onmouseover="if(this.getAttribute('_mousedown')=='T') setButtonDown(true, false, this);"
+    ></td> 
+
+       <td id='tdrightcap_secondary_cancel'>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRT' border='0' width='3' alt=''>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRB' border='0' width='3' alt=''>
+       </td>
+		</tr>
+
+    </table>
+    </td>
+        <td style='display:none;'>
+
+    
+
+    <table  id='tbl_secondarymakecopy' cellpadding='0' cellspacing='0' border='0' class='uir-button'
+          style='margin-right:6px;' role='presentation'>
+
+        <tr id='tr_secondarymakecopy' class='pgBntG'>
+        <td id='tdleftcap_secondarymakecopy'><img src='/images/nav/ns_x.gif' class='bntLT' border='0' height='50%' width='3' alt=''/>
+            <img src='/images/nav/ns_x.gif' class='bntLB' border='0' height='50%' width='3' alt=''/>
+        </td>
+        <td id='tdbody_secondarymakecopy' height='20' valign='top' nowrap class='bntBgB'>
+
+
+    <input type='button' style='' class='rndbuttoninpt bntBgT '
+
+        value='コピー作成'
+
+
+    id='secondarymakecopy' name='secondarymakecopy'
+
+    
+
+    
+
+     onclick="var upperSubmitButton = getSubmitButton('makecopy', 'コピー作成');if (upperSubmitButton != null) { nlFireEvent(upperSubmitButton, 'click');} else {if (((document.forms[0].id.value='',true)) == false) return false; if (!document.forms['main_form'].onsubmit || document.forms['main_form'].onsubmit()) {   document.forms['main_form'].elements['_button'].value= 'makecopy';  document.forms['main_form'].submit();  }}; return false;"
+
+	    onmousedown="this.setAttribute('_mousedown','T'); setButtonDown(true, false, this);"
+	    onmouseup="this.setAttribute('_mousedown','F'); setButtonDown(false, false, this);"
+	    onmouseout="if(this.getAttribute('_mousedown')=='T') setButtonDown(false, false, this);"
+	    onmouseover="if(this.getAttribute('_mousedown')=='T') setButtonDown(true, false, this);"
+    ></td> 
+
+       <td id='tdrightcap_secondarymakecopy'>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRT' border='0' width='3' alt=''>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRB' border='0' width='3' alt=''>
+       </td>
+		</tr>
+
+    </table>
+    </td>
+        <td style='display:none;'>
+
+    
+
+    <table  id='tbl_secondarydelete' cellpadding='0' cellspacing='0' border='0' class='uir-button'
+          style='margin-right:6px;' role='presentation'>
+
+        <tr id='tr_secondarydelete' class='pgBntG'>
+        <td id='tdleftcap_secondarydelete'><img src='/images/nav/ns_x.gif' class='bntLT' border='0' height='50%' width='3' alt=''/>
+            <img src='/images/nav/ns_x.gif' class='bntLB' border='0' height='50%' width='3' alt=''/>
+        </td>
+        <td id='tdbody_secondarydelete' height='20' valign='top' nowrap class='bntBgB'>
+
+
+    <input type='button' style='' class='rndbuttoninpt bntBgT '
+
+        value='削除'
+
+
+    id='secondarydelete' name='secondarydelete'
+
+    
+
+    
+
+     onclick="var upperSubmitButton = getSubmitButton('delete', '削除');if (upperSubmitButton != null) { nlFireEvent(upperSubmitButton, 'click');} else {if ((delete_record()) == false) return false; if (!document.forms['main_form'].onsubmit || document.forms['main_form'].onsubmit()) {   document.forms['main_form'].elements['_button'].value= 'delete';  document.forms['main_form'].submit();  }}; return false;"
+
+	    onmousedown="this.setAttribute('_mousedown','T'); setButtonDown(true, false, this);"
+	    onmouseup="this.setAttribute('_mousedown','F'); setButtonDown(false, false, this);"
+	    onmouseout="if(this.getAttribute('_mousedown')=='T') setButtonDown(false, false, this);"
+	    onmouseover="if(this.getAttribute('_mousedown')=='T') setButtonDown(true, false, this);"
+    ></td> 
+
+       <td id='tdrightcap_secondarydelete'>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRT' border='0' width='3' alt=''>
+           <img src='/images/nav/ns_x.gif' height='50%' class='bntRB' border='0' width='3' alt=''>
+       </td>
+		</tr>
+
+    </table>
+    </td>
+<td><table border='0' cellpadding='0' cellspacing='0'><tr><td><div class='uir-button-menu-divider'></div></td></tr></table></td><td class="uir-button-menu" data-automation-id="button-menu-createnew">
+<ul class="ns-menu">
+			<li class="ns-menuitem ns-menuitem--icon-only" onpointerover="NS.UI.Helpers.Menu.initializeMenu(this);" data-group="">
+				<a href="javascript:void(0)">
+					<img src='/uirefresh/img/add-record.svg' />
+				</a>
+
+<ul class="ns-menu">
+			<li class="ns-menuitem " data-group="新規作成">
+				<a href="javascript:void(0)" onclick="nlOpenWindow(&#39;/app/crm/common/note.nl?l=T&amp;refresh=usernotes&amp;perm=LIST_CUSTRECORDENTRY&amp;recordtype=396&amp;record=123837&amp;_ts=&#39;+(new Date).getTime(), &#39;newnote&#39;,&#39;width=710,height=640,resizable=yes,scrollbars=yes&#39;)">
+新しいノート					<img class='record-icon-small' src='/uirefresh/img/recordicon/note.svg' alt=''>
+				</a>
+			</li>
+			<li class="ns-menuitem " data-group="">
+				<a href="javascript:void(0)" onclick="document.location=&#39;/core/pages/customizenewbar.nl?taskid=EDIT_CUST_396&amp;dest=%2Fapp%2Fcommon%2Fcustom%2Fcustrecordentry.nl%3Frectype%3D396%26id%3D123837%26e%3DT&amp;page=%25u8BA2%25u5355%25u540E%25u7EED%25u4E2D%25u95F4%25u8868&amp;buttons=newhist&amp;labels=%25u65B0%25u3057%25u3044%25u30CE%25u30FC%25u30C8&#39;">
+パーソナライズ					
+				</a>
+			</li>
+</ul>			</li>
+</ul></td><td class="uir-button-menu" data-automation-id="button-menu-actionmenu">
+<ul class="ns-menu">
+			<li class="ns-menuitem " onpointerover="NS.UI.Helpers.Menu.initializeMenu(this);" data-group="">
+				<a href="javascript:void(0)">
+アクション					
+				</a>
+
+<ul class="ns-menu">
+			<li class="ns-menuitem " data-group="">
+				<a href="javascript:void(0)" onclick="NLInvokeButton(getButton(&#39;makecopy&#39;))">
+コピー作成					
+				</a>
+			</li>
+			<li class="ns-menuitem ">
+				<a href="javascript:void(0)" onclick="NLInvokeButton(getButton(&#39;delete&#39;))">
+削除					
+				</a>
+			</li>
+</ul>			</li>
+</ul></td>
+		</tr>
+	</table>
+</div>
+
+
+
+<iframe id='server_commands' name='server_commands' src='javascript:false' style='display:none;' height='0' aria-hidden='true' tabindex='-1' title='空白'></iframe></div><div id='div__footer' class='noprint' leftmargin='0' topmargin='0' marginwidth='1' marginheight='1'></div>        </div>
+        <div id="ns-component-16982174838858879-911362387" class="ns-child-component">
+<script language='JavaScript' type='text/javascript'>function page_init() {
+if(typeof includedVersion2plusScript === 'function' && typeof fetchClientScripts === 'function' &&includedVersion2plusScript() && window && window.setTimeout && !fetchClientScripts(false)){
+	if (typeof require !== 'undefined' && typeof require.SSModuleLoader !== 'undefined') {
+		require.SSModuleLoader.perfTracking.didPoll = true;
+	}
+	NS.form.setInited(false);
+	window.setTimeout(page_init, 0);
+	return;
+}
+window.pageinitstart = new Date(); if (typeof storePerfCookie === 'function'){ storePerfCookie(); } if (typeof NLRUM !== 'undefined') { setTimeout(NLRUM.done, 0); }window.weekstart  ='1';
+window.dateformat ='YYYY/MM/DD';
+window.userfacing_dateformat = 'YYYY/MM/DD';
+window.longdateformat ='YYYY\"年\"MM\"月\"DD\"日\"';
+window.timeformat ='fmHH24:fmMI';
+window.timeformatwithseconds ='fmHH24:fmMI:SS';
+window.decimalseparator ='.';
+window.groupseparator =',';
+window.negativeprefix ='-';
+window.negativesuffix ='';
+window.number_blacklist_regex = new RegExp('[^\\.\\-\\d]','g');
+window.datetime_am_string ='午前';
+window.datetime_pm_string ='午後';
+window.datetime_short_months = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月",""];
+window.netsuiteProductDirectory='netsuite';
+window.subrecordcache = new Array();
+NS.form.setValid(true);
+setWindowChanged(window, false);
+NS.form.setInited(false);
+window.onbeforeunload = page_unload;
+sCurrentlySelectedTab = 'notes';
+page_init2();
+page_init3();
+setWindowChanged(window, false);
+loadClientModulesThenPageInit4();
+NS.form.setInited(true);
+page_postInit();
+window.status = '';
+window.loadcomplete = true;setStartOfRequestLoggers(); logEndOfRequest( );}</script><script type='text/javascript'>window.staticscriptstarttime = new Date();</script>
+<script type='text/javascript' src='/app/common/custom/custrecordentry.nl?cf=89&amp;rectype=396&amp;s=T&amp;e=T&amp;t=bZ6qbAGAaq'></script>
+<script type='text/javascript'>window.staticscriptendtime = new Date();</script>
+<script type='text/javascript'>
+function page_init3() {
+}
+</script>
+<script type='text/javascript'>
+var vismachs = new Array();
+vismachs['notes']='usernotes';
+var allmachs = new Array();
+allmachs['main']='';
+allmachs['notes']='usernotes,systemnotes';
+function loadClientModulesThenPageInit4() {
+fetchClientScripts(false);
+if (typeof console !== 'undefined' && typeof require !== 'undefined' && typeof require.SSModuleLoader !== 'undefined')
+{
+require.SSModuleLoader.perfTracking.log('clientScriptTracking');
+}
+page_init4();
+
+}
+function page_init2() {
+templatestoreds[-396] = 'F';
+templatestoreds[1089] = 'F';
+
+}
+function page_init4() {
+if (window.clickCount == 0)
+{
+setTimeout(function(){setSelectFocus(getFormElementViaFormName('main_form', 'customform'))}, 0);
+}
+nlapiPageInit('edit');
+nlapiSetFieldValue('nsbrowserenv', 'istop=' + (window==top ? 'T':'F'));
+}
+function page_postInit() {
+NS.event.dispatchImmediate(NS.event.type.POST_PAGE_INIT, {});
+
+(function __showMessagesFromBeforeLoad() {
+  try {
+    var messages = JSON.parse(nlapiGetFieldValue('custpage__ss_messages_for_client'));
+    if (messages && Array.isArray(messages.messages) && typeof require !== 'undefined') {
+      require(['N/ui'], function (ui) {
+        messages.messages.forEach(function (msg) {
+          if (!msg) return;
+          ui.message.create(msg).show();
+        });
+      });
+    }
+  } catch (e) {
+    return;
+  }
+})();
+
+}
+try {
+if(typeof preferencesCache ==="undefined" || !preferencesCache) {
+		serverCallAsync(nsJSONProxyURL, "getPreferences", [], function(data, err){
+			preferencesCache = data.result;
+		});
+}
+if(typeof preferencesTypesCache ==="undefined" || !preferencesTypesCache) {
+		serverCallAsync(nsJSONProxyURL, "getAllPreferencesTypes", [], function(data, err){
+			preferencesTypesCache = data.result;
+		});
+}
+if(typeof permissionsCache ==="undefined" || !permissionsCache) {
+		serverCallAsync(nsJSONProxyURL, "getPermissions", [], function(data, err){
+			permissionsCache = data.result;
+		});
+}
+if(typeof featuresCache ==="undefined" || !featuresCache) {
+		serverCallAsync(nsJSONProxyURL, "getFeatures", [], function(data, err){
+			featuresCache = data.result;
+		});
+}
+} catch(e) {// fail silently
+}
+syncFieldValuesWithBFCache();
+</script>
+<script type='text/javascript'>window.footerscriptstarttime = new Date();</script>
+
+<script type='text/javascript'>window.footerscriptendtime = new Date();</script>
+        </div>
+</div>
+<script type="application/json" id="data_754078130"">{"translations":{"NLAlertContext.PLEASE_LOG_INTO_THE_APPLICATION_AND_OPEN_THE_HELP_WINDOW_AGAIN":"接続がタイムアウトとなったため、ヘルプは利用できません。\\nアプリケーションにログインし、ヘルプ・ウィンドウをもう一度開いてください。","NLHeadingContext.DATE":"日付","NLPagemessageContext.WHAT_DO_YOU_THINK_ABOUT_1":"{1:application}についてどのようなご意見をお持ちですか?","NLAlertContext.ADDRESS_TOO_LONG_TRUNCATED_AT_1000_CHARACTERS":"住所が長すぎます(1000文字で切捨て)","NLAlertContext.HTML_DOCUMENT_MUST_END_WITH_A_HTML_TAG":"HTMLドキュメントは \u003C/HTML\u003E タグ","NLAlertContext.INVALID_PERCENTAGE_MUST_BE_BETWEEN_1_AND_2":"無効なパーセンテージです。({1}と{2}の間にしてください。)","NLAlertContext.INVALID_URL_URL_MUST_START_WITH_HTTP_HTTPS_FTP_OR_FILE":"URLが無効です。URLは、http://、https://、ftp://、またはfile://で開始しなければなりません","NLButtonContext.EXPANDCOLLAPSE_FILTERS":"フィルターを展開/縮小","NLAlertContext.PLEASE_ENTER_A_VALUE_FOR_1":"{1}に値を入力してください","NLButtonContext.EXPORT__EXCEL_WEB_QUERY":"エクスポート - Excel Web Query","NLButtonContext.ADD_KPI":"KPIを追加","NLAlertContext.PLEASE_ENTER_A_VALID_1_DIGIT_POSTAL_CODE":"有効な{1}桁の郵便番号を入力してください。","NLAlertContext.NON_KATAKANA_DATA_FOUND":"カタカナ以外の文字が入力されました","NLAlertContext.HTML_DOCUMENT_MUST_BEGIN_WITH_AN_HTML_TAG":"HTMLドキュメントは \u003CHTML\u003E タグ","NLButtonContext.EXPORT__PDF":"エクスポート - PDF","NLAlertContext.INVALID_TIME_VALUE":"時間の値が無効です","NLAlertContext.PLEASE_ENTER_A_VALID_DATE_RANGE_THE_FROM_DATE_MUST_PRECEDE_THE_TO_DATE":"適切な日付範囲を入力してください。開始日は終了日以前となるよう設定する必要があります。","NLPagemessageContext.NETSUITE_MAY_CONTACT_ME_TO_MAKE_THIS_EXPERIENCE_BETTER":"エクスペリエンスの向上のために、NetSuiteが自分に連絡する許可を与えます。","NLAlertContext.FROM_ADDRESS_MUST_BE_OF_THE_FORM_NAME_EMAIL_ADDRESS":"送信者アドレスは、\\\"名前\\\" \u003CEmail Address\u003Eのフォームである必要があります。","NLPagemessageContext.PLEASE_RATE_YOUR_EXPERIENCE":"お客様の利用満足度を教えてください","NLAlertContext.INVALID_DATETIME_VALUE_MISS_SPACES_BETWEEN_DATE_AND_TIME":"無効な日付/時刻です(日時の間にスペースがありません)","NLAlertContext.INVALID_NUMBER_MUST_BE_AT_LEAST_1":"無効な数値({1}以上である必要があります)","NLPagemessageContext.HOW_CAN_WE_IMPROVE_1":"{1:application}を改善する方法はありますか?","NLButtonContext.REMOVE":"削除","NLAlertContext.NOT_ALL_TABLE_TAGS_WERE_CLOSED_1__YOUR_HTML_IS_MISSING_A_CLOSING_2_TAG_AT_THE_END":"閉じられていないテーブル・タグがあります({1})。HTMLの末尾に終了{2}\u003Eタグがありません","NLButtonContext.EXPORT__CSV":"エクスポート - CSV","NLAlertContext.HTML_TAG_IS_IN_THE_WRONG_PLACE":"\u003C/HTML\u003E タグの位置が不適切です。","NLAlertContext.INVALID_CURRENCY_VALUE_VALUES_MUST_BE_NUMBERS_UP_TO_1":"通貨の値が無効です。値は{1}以下の数値である必要があります","NLAlertContext.IDENTIFIERS_CAN_CONTAIN_ONLY_DIGITS_ALPHABETIC_CHARACTERS_OR__WITH_NO_SPACES":"IDに使用できるのは数字、アルファベット、または\\\"_\\\"のみで、全角文字、スペースは使用できません。","NLPagemessageContext.RESTORE":"復元","NLFormlabelContext.ACCEPTED":"承諾","NLAlertContext.INVALID_DATE_VALUE_MUST_BE_ON_OR_AFTER_1CUTOFF_DATE":"無効な日付の値({1:cutoff date}以降である必要があります)","NLFormlabelContext.COLLAPSE_ALL":"すべて縮小","NLButtonContext.EXPORT__MICROSOFT_WORD":"エクスポート - Microsoft ® Word","NLPagemessageContext.MY_JOB_TITLE":"自分の役職","NLAlertContext.NOTICE_THE_CREDIT_CARD_APPEARS_TO_BE_INCORRECT":"注意: クレジット・カード情報が不適切です","NLAlertContext.THERE_ARE_TOO_MANY_CLOSING_TABLE_TAGS_DUE_TO_TAG_1_AT_LINE_2_COLUMN_3":"行{2}列{3}のタグ{1}のため、終了テーブル・タグが多すぎます。","NLPagemessageContext.MAXIMIZE":"最大化","NLAlertContext.INVALID_NUMBER_MUST_BE_GREATER_THAN_429B":"無効な数値(-4.29Bより大きい必要があります)","NLButtonContext.PRINT":"印刷","NLAlertContext.YOU_MAY_ONLY_ENTER_NUMBERS_INTO_THIS_FIELD":"このフィールドには数値しか入力できません。","NLAlertContext.COLOR_VALUE_MUST_BE_6_HEXADECIMAL_DIGITS_OF_THE_FORM_RRGGBB__EXAMPLE_FF0000_FOR_RED":"色の値は6桁の16進数で次の形式にしてください: #RRGGBB。たとえば赤は#FF0000となります。","NLFormlabelContext.EXPAND_ALL":"すべて展開","NLFormlabelContext.INLINE_EDITING":"インライン編集","NLPagemessageContext.UNROLLED_VIEW_OFF":"展開表示オフ","NLAlertContext.THE_FUNCTION_FIELD_MUST_BE_A_VALID_JAVASCRIPT_FUNCTION_IDENTIFIER":"機能フィールドは有効なJavaScriptの関数名である必要があります。","NLPagemessageContext.NO_DATA_AVAILABLE":"利用可能なデータがありません。","NLHeadingContext.ITEM":"アイテム","NLAlertContext.INVALID_NUMBER_MUST_BE_AT_MOST_2":"無効な数値({1}以下である必要があります)","NLAlertContext.INVALID_URL_SPACES_ARE_NOT_ALLOWED_IN_THE_URL":"URLが無効です。URLにはスペースを使用できません","NLPagemessageContext.VIDEOS":"ビデオ","NLHeadingContext.FEEDBACK":"フィードバック","NLAlertContext.PLEASE_ENTER_AN_EXPIRATION_DATE_IN_MMYYYY_FORMAT":"有効期限をMM/YYYY形式で入力してください。","NLButtonContext.SHOW_MORE_RESULTS":"結果をさらに表示","NLAlertContext.PLEASE_ENTER_A_SEARCH_STRING":"検索文字列を入力してください。","NLButtonContext.EXPORT__MICROSOFT_EXCEL":"エクスポート - Microsoft ® Excel","NLPagemessageContext.TRAINING":"トレーニング","NLAlertContext.ILLEGAL_NUMBER":"不正番号: ","NLPagemessageContext.HIDE":"非表示","NLFormlabelContext.FILTERS":"フィルター","NLAlertContext.INVALID_NUMBER_MUST_BE_NON_NEGATIVE":"無効: 0以上の数を入力してください。","NLHeadingContext.FILTERS":"フィルター","NLHeadingContext.LIKELIHOOD":"可能性","NLAlertContext.THE_FIRST_TABLE_TAG_IN_YOUR_HTML_MUST_BE_ONE_OF_1_NOT_2":"HTMLの最初のテーブル・タグは、{2}ではなく{1}の中の1つにしてください。","NLAlertContext.INVALID_DATE_VALUE_MUST_BE_1":"無効な日付の値(正しくは{1})","NLPagemessageContext.LOCKED":"ロック済","NLPagemessageContext.VISIT_THIS_HELP_TOPIC":"このヘルプを見る","NLButtonContext.MORE_MENUS":"その他のメニュー","NLPagemessageContext.DEV_PORTAL_DOC":"開発者","NLPagemessageContext.SUITEAPPS":"SuiteApp","NLAlertContext.THE_FIRST_TABLE_TAG_IN_YOUR_HTML_MUST_BE_A_1_TAG_NOT_2":"HTMLの最初のテーブル・タグは、{2}ではなく{1}タグにしてください。","NLButtonContext.SCROLL_LEFT":"左にスクロール","NLAlertContext.DO_YOU_REALLY_WANT_TO_DELETE_SELECTED_ENTRIES":"選択されたエントリーを削除しますか?","NLFormlabelContext.CANCELLED":"キャンセル済","NLPagemessageContext.PORTLETS_LEFT":"残りのポートレット:","NLFormlabelContext.EDIT":"編集","NLButtonContext.EXPORT__TABLEAU_WORKBOOK":"エクスポート - Tableau®ワークブック","NLAlertContext.YOU_HAVE_EXCEEDED_THE_LENGTH_LIMIT_FOR_THIS_FIELD_PLEASE_SHORTEN_YOUR_ENTRY_BY_1_CHARACTERS":"このフィールドの字数制限を超過しました。 入力を{1}文字短縮してください。","NLAlertContext.NO_VALID_EMAILS_FOUND_IN_1":"「{1}」には有効な電子メールがありません。","NLAlertContext.FIELD_MUST_CONTAIN_A_VALUE":"フィールドには必ず値を入力してください","NLPagemessageContext.NEW_RELEASE":"新リリース","NLFormlabelContext.FIELD":"フィールド","NLAlertContext.THIS_FIELD_COULD_CONTAIN_ONLY_LOWER_CASE_LETTERS_NUMBERS_AND_":"このフィールドで使用できるのは、小文字、数字、および「-」のみです。","NLHeadingContext.THANK_YOU":"ありがとうございました","NLPagemessageContext.ADD_ROW":"行を追加","NLPagemessageContext.IS_THERE_ANYTHING_ELSE_YOU_WOULD_YOU_LIKE_TO_SHARE_WITH_US":"他にお話しいただけることはありますか?","NLAlertContext.MISSING_SUBSTITUTION_CLOSING_TAG_SEQUENCE__FOR_OPEN_TAG_AT_LINE_1_COLUMN_2":"行{1}列{2}の開始タグに、代替終了タグ・シーケンス%\u003Eが欠落しています","NLAlertContext.INVALID_CURRENCY_VALUE_VALUE_CAN_NOT_BE_NEGATIVE":"通貨の値が無効です。負の値は使用できません。","NLAlertContext.ONLY_AN_HTML_FRAGMENT_IS_EXPECTED_HERE_NOT_A_WHOLE_HTML_DOCUMENT__THERE_SHOULD_BE_NO_HTML_OR_BODY_TAGS":"この場所はHTMLドキュメント全体ではなく、HTMLフラグメント用です。 \u003CHTML\u003E または \u003CBODY\u003E タグは含めないでください。","NLAlertContext.INVALID_SUITEAPP_APPLICATION_ID":"アプリケーションIDは、完全に適格な名称(com.publisherid.projectidなど)である必要があります。小文字の英数字とピリオドを2つのみ含める必要があります。IDの最初と最後はピリオドにしないでください。","NLFormlabelContext.TENTATIVE":"暫定","NLPagemessageContext.LOADING":"読込み中","NLButtonContext.SCROLL_RIGHT":"右にスクロール","NLAlertContext.INVALID_EMAILS_FOUND":"無効な電子メールが見つかりました: ","NLButtonContext.SEARCH_SERIALIZATION":"エクスポート - シリアル化","NLAlertContext.HTML_DOCUMENT_IS_MISSING_BODY_TAG":"HTMLドキュメントに \u003C/BODY\u003E タグ","NLAlertContext.EXPECTED_1_AT_LINE_2_COLUMN_3_BUT_FOUND_A_4_TAG":"行{2}列{3}で予期した{1}ではなく、{4}タグが見つかりました","NLAlertContext.YOU_HAVE_EXCEEDED_THE_1_CHARACTER_LIMIT_FOR_THIS_FIELD_PLEASE_SHORTEN_YOUR_ENTRY_BY_2_CHARACTERS":"このフィールドの字数制限{1}を超過しました。入力を{2}文字短縮してください。","NLFormlabelContext.TAB":"タブ","NLButtonContext.SHARE_YOUR_FEEDBACK":"フィードバックの共有","NLAlertContext.TOTAL_AMOUNT_TOO_LARGE_ALERT":"合計金額が大きすぎます。トランザクションを複数に分割してください。","NLAlertContext.INVALID_TIME_VALUE_MUST_BE_HHMI":"時間の値が無効です(HH:MM形式にしてください)","NLAlertContext.INVALID_NUMBER_MUST_BE_POSITIVE":"無効な数値(正の値である必要があります)","NLAlertContext.PLEASE_ENTER_A_VALID_FROM_START_DATE_IN_MMYYYY_FORMAT":"有効な開始日をMM/YYYY形式で入力してください。","NLAlertContext.YOU_MUST_ENTER_AN_ADDRESS_BEFORE_YOU_CAN_VIEW_A_MAP":"マップを表示する前に住所を入力する必要があります。","NLFormlabelContext.REQUIRED":"必須","NLButtonContext.SHOW_ALL_RESULTS":"すべての結果を表示","NLPagemessageContext.HOW_CAN_WE_IMPROVE_THIS_EXPERIENCE":"このエクスペリエンスを改善する方法はありますか?","NLStaticlistContext.OPTIONAL":"任意","NLPagemessageContext.SUITEANSWERS":"SuiteAnswers","NLAlertContext.INVALID_NUMBER_OR_PERCENTAGE":"数値またはパーセント値が無効","NLAlertContext.INVALID_NUMBER_MUST_BE_BETWEEN_1_AND_2":"無効な数値({1}から{2}の間である必要があります)","NLAlertContext.BODY_TAG_IS_IN_THE_WRONG_PLACE":"\u003CBODY\u003E タグの位置が不適切です。","NLButtonContext.CANCEL":"キャンセル","NLAlertContext.PLEASE_INCLUDE_THE_AREA_CODE_FOR_PHONE_NUMBER":"電話番号には市外番号を含めてください。 ","NLHeadingContext.SEARCH":"検索","NLButtonContext.ADD":"追加","NLHeadingContext.NO_RESULTS_FOUND":"結果がありません。","NLButtonContext.SUBMIT":"送信","NLHeadingContext.ERROR":"エラー","NLPagemessageContext.USER_GUIDES":"ユーザー・ガイド","NLAlertContext.PHONE_NUMBER_SHOULD_HAVE_SEVEN_DIGITS_OR_MORE":"電話番号は7桁以上の数字が必要です","NLPagemessageContext.PLEASE_RATE_YOUR_EXPERIENCE_WITH_1":"お客様の{1:application}での利用満足度を教えてください","NLAlertContext.PLEASE_ENTER_AT_LEAST_THREE_CHARACTERS_FOR_BEST_SEARCH_RESULTS":"最善の検索結果を得るには少なくとも3文字入力してください。","NLPagemessageContext.YOUR_FEEDBACK_IS_GREATLY_APPRECIATED":"フィードバックをお願いします。","NLPagemessageContext.HELP_CENTER":"ヘルプ・センター"},"horizontalLabelEnabled":false}</script>
+<script type="application/javascript">
+(function (data) {
+		NS.Translations.addTranslations(data.translations);
+		NS.UI.Preferences.horizontalLabelsEnabled = data.horizontalLabelEnabled;
+
+})(JSON.parse(document.getElementById('data_754078130').textContent));
+window.iridize=window.iridize||function(e,t,n){return iridize.api.call(e,t,n);};iridize.api=iridize.api||{q:[],call:function(e,t,n){iridize.api.q.push({method:e,data:t,callback:n});}};
+iridize.prefix="https://guidedlearning.oracle.com/player/latest";
+iridize.urlForDataBridge="";
+iridize.appId="3ocAVI0WSj2ob+DAdjt2zQ";
+iridize.lang="ja_JP";
+	iridize.env="prod";
+		iridize("api.fields.set", {"user_id":"6806569_11653","user_name":"son@mitsukin.info","user_role":1016,"account_activation_date_at":"1608883200","account_vertical":"General Business","account_suitesuccess_edition":"Standard","account_modules":"ADVANCEDBILLING,ADVFINANCIALS,ADVINVENTORY,ADVORDERMGMT,MULTIACCTBOOKS,DEDICATEDSERVER","account_suiteapps":"com.netsuite.autobankstmtimport","account_bundles":"SuiteSuccess - Configuration|JP FF STD,Application Performance Management,SuiteSuccess - Customization|JP FF STD,Last Sales Activity,Subsidiary Navigator,International Tax Reports,Tax Audit Files,NetSuite SuiteApps License Client,FB_本番移送バンドル_2,Navigation Portlet,Dashboard Tiles,SuiteSuccess - Data Migration|JP FF STD,SuiteApprovals,FB_本番移送バンドル,FB_本番移送バンドル_3,Japan Financial Statements,FB_本番移送バンドル2021/11/10,FB_構成バンドル,Japan Localization,Electronic Bank Payments","account_active_lcs_pass":false,"user_language":"ja_JP","user_first_login_at":null,"user_last_login_at":null,"account_netsuite_version":"2025.2"});
+var original_page_init = window.onload;
+window.onload = function() {
+	if(original_page_init) original_page_init();
+	var e=document.createElement("script");
+	e.src="/ogl/js/iridizeLoader.min.js";
+	e.type="text/javascript";
+	e.async=true;
+	document.body.appendChild(e);
+}
+</script></body>
+</html>
+<!-- 179 s: 82% #35 cache: 0% #0 -->
+<!-- Host [ a.fa.28.prod.nrt.ap2 ] App Version [ 2025.2.14.30017 ] -->
+<!-- COMPID [ 6806569 ]  EMAIL [ son@mitsukin.info ] URL [ /app/common/custom/custrecordentry.nl ] Time [ Thu Dec 18 18:14:52 PST 2025 ] -->
+<!-- All SQL was faster than 100 ms -->
